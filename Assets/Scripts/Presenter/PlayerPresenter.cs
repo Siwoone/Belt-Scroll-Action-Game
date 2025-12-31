@@ -19,7 +19,7 @@ public class PlayerPresenter : MonoBehaviour
     [Header("5타 콤보 설정")]
     private int comboStep = 0;
     private float lastAttackTime;
-    [SerializeField] private float comboLimitTime = 0.2f;
+    [SerializeField] private float comboLimitTime = 0.5f;
 
     public bool isWaveStepping = false;
     private bool isAttacking = false;

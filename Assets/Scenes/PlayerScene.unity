@@ -488,7 +488,7 @@ MonoBehaviour:
   moveSpeed: 7
   waveSpeed: 9.5
   waveDuration: 0.3
-  comboLimitTime: 0.2
+  comboLimitTime: 0.5
   isWaveStepping: 0
 --- !u!114 &1851584500
 MonoBehaviour:
