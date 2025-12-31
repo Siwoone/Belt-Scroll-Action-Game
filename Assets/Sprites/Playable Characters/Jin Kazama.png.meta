@@ -716,12 +716,12 @@ TextureImporter:
       name: Jin Kazama_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 2592
-        width: 51
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 44
+        y: 2593
+        width: 49
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -738,12 +738,12 @@ TextureImporter:
       name: Jin Kazama_1
       rect:
         serializedVersion: 2
-        x: 202
-        y: 2592
-        width: 52
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 203
+        y: 2593
+        width: 50
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -760,12 +760,12 @@ TextureImporter:
       name: Jin Kazama_2
       rect:
         serializedVersion: 2
-        x: 361
-        y: 2592
-        width: 52
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 362
+        y: 2593
+        width: 50
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -782,12 +782,12 @@ TextureImporter:
       name: Jin Kazama_3
       rect:
         serializedVersion: 2
-        x: 520
-        y: 2592
-        width: 52
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 521
+        y: 2593
+        width: 50
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -804,12 +804,12 @@ TextureImporter:
       name: Jin Kazama_4
       rect:
         serializedVersion: 2
-        x: 684
-        y: 2592
-        width: 31
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 685
+        y: 2593
+        width: 29
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -826,12 +826,12 @@ TextureImporter:
       name: Jin Kazama_5
       rect:
         serializedVersion: 2
-        x: 843
-        y: 2592
-        width: 32
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 844
+        y: 2593
+        width: 30
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -848,12 +848,12 @@ TextureImporter:
       name: Jin Kazama_6
       rect:
         serializedVersion: 2
-        x: 997
-        y: 2592
-        width: 47
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 998
+        y: 2593
+        width: 45
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -870,12 +870,12 @@ TextureImporter:
       name: Jin Kazama_7
       rect:
         serializedVersion: 2
-        x: 1161
-        y: 2592
-        width: 30
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1162
+        y: 2593
+        width: 28
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -892,12 +892,12 @@ TextureImporter:
       name: Jin Kazama_8
       rect:
         serializedVersion: 2
-        x: 1318
-        y: 2592
-        width: 32
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1319
+        y: 2593
+        width: 30
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -914,12 +914,12 @@ TextureImporter:
       name: Jin Kazama_9
       rect:
         serializedVersion: 2
-        x: 1472
-        y: 2592
-        width: 51
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1473
+        y: 2593
+        width: 49
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -936,12 +936,12 @@ TextureImporter:
       name: Jin Kazama_10
       rect:
         serializedVersion: 2
-        x: 1631
-        y: 2592
-        width: 59
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1632
+        y: 2593
+        width: 57
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -958,12 +958,12 @@ TextureImporter:
       name: Jin Kazama_11
       rect:
         serializedVersion: 2
-        x: 1795
-        y: 2592
-        width: 49
-        height: 88
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1796
+        y: 2593
+        width: 47
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -980,12 +980,12 @@ TextureImporter:
       name: Jin Kazama_12
       rect:
         serializedVersion: 2
-        x: 45
-        y: 2406
-        width: 49
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 46
+        y: 2407
+        width: 47
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1002,12 +1002,12 @@ TextureImporter:
       name: Jin Kazama_13
       rect:
         serializedVersion: 2
-        x: 186
-        y: 2331
-        width: 44
-        height: 89
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 187
+        y: 2332
+        width: 42
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1024,12 +1024,12 @@ TextureImporter:
       name: Jin Kazama_14
       rect:
         serializedVersion: 2
-        x: 349
-        y: 2333
-        width: 51
-        height: 92
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 350
+        y: 2334
+        width: 49
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1046,12 +1046,12 @@ TextureImporter:
       name: Jin Kazama_15
       rect:
         serializedVersion: 2
-        x: 513
-        y: 2336
-        width: 53
-        height: 91
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 514
+        y: 2337
+        width: 51
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1068,12 +1068,12 @@ TextureImporter:
       name: Jin Kazama_16
       rect:
         serializedVersion: 2
-        x: 691
-        y: 2334
-        width: 51
-        height: 92
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 692
+        y: 2335
+        width: 49
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1090,12 +1090,12 @@ TextureImporter:
       name: Jin Kazama_17
       rect:
         serializedVersion: 2
-        x: 858
-        y: 2331
-        width: 44
-        height: 89
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 859
+        y: 2332
+        width: 42
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1112,12 +1112,12 @@ TextureImporter:
       name: Jin Kazama_18
       rect:
         serializedVersion: 2
-        x: 997
-        y: 2399
-        width: 57
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 998
+        y: 2400
+        width: 55
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1134,12 +1134,12 @@ TextureImporter:
       name: Jin Kazama_19
       rect:
         serializedVersion: 2
-        x: 1160
-        y: 2399
-        width: 49
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1161
+        y: 2400
+        width: 47
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1156,12 +1156,12 @@ TextureImporter:
       name: Jin Kazama_20
       rect:
         serializedVersion: 2
-        x: 1317
-        y: 2399
-        width: 44
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1318
+        y: 2400
+        width: 42
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1178,12 +1178,12 @@ TextureImporter:
       name: Jin Kazama_21
       rect:
         serializedVersion: 2
-        x: 1479
-        y: 2399
-        width: 34
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1480
+        y: 2400
+        width: 32
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1200,12 +1200,12 @@ TextureImporter:
       name: Jin Kazama_22
       rect:
         serializedVersion: 2
-        x: 1636
-        y: 2399
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1637
+        y: 2400
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1222,12 +1222,12 @@ TextureImporter:
       name: Jin Kazama_23
       rect:
         serializedVersion: 2
-        x: 1796
-        y: 2399
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1797
+        y: 2400
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1244,12 +1244,12 @@ TextureImporter:
       name: Jin Kazama_24
       rect:
         serializedVersion: 2
-        x: 46
-        y: 2206
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 47
+        y: 2207
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1266,12 +1266,12 @@ TextureImporter:
       name: Jin Kazama_25
       rect:
         serializedVersion: 2
-        x: 206
-        y: 2206
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 207
+        y: 2207
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1288,12 +1288,12 @@ TextureImporter:
       name: Jin Kazama_26
       rect:
         serializedVersion: 2
-        x: 361
-        y: 2206
-        width: 45
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 362
+        y: 2207
+        width: 43
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1310,12 +1310,12 @@ TextureImporter:
       name: Jin Kazama_27
       rect:
         serializedVersion: 2
-        x: 521
-        y: 2206
-        width: 45
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 522
+        y: 2207
+        width: 43
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1332,12 +1332,12 @@ TextureImporter:
       name: Jin Kazama_28
       rect:
         serializedVersion: 2
-        x: 679
-        y: 2206
-        width: 45
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 680
+        y: 2207
+        width: 43
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1354,12 +1354,12 @@ TextureImporter:
       name: Jin Kazama_29
       rect:
         serializedVersion: 2
-        x: 839
-        y: 2206
-        width: 45
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 840
+        y: 2207
+        width: 43
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1376,12 +1376,12 @@ TextureImporter:
       name: Jin Kazama_30
       rect:
         serializedVersion: 2
-        x: 983
-        y: 2204
-        width: 80
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 984
+        y: 2205
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1398,12 +1398,12 @@ TextureImporter:
       name: Jin Kazama_31
       rect:
         serializedVersion: 2
-        x: 1137
-        y: 2203
-        width: 92
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1138
+        y: 2204
+        width: 90
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1420,12 +1420,12 @@ TextureImporter:
       name: Jin Kazama_32
       rect:
         serializedVersion: 2
-        x: 1303
-        y: 2203
-        width: 84
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1304
+        y: 2204
+        width: 82
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1442,12 +1442,12 @@ TextureImporter:
       name: Jin Kazama_33
       rect:
         serializedVersion: 2
-        x: 1455
-        y: 2203
-        width: 92
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1456
+        y: 2204
+        width: 90
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1464,12 +1464,12 @@ TextureImporter:
       name: Jin Kazama_34
       rect:
         serializedVersion: 2
-        x: 1621
-        y: 2203
-        width: 84
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1622
+        y: 2204
+        width: 82
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1486,12 +1486,12 @@ TextureImporter:
       name: Jin Kazama_35
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 2204
-        width: 49
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1793
+        y: 2205
+        width: 47
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1508,12 +1508,12 @@ TextureImporter:
       name: Jin Kazama_36
       rect:
         serializedVersion: 2
-        x: 28
-        y: 2003
-        width: 86
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 29
+        y: 2004
+        width: 84
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1530,12 +1530,12 @@ TextureImporter:
       name: Jin Kazama_37
       rect:
         serializedVersion: 2
-        x: 190
-        y: 2010
-        width: 80
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 191
+        y: 2011
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1552,12 +1552,12 @@ TextureImporter:
       name: Jin Kazama_38
       rect:
         serializedVersion: 2
-        x: 362
-        y: 2013
-        width: 49
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 363
+        y: 2014
+        width: 47
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1574,12 +1574,12 @@ TextureImporter:
       name: Jin Kazama_39
       rect:
         serializedVersion: 2
-        x: 518
-        y: 2013
-        width: 59
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 519
+        y: 2014
+        width: 57
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1596,12 +1596,12 @@ TextureImporter:
       name: Jin Kazama_40
       rect:
         serializedVersion: 2
-        x: 680
-        y: 2013
-        width: 49
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 681
+        y: 2014
+        width: 47
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1618,12 +1618,12 @@ TextureImporter:
       name: Jin Kazama_41
       rect:
         serializedVersion: 2
-        x: 840
-        y: 2013
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 841
+        y: 2014
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1640,12 +1640,12 @@ TextureImporter:
       name: Jin Kazama_42
       rect:
         serializedVersion: 2
-        x: 999
-        y: 2013
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1000
+        y: 2014
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1662,12 +1662,12 @@ TextureImporter:
       name: Jin Kazama_43
       rect:
         serializedVersion: 2
-        x: 1139
-        y: 2020
-        width: 80
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1140
+        y: 2021
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1684,12 +1684,12 @@ TextureImporter:
       name: Jin Kazama_44
       rect:
         serializedVersion: 2
-        x: 1302
-        y: 2005
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1303
+        y: 2006
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1706,12 +1706,12 @@ TextureImporter:
       name: Jin Kazama_45
       rect:
         serializedVersion: 2
-        x: 1461
-        y: 2005
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1462
+        y: 2006
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1728,12 +1728,12 @@ TextureImporter:
       name: Jin Kazama_46
       rect:
         serializedVersion: 2
-        x: 1635
-        y: 2013
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1636
+        y: 2014
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1750,12 +1750,12 @@ TextureImporter:
       name: Jin Kazama_47
       rect:
         serializedVersion: 2
-        x: 1794
-        y: 2013
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1795
+        y: 2014
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1772,12 +1772,12 @@ TextureImporter:
       name: Jin Kazama_48
       rect:
         serializedVersion: 2
-        x: 45
-        y: 1820
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 46
+        y: 1821
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1794,12 +1794,12 @@ TextureImporter:
       name: Jin Kazama_49
       rect:
         serializedVersion: 2
-        x: 182
-        y: 1814
-        width: 80
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 183
+        y: 1815
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1816,12 +1816,12 @@ TextureImporter:
       name: Jin Kazama_50
       rect:
         serializedVersion: 2
-        x: 342
-        y: 1817
-        width: 92
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 343
+        y: 1818
+        width: 90
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1838,12 +1838,12 @@ TextureImporter:
       name: Jin Kazama_51
       rect:
         serializedVersion: 2
-        x: 522
-        y: 1820
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 523
+        y: 1821
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1860,12 +1860,12 @@ TextureImporter:
       name: Jin Kazama_52
       rect:
         serializedVersion: 2
-        x: 681
-        y: 1820
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 682
+        y: 1821
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1882,12 +1882,12 @@ TextureImporter:
       name: Jin Kazama_53
       rect:
         serializedVersion: 2
-        x: 830
-        y: 1818
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 831
+        y: 1819
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1904,12 +1904,12 @@ TextureImporter:
       name: Jin Kazama_54
       rect:
         serializedVersion: 2
-        x: 989
-        y: 1818
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 990
+        y: 1819
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1926,12 +1926,12 @@ TextureImporter:
       name: Jin Kazama_55
       rect:
         serializedVersion: 2
-        x: 1158
-        y: 1820
-        width: 45
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1159
+        y: 1821
+        width: 43
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1948,12 +1948,12 @@ TextureImporter:
       name: Jin Kazama_56
       rect:
         serializedVersion: 2
-        x: 1301
-        y: 1819
-        width: 80
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1302
+        y: 1820
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1970,12 +1970,12 @@ TextureImporter:
       name: Jin Kazama_57
       rect:
         serializedVersion: 2
-        x: 1455
-        y: 1817
-        width: 92
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1456
+        y: 1818
+        width: 90
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1992,12 +1992,12 @@ TextureImporter:
       name: Jin Kazama_58
       rect:
         serializedVersion: 2
-        x: 1613
-        y: 1816
-        width: 80
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1614
+        y: 1817
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2014,12 +2014,12 @@ TextureImporter:
       name: Jin Kazama_59
       rect:
         serializedVersion: 2
-        x: 1793
-        y: 1819
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1794
+        y: 1820
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2036,12 +2036,12 @@ TextureImporter:
       name: Jin Kazama_60
       rect:
         serializedVersion: 2
-        x: 49
-        y: 1627
-        width: 54
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 50
+        y: 1628
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2058,12 +2058,12 @@ TextureImporter:
       name: Jin Kazama_61
       rect:
         serializedVersion: 2
-        x: 216
-        y: 1627
-        width: 53
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 217
+        y: 1628
+        width: 51
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2080,12 +2080,12 @@ TextureImporter:
       name: Jin Kazama_62
       rect:
         serializedVersion: 2
-        x: 372
-        y: 1627
-        width: 51
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 373
+        y: 1628
+        width: 49
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2102,12 +2102,12 @@ TextureImporter:
       name: Jin Kazama_63
       rect:
         serializedVersion: 2
-        x: 521
-        y: 1627
-        width: 47
-        height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 522
+        y: 1628
+        width: 45
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2124,12 +2124,12 @@ TextureImporter:
       name: Jin Kazama_64
       rect:
         serializedVersion: 2
-        x: 656
-        y: 1627
-        width: 61
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 657
+        y: 1628
+        width: 59
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2146,12 +2146,12 @@ TextureImporter:
       name: Jin Kazama_65
       rect:
         serializedVersion: 2
-        x: 813
-        y: 1627
-        width: 63
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 814
+        y: 1628
+        width: 61
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2168,12 +2168,12 @@ TextureImporter:
       name: Jin Kazama_66
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 1627
-        width: 39
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1008
+        y: 1628
+        width: 37
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2190,12 +2190,12 @@ TextureImporter:
       name: Jin Kazama_67
       rect:
         serializedVersion: 2
-        x: 1165
-        y: 1627
-        width: 37
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1166
+        y: 1628
+        width: 35
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2212,12 +2212,12 @@ TextureImporter:
       name: Jin Kazama_68
       rect:
         serializedVersion: 2
-        x: 1312
-        y: 1627
-        width: 49
-        height: 90
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1313
+        y: 1628
+        width: 47
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2234,12 +2234,12 @@ TextureImporter:
       name: Jin Kazama_69
       rect:
         serializedVersion: 2
-        x: 1455
-        y: 1627
-        width: 59
-        height: 79
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1456
+        y: 1628
+        width: 57
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2256,12 +2256,12 @@ TextureImporter:
       name: Jin Kazama_70
       rect:
         serializedVersion: 2
-        x: 1619
-        y: 1627
-        width: 56
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1620
+        y: 1628
+        width: 54
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2278,12 +2278,12 @@ TextureImporter:
       name: Jin Kazama_71
       rect:
         serializedVersion: 2
-        x: 1784
-        y: 1632
-        width: 44
-        height: 89
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1785
+        y: 1633
+        width: 42
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2300,12 +2300,12 @@ TextureImporter:
       name: Jin Kazama_72
       rect:
         serializedVersion: 2
-        x: 38
-        y: 1434
-        width: 51
-        height: 92
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 39
+        y: 1435
+        width: 49
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2322,12 +2322,12 @@ TextureImporter:
       name: Jin Kazama_73
       rect:
         serializedVersion: 2
-        x: 201
-        y: 1434
-        width: 59
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 202
+        y: 1435
+        width: 57
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2344,12 +2344,12 @@ TextureImporter:
       name: Jin Kazama_74
       rect:
         serializedVersion: 2
-        x: 352
-        y: 1429
-        width: 87
-        height: 92
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 353
+        y: 1430
+        width: 85
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2366,12 +2366,12 @@ TextureImporter:
       name: Jin Kazama_75
       rect:
         serializedVersion: 2
-        x: 519
-        y: 1438
-        width: 54
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 520
+        y: 1439
+        width: 52
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2388,12 +2388,12 @@ TextureImporter:
       name: Jin Kazama_76
       rect:
         serializedVersion: 2
-        x: 680
-        y: 1428
-        width: 67
-        height: 92
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 681
+        y: 1429
+        width: 65
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2410,12 +2410,12 @@ TextureImporter:
       name: Jin Kazama_77
       rect:
         serializedVersion: 2
-        x: 837
-        y: 1425
-        width: 74
-        height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 838
+        y: 1426
+        width: 72
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2432,12 +2432,12 @@ TextureImporter:
       name: Jin Kazama_78
       rect:
         serializedVersion: 2
-        x: 998
-        y: 1426
-        width: 67
-        height: 92
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 999
+        y: 1427
+        width: 65
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2454,12 +2454,12 @@ TextureImporter:
       name: Jin Kazama_79
       rect:
         serializedVersion: 2
-        x: 1156
-        y: 1435
-        width: 54
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1157
+        y: 1436
+        width: 52
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2476,12 +2476,12 @@ TextureImporter:
       name: Jin Kazama_80
       rect:
         serializedVersion: 2
-        x: 1316
-        y: 1434
-        width: 50
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1317
+        y: 1435
+        width: 48
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2498,12 +2498,12 @@ TextureImporter:
       name: Jin Kazama_81
       rect:
         serializedVersion: 2
-        x: 1468
-        y: 1449
-        width: 93
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1469
+        y: 1450
+        width: 91
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2520,12 +2520,12 @@ TextureImporter:
       name: Jin Kazama_82
       rect:
         serializedVersion: 2
-        x: 1630
-        y: 1443
-        width: 66
-        height: 71
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1631
+        y: 1444
+        width: 64
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2542,12 +2542,12 @@ TextureImporter:
       name: Jin Kazama_83
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 1434
-        width: 57
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1793
+        y: 1435
+        width: 55
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2564,12 +2564,12 @@ TextureImporter:
       name: Jin Kazama_84
       rect:
         serializedVersion: 2
-        x: 43
-        y: 1241
-        width: 68
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 44
+        y: 1242
+        width: 66
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2586,12 +2586,12 @@ TextureImporter:
       name: Jin Kazama_85
       rect:
         serializedVersion: 2
-        x: 202
-        y: 1241
-        width: 57
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 203
+        y: 1242
+        width: 55
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2608,12 +2608,12 @@ TextureImporter:
       name: Jin Kazama_86
       rect:
         serializedVersion: 2
-        x: 361
-        y: 1241
-        width: 52
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 362
+        y: 1242
+        width: 50
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2630,12 +2630,12 @@ TextureImporter:
       name: Jin Kazama_87
       rect:
         serializedVersion: 2
-        x: 519
-        y: 1241
-        width: 71
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 520
+        y: 1242
+        width: 69
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2652,12 +2652,12 @@ TextureImporter:
       name: Jin Kazama_88
       rect:
         serializedVersion: 2
-        x: 678
-        y: 1241
-        width: 52
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 679
+        y: 1242
+        width: 50
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2674,12 +2674,12 @@ TextureImporter:
       name: Jin Kazama_89
       rect:
         serializedVersion: 2
-        x: 833
-        y: 1241
-        width: 43
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 834
+        y: 1242
+        width: 41
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2696,12 +2696,12 @@ TextureImporter:
       name: Jin Kazama_90
       rect:
         serializedVersion: 2
-        x: 994
-        y: 1241
-        width: 66
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 995
+        y: 1242
+        width: 64
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2718,12 +2718,12 @@ TextureImporter:
       name: Jin Kazama_91
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 1241
-        width: 43
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1153
+        y: 1242
+        width: 41
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2740,12 +2740,12 @@ TextureImporter:
       name: Jin Kazama_92
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 1241
-        width: 47
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1315
+        y: 1242
+        width: 45
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2762,12 +2762,12 @@ TextureImporter:
       name: Jin Kazama_93
       rect:
         serializedVersion: 2
-        x: 1474
-        y: 1241
-        width: 57
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1475
+        y: 1242
+        width: 55
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2784,12 +2784,12 @@ TextureImporter:
       name: Jin Kazama_94
       rect:
         serializedVersion: 2
-        x: 1630
-        y: 1241
-        width: 50
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1631
+        y: 1242
+        width: 48
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2806,12 +2806,12 @@ TextureImporter:
       name: Jin Kazama_95
       rect:
         serializedVersion: 2
-        x: 1782
-        y: 1241
-        width: 80
-        height: 88
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1783
+        y: 1242
+        width: 78
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2828,12 +2828,12 @@ TextureImporter:
       name: Jin Kazama_96
       rect:
         serializedVersion: 2
-        x: 42
-        y: 1048
-        width: 82
-        height: 88
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 43
+        y: 1049
+        width: 80
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2850,12 +2850,12 @@ TextureImporter:
       name: Jin Kazama_97
       rect:
         serializedVersion: 2
-        x: 205
-        y: 1048
-        width: 63
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 206
+        y: 1049
+        width: 61
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2872,12 +2872,12 @@ TextureImporter:
       name: Jin Kazama_98
       rect:
         serializedVersion: 2
-        x: 368
-        y: 1048
-        width: 47
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 369
+        y: 1049
+        width: 45
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2894,12 +2894,12 @@ TextureImporter:
       name: Jin Kazama_99
       rect:
         serializedVersion: 2
-        x: 543
-        y: 1048
-        width: 42
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 544
+        y: 1049
+        width: 40
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2916,12 +2916,12 @@ TextureImporter:
       name: Jin Kazama_100
       rect:
         serializedVersion: 2
-        x: 691
-        y: 1048
-        width: 48
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 692
+        y: 1049
+        width: 46
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2938,12 +2938,12 @@ TextureImporter:
       name: Jin Kazama_101
       rect:
         serializedVersion: 2
-        x: 853
-        y: 1048
-        width: 65
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 854
+        y: 1049
+        width: 63
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2960,12 +2960,12 @@ TextureImporter:
       name: Jin Kazama_102
       rect:
         serializedVersion: 2
-        x: 1017
-        y: 1048
-        width: 65
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1018
+        y: 1049
+        width: 63
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2982,12 +2982,12 @@ TextureImporter:
       name: Jin Kazama_103
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 1048
-        width: 86
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1177
+        y: 1049
+        width: 84
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3004,12 +3004,12 @@ TextureImporter:
       name: Jin Kazama_104
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 1048
-        width: 67
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1309
+        y: 1049
+        width: 65
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3026,12 +3026,12 @@ TextureImporter:
       name: Jin Kazama_105
       rect:
         serializedVersion: 2
-        x: 1462
-        y: 1048
-        width: 66
-        height: 89
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1463
+        y: 1049
+        width: 64
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3048,12 +3048,12 @@ TextureImporter:
       name: Jin Kazama_106
       rect:
         serializedVersion: 2
-        x: 1621
-        y: 1048
-        width: 66
-        height: 89
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1622
+        y: 1049
+        width: 64
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3070,12 +3070,12 @@ TextureImporter:
       name: Jin Kazama_107
       rect:
         serializedVersion: 2
-        x: 1789
-        y: 1099
-        width: 9
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1790
+        y: 1100
+        width: 7
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3092,12 +3092,12 @@ TextureImporter:
       name: Jin Kazama_108
       rect:
         serializedVersion: 2
-        x: 1796
-        y: 1048
-        width: 56
-        height: 88
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1790
+        y: 1049
+        width: 61
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3114,12 +3114,12 @@ TextureImporter:
       name: Jin Kazama_109
       rect:
         serializedVersion: 2
-        x: 54
-        y: 892
-        width: 24
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 55
+        y: 893
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3136,12 +3136,12 @@ TextureImporter:
       name: Jin Kazama_110
       rect:
         serializedVersion: 2
-        x: 61
-        y: 855
-        width: 58
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 55
+        y: 856
+        width: 63
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3158,12 +3158,12 @@ TextureImporter:
       name: Jin Kazama_111
       rect:
         serializedVersion: 2
-        x: 224
-        y: 855
-        width: 91
-        height: 77
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 225
+        y: 856
+        width: 89
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3180,12 +3180,12 @@ TextureImporter:
       name: Jin Kazama_112
       rect:
         serializedVersion: 2
-        x: 384
-        y: 855
-        width: 93
-        height: 77
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 385
+        y: 856
+        width: 91
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3202,12 +3202,12 @@ TextureImporter:
       name: Jin Kazama_113
       rect:
         serializedVersion: 2
-        x: 543
-        y: 855
-        width: 87
-        height: 77
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 544
+        y: 856
+        width: 85
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3224,12 +3224,12 @@ TextureImporter:
       name: Jin Kazama_114
       rect:
         serializedVersion: 2
-        x: 677
-        y: 855
-        width: 59
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 678
+        y: 856
+        width: 57
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3246,12 +3246,12 @@ TextureImporter:
       name: Jin Kazama_115
       rect:
         serializedVersion: 2
-        x: 834
-        y: 855
-        width: 78
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 835
+        y: 856
+        width: 76
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3268,12 +3268,12 @@ TextureImporter:
       name: Jin Kazama_116
       rect:
         serializedVersion: 2
-        x: 993
-        y: 855
-        width: 82
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 994
+        y: 856
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3290,12 +3290,12 @@ TextureImporter:
       name: Jin Kazama_117
       rect:
         serializedVersion: 2
-        x: 1051
-        y: 882
-        width: 24
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1052
+        y: 883
+        width: 22
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3312,12 +3312,12 @@ TextureImporter:
       name: Jin Kazama_118
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 855
-        width: 78
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1153
+        y: 856
+        width: 76
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3334,12 +3334,12 @@ TextureImporter:
       name: Jin Kazama_119
       rect:
         serializedVersion: 2
-        x: 1311
-        y: 855
-        width: 82
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1312
+        y: 856
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3356,12 +3356,12 @@ TextureImporter:
       name: Jin Kazama_120
       rect:
         serializedVersion: 2
-        x: 1369
-        y: 882
-        width: 24
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1370
+        y: 883
+        width: 22
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3378,12 +3378,12 @@ TextureImporter:
       name: Jin Kazama_121
       rect:
         serializedVersion: 2
-        x: 1477
-        y: 855
-        width: 72
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1478
+        y: 856
+        width: 70
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3400,12 +3400,12 @@ TextureImporter:
       name: Jin Kazama_122
       rect:
         serializedVersion: 2
-        x: 1654
-        y: 854
-        width: 55
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1655
+        y: 855
+        width: 54
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3422,12 +3422,12 @@ TextureImporter:
       name: Jin Kazama_123
       rect:
         serializedVersion: 2
-        x: 1814
-        y: 855
-        width: 53
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1815
+        y: 856
+        width: 51
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3444,12 +3444,12 @@ TextureImporter:
       name: Jin Kazama_124
       rect:
         serializedVersion: 2
-        x: 1854
-        y: 900
-        width: 13
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1855
+        y: 901
+        width: 11
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3466,12 +3466,12 @@ TextureImporter:
       name: Jin Kazama_125
       rect:
         serializedVersion: 2
-        x: 1702
-        y: 855
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1703
+        y: 856
+        width: 6
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3488,12 +3488,12 @@ TextureImporter:
       name: Jin Kazama_126
       rect:
         serializedVersion: 2
-        x: 65
-        y: 662
-        width: 49
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 66
+        y: 663
+        width: 47
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3510,12 +3510,12 @@ TextureImporter:
       name: Jin Kazama_127
       rect:
         serializedVersion: 2
-        x: 224
-        y: 662
-        width: 48
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 225
+        y: 663
+        width: 46
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3532,12 +3532,12 @@ TextureImporter:
       name: Jin Kazama_128
       rect:
         serializedVersion: 2
-        x: 361
-        y: 662
-        width: 68
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 362
+        y: 663
+        width: 66
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3554,12 +3554,12 @@ TextureImporter:
       name: Jin Kazama_129
       rect:
         serializedVersion: 2
-        x: 520
-        y: 662
-        width: 61
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 521
+        y: 663
+        width: 59
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3576,12 +3576,12 @@ TextureImporter:
       name: Jin Kazama_130
       rect:
         serializedVersion: 2
-        x: 678
-        y: 662
-        width: 61
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 679
+        y: 663
+        width: 59
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3598,12 +3598,12 @@ TextureImporter:
       name: Jin Kazama_131
       rect:
         serializedVersion: 2
-        x: 828
-        y: 662
-        width: 87
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 829
+        y: 663
+        width: 85
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3620,12 +3620,12 @@ TextureImporter:
       name: Jin Kazama_132
       rect:
         serializedVersion: 2
-        x: 991
-        y: 663
-        width: 53
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 992
+        y: 664
+        width: 78
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3642,12 +3642,12 @@ TextureImporter:
       name: Jin Kazama_133
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 694
-        width: 21
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1051
+        y: 695
+        width: 19
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3664,12 +3664,12 @@ TextureImporter:
       name: Jin Kazama_134
       rect:
         serializedVersion: 2
-        x: 1159
-        y: 662
-        width: 43
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1160
+        y: 663
+        width: 41
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3686,12 +3686,12 @@ TextureImporter:
       name: Jin Kazama_135
       rect:
         serializedVersion: 2
-        x: 1312
-        y: 662
-        width: 65
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1313
+        y: 663
+        width: 63
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3708,12 +3708,12 @@ TextureImporter:
       name: Jin Kazama_136
       rect:
         serializedVersion: 2
-        x: 1477
-        y: 662
-        width: 43
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1478
+        y: 663
+        width: 57
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3730,12 +3730,12 @@ TextureImporter:
       name: Jin Kazama_137
       rect:
         serializedVersion: 2
-        x: 1513
-        y: 711
-        width: 23
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1514
+        y: 712
+        width: 21
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3752,12 +3752,12 @@ TextureImporter:
       name: Jin Kazama_138
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 662
-        width: 73
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1633
+        y: 663
+        width: 71
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3774,12 +3774,12 @@ TextureImporter:
       name: Jin Kazama_139
       rect:
         serializedVersion: 2
-        x: 1801
-        y: 661
-        width: 62
-        height: 88
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1802
+        y: 662
+        width: 60
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3796,12 +3796,12 @@ TextureImporter:
       name: Jin Kazama_140
       rect:
         serializedVersion: 2
-        x: 1048
-        y: 690
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1049
+        y: 691
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3818,12 +3818,12 @@ TextureImporter:
       name: Jin Kazama_141
       rect:
         serializedVersion: 2
-        x: 59
-        y: 469
-        width: 45
-        height: 88
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 60
+        y: 470
+        width: 43
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3840,12 +3840,12 @@ TextureImporter:
       name: Jin Kazama_142
       rect:
         serializedVersion: 2
-        x: 218
-        y: 469
-        width: 72
-        height: 88
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 219
+        y: 470
+        width: 70
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3862,12 +3862,12 @@ TextureImporter:
       name: Jin Kazama_143
       rect:
         serializedVersion: 2
-        x: 377
-        y: 469
-        width: 45
-        height: 88
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 378
+        y: 470
+        width: 43
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3884,12 +3884,12 @@ TextureImporter:
       name: Jin Kazama_144
       rect:
         serializedVersion: 2
-        x: 526
-        y: 469
-        width: 43
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 527
+        y: 470
+        width: 41
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3906,12 +3906,12 @@ TextureImporter:
       name: Jin Kazama_145
       rect:
         serializedVersion: 2
-        x: 687
-        y: 469
-        width: 66
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 688
+        y: 470
+        width: 64
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3928,12 +3928,12 @@ TextureImporter:
       name: Jin Kazama_146
       rect:
         serializedVersion: 2
-        x: 845
-        y: 469
-        width: 47
+        x: 846
+        y: 470
+        width: 65
         height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3950,12 +3950,12 @@ TextureImporter:
       name: Jin Kazama_147
       rect:
         serializedVersion: 2
-        x: 893
-        y: 505
-        width: 18
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 894
+        y: 506
+        width: 16
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3972,12 +3972,12 @@ TextureImporter:
       name: Jin Kazama_148
       rect:
         serializedVersion: 2
-        x: 1004
-        y: 469
-        width: 68
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1005
+        y: 470
+        width: 66
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3994,12 +3994,12 @@ TextureImporter:
       name: Jin Kazama_149
       rect:
         serializedVersion: 2
-        x: 1163
-        y: 469
-        width: 61
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1164
+        y: 470
+        width: 59
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4016,12 +4016,12 @@ TextureImporter:
       name: Jin Kazama_150
       rect:
         serializedVersion: 2
-        x: 1319
-        y: 469
-        width: 48
-        height: 93
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1320
+        y: 470
+        width: 46
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4038,12 +4038,12 @@ TextureImporter:
       name: Jin Kazama_151
       rect:
         serializedVersion: 2
-        x: 1489
-        y: 477
-        width: 47
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1490
+        y: 478
+        width: 45
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4060,12 +4060,12 @@ TextureImporter:
       name: Jin Kazama_152
       rect:
         serializedVersion: 2
-        x: 1644
-        y: 469
-        width: 66
-        height: 108
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1645
+        y: 470
+        width: 64
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4082,12 +4082,12 @@ TextureImporter:
       name: Jin Kazama_153
       rect:
         serializedVersion: 2
-        x: 1805
-        y: 471
-        width: 47
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1806
+        y: 472
+        width: 45
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4104,12 +4104,12 @@ TextureImporter:
       name: Jin Kazama_154
       rect:
         serializedVersion: 2
-        x: 40
-        y: 276
-        width: 59
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 41
+        y: 277
+        width: 57
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4126,12 +4126,12 @@ TextureImporter:
       name: Jin Kazama_155
       rect:
         serializedVersion: 2
-        x: 179
-        y: 276
-        width: 60
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 180
+        y: 277
+        width: 58
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4148,12 +4148,12 @@ TextureImporter:
       name: Jin Kazama_156
       rect:
         serializedVersion: 2
-        x: 337
-        y: 276
-        width: 61
-        height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 338
+        y: 277
+        width: 59
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4170,12 +4170,12 @@ TextureImporter:
       name: Jin Kazama_157
       rect:
         serializedVersion: 2
-        x: 479
-        y: 276
-        width: 84
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 480
+        y: 277
+        width: 82
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4192,12 +4192,12 @@ TextureImporter:
       name: Jin Kazama_158
       rect:
         serializedVersion: 2
-        x: 656
-        y: 276
-        width: 61
-        height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 657
+        y: 277
+        width: 59
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4214,12 +4214,12 @@ TextureImporter:
       name: Jin Kazama_159
       rect:
         serializedVersion: 2
-        x: 815
-        y: 276
-        width: 60
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 816
+        y: 277
+        width: 58
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4236,12 +4236,12 @@ TextureImporter:
       name: Jin Kazama_160
       rect:
         serializedVersion: 2
-        x: 996
-        y: 276
-        width: 66
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 997
+        y: 277
+        width: 64
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4258,12 +4258,12 @@ TextureImporter:
       name: Jin Kazama_161
       rect:
         serializedVersion: 2
-        x: 1156
-        y: 276
-        width: 65
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1157
+        y: 277
+        width: 63
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4280,12 +4280,12 @@ TextureImporter:
       name: Jin Kazama_162
       rect:
         serializedVersion: 2
-        x: 1315
-        y: 276
-        width: 69
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1316
+        y: 277
+        width: 67
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4302,12 +4302,12 @@ TextureImporter:
       name: Jin Kazama_163
       rect:
         serializedVersion: 2
-        x: 1475
-        y: 276
-        width: 57
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1476
+        y: 277
+        width: 55
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4324,12 +4324,12 @@ TextureImporter:
       name: Jin Kazama_164
       rect:
         serializedVersion: 2
-        x: 1634
-        y: 276
-        width: 55
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1635
+        y: 277
+        width: 53
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4346,12 +4346,12 @@ TextureImporter:
       name: Jin Kazama_165
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 276
-        width: 72
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1793
+        y: 277
+        width: 70
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4368,12 +4368,12 @@ TextureImporter:
       name: Jin Kazama_166
       rect:
         serializedVersion: 2
-        x: 44
-        y: 83
-        width: 55
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 45
+        y: 84
+        width: 53
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4390,12 +4390,12 @@ TextureImporter:
       name: Jin Kazama_167
       rect:
         serializedVersion: 2
-        x: 202
-        y: 83
-        width: 57
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 203
+        y: 84
+        width: 55
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4412,12 +4412,12 @@ TextureImporter:
       name: Jin Kazama_168
       rect:
         serializedVersion: 2
-        x: 359
-        y: 83
-        width: 49
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 360
+        y: 84
+        width: 47
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4434,12 +4434,12 @@ TextureImporter:
       name: Jin Kazama_169
       rect:
         serializedVersion: 2
-        x: 524
-        y: 83
-        width: 61
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 525
+        y: 84
+        width: 59
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4456,12 +4456,12 @@ TextureImporter:
       name: Jin Kazama_170
       rect:
         serializedVersion: 2
-        x: 684
-        y: 83
-        width: 49
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 685
+        y: 84
+        width: 47
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4478,12 +4478,12 @@ TextureImporter:
       name: Jin Kazama_171
       rect:
         serializedVersion: 2
-        x: 834
-        y: 83
-        width: 64
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 835
+        y: 84
+        width: 62
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4492,6 +4492,644 @@ TextureImporter:
       bones: []
       spriteID: 74853e8afbc257d60800000000000000
       internalID: 7887259524093139015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_172
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 147
+        width: 6
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4a43fbabf0e06408bb96643025dcbd
+      internalID: 2087203436906539570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_173
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 145
+        width: 4
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364064169cb19d741981f9ff4377a57e
+      internalID: 2541351033592925512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_174
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 145
+        width: 4
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7483a958f66d44782f449731632776
+      internalID: 5006432131759057915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_175
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 147
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9999df3f694ca42884572a892f7f29
+      internalID: 2669538202118445636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_176
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 147
+        width: 4
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be7a3a1f1bc9ec4286d6c35f1b5b00f
+      internalID: -4310944621420772536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_177
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 147
+        width: 4
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6370ca2206497a468c7dbb351aa60c6
+      internalID: -7498114792271567494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_178
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 145
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbfacc09cf7bed41830b9cceaa02667
+      internalID: -4763464560056011764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_179
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 147
+        width: 4
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b0a2b3f8e87874ebeb55253a790ca2
+      internalID: -6857212489655383403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_180
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 147
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62cd587932e6f2d4283f892b390ff10d
+      internalID: -3249492705643047115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_181
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 147
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7034e773d203eed4fa0e4902645d9d55
+      internalID: 4852031519284078053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_182
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 145
+        width: 4
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1088b512cdf95954eabd5b8a31d43695
+      internalID: 6196181359984107108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_183
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 147
+        width: 4
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9416adb206e5c88469a2d9b086bb0d42
+      internalID: 5764620487624652635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_184
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 147
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9339a1a2ff7b13043b8caf4cfcacef14
+      internalID: -6199578277503428478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_185
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 147
+        width: 4
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c54a0ead269a94cb58696e6ed6d8e1
+      internalID: 2851592263212935170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_186
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 147
+        width: 7
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76cc23c90da82c47b04daee7a9741a8
+      internalID: -2454847845950932879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_187
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 147
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7073f9f4d800fab49bbc0f9302393c69
+      internalID: -1161677948210889886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_188
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 147
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f22b06460bea4d48ad5401a32605f77
+      internalID: 5123524817481854572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_189
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 147
+        width: 4
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d447de164583da144b72c26476372e7b
+      internalID: 8749462031357395376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_190
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 147
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59cdfa1c2120644da3b4bb6770e001b
+      internalID: 5957602449453625402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_191
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 147
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fa1e460a3370f448afe589f8fa7b8c
+      internalID: -4799183439781124213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_192
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 145
+        width: 4
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05f2d4220971604bbcf3b1349c87cd6
+      internalID: -5604139629589391596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_193
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 147
+        width: 4
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee27c87a1dc0df409f37fc52d2ee925
+      internalID: 5585498431855985220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_194
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 147
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85cf63b91dc8a4448b44f97337b64ba
+      internalID: -5352779645002497248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_195
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 147
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4b9f78259dc794193313e668ddaad0
+      internalID: 8193341319351690857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_196
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 147
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a125a2560f6071a459ac28a39e315db1
+      internalID: -7217403455692927149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_197
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 147
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c438e1f6b70a03488615c9c3e147eac
+      internalID: -8140836066656619918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_198
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 147
+        width: 4
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7db31f7385a71042b2a6ff7041220fc
+      internalID: 5592581672451632805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_199
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 147
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a922cefdf548240a1f835fccc89b5b
+      internalID: 8889734659220217028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_200
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 109
+        width: 96
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f15f8a38075b34caa7d718547127c1
+      internalID: -3020357294000308108
       vertices: []
       indices: 
       edges: []

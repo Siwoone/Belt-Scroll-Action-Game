@@ -302,8 +302,8 @@ GameObject:
   - component: {fileID: 1851584494}
   - component: {fileID: 1851584497}
   - component: {fileID: 1851584500}
+  - component: {fileID: 1851584499}
   - component: {fileID: 1851584498}
-  - component: {fileID: 1851584501}
   m_Layer: 0
   m_Name: Jin Kazama
   m_TagString: Untagged
@@ -473,19 +473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bufferTimeout: 0.5
---- !u!114 &1851584500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1851584491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c79086c4bc59da4090b9b961e7170dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1851584501
+--- !u!114 &1851584499
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -500,8 +488,20 @@ MonoBehaviour:
   moveSpeed: 7
   waveSpeed: 9.5
   waveDuration: 0.3
-  comboLimitTime: 0.8
+  comboLimitTime: 0.2
   isWaveStepping: 0
+--- !u!114 &1851584500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851584491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c79086c4bc59da4090b9b961e7170dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
