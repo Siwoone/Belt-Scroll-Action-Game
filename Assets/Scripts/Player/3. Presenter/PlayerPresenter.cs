@@ -4,22 +4,18 @@ using System.Collections;
 
 public class PlayerPresenter : MonoBehaviour
 {
+    private PlayerModel model; 
+
     //각 컴포넌트 변수 선언
     private PlayerView view;
     private InputBuffer inputBuffer;
 
     private Vector2 moveInput;
     private string lastRecordedDir = "";
-
-    [Header("이동속도 설정")]
-    [SerializeField] private float moveSpeed = 7f;
-    [SerializeField] private float waveSpeed = 9.5f;    
-    [SerializeField] private float waveDuration = 0.3f;
-
+    
     [Header("5타 콤보 설정")]
     private int comboStep = 0;
-    private float lastAttackTime;
-    [SerializeField] private float comboLimitTime = 0.5f;
+    private float lastAttackTime;    
 
     public bool isWaveStepping = false;
     private bool isAttacking = false;
@@ -45,7 +41,7 @@ public class PlayerPresenter : MonoBehaviour
         }
 
         //일정 시간이 지나면 콤보 단계 초기화
-        if (Time.time - lastAttackTime > comboLimitTime)
+        if (Time.time - lastAttackTime > model.comboLimitTime)
         {
             comboStep = 0;
         }
@@ -127,12 +123,12 @@ public class PlayerPresenter : MonoBehaviour
         float dashDir = transform.localScale.x;
 
        
-        while (timer < waveDuration)
+        while (timer < model.waveDuration)
         {
             // 공격(초풍)이 입력되면 코루틴을 즉시 종료
             if (isAttacking) yield break;
 
-            view.SetVelocity(new Vector2(dashDir * waveSpeed, 0));
+            view.SetVelocity(new Vector2(dashDir * model.waveSpeed, 0));
             timer += Time.deltaTime;
             yield return null;
         }
@@ -188,7 +184,7 @@ public class PlayerPresenter : MonoBehaviour
 
         //기술 사용 중이 아닐 때의 일반 이동 물리 처리
         if (!isWaveStepping && !isAttacking)
-            view.SetVelocity(moveInput * moveSpeed);
+            view.SetVelocity(moveInput * model.moveSpeed);
     }
 
     //방향 전환을 감지하여 인풋 버퍼에 기록
