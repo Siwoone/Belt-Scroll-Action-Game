@@ -42,12 +42,17 @@ public class PlayerPresenter : MonoBehaviour
         if (view == null || inputBuffer == null || model == null) return;
 
         //공격이나 웨이브 중이 아닐 때만 일반 이동 상태를 View에 전달
-        if (!isWaveStepping && !isAttacking)
+        if (!isHit && !isDead && !isAirborne && !isWaveStepping && !isAttacking)
         {
             view.SetFloat("MoveX", moveInput.x);
             view.SetFloat("MoveY", moveInput.y);
             view.SetBool("isMoving", moveInput != Vector2.zero);
             view.Flip(moveInput.x);
+        }
+
+        else
+        {
+            view.SetBool("isMoving", false);
         }
 
         //일정 시간이 지나면 콤보 단계 초기화
@@ -59,6 +64,17 @@ public class PlayerPresenter : MonoBehaviour
         DetectDirectionChange();
 
         ClampPosition();
+    }
+
+    void FixedUpdate()
+    {
+        if (view == null) return;
+
+        //기술 사용 중이 아닐 때의 일반 이동 물리 처리
+        if (!isHit && !isDead && !isAirborne && !isWaveStepping && !isAttacking)
+        {            
+            view.SetVelocity(moveInput * model.moveSpeed);
+        }
     }
 
     //화면 밖으로 나가지 않도록 위치 제한
@@ -239,16 +255,7 @@ public class PlayerPresenter : MonoBehaviour
         {
             view.PlayAnimation("Idle");
         }
-    }
-
-    void FixedUpdate()
-    {
-        if (view == null || model == null) return;
-
-        //기술 사용 중이 아닐 때의 일반 이동 물리 처리
-        if (!isWaveStepping && !isAttacking)
-            view.SetVelocity(moveInput * model.moveSpeed);
-    }
+    }    
 
     //방향 전환을 감지하여 인풋 버퍼에 기록
     private void DetectDirectionChange()
@@ -287,6 +294,7 @@ public class PlayerPresenter : MonoBehaviour
         //새로운 타격 시 이전의 모든 루틴(공격, 피격)을 중단하고 다시 시작
         StopAllCoroutines();
         isAttacking = false;
+        isWaveStepping = false;
 
         if (model.currentHp <= 0)
         {
@@ -343,12 +351,11 @@ public class PlayerPresenter : MonoBehaviour
             isAirborne = false;
         }
         else
-        {
-            //일반 피격
-            view.PlayAnimation("Hit");
-            view.SetVelocity(force);
-            yield return new WaitForSeconds(0.4f);
-            view.SetVelocity(Vector2.zero);
+        {                                 
+            view.PlayAnimation("Hit");              //일반 피격               
+            view.SetVelocity(Vector2.zero);         //넉백               
+            yield return new WaitForSeconds(0.4f);  //넉백 시간            
+            //view.SetVelocity(Vector2.zero);         //넉백 정지
         }
 
         isHit = false;        
