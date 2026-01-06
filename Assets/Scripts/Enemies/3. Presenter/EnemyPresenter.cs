@@ -126,7 +126,7 @@ public class EnemyPresenter : MonoBehaviour
             {
                 //플레이어에게 데미지를 전달하는 로직
                 playerPresenter.OnDamaged(damage, knockback);
-                Debug.Log("<color=red>플레이어가 적에게 맞았습니다!</color>");
+                Debug.Log($"<color=red>플레이어가 적에게 {damage} 만큼 맞았습니다!</color>");
             }
         }
     }

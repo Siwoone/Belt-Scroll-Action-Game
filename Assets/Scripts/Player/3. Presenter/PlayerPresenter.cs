@@ -214,6 +214,15 @@ public class PlayerPresenter : MonoBehaviour
             {
                 enemyPresenter.OnDamaged(damage, knockback);
                 Debug.Log($"<color=cyan>{enemy.name}에게 {damage} 데미지!</color>");
+
+                //일반 공격(데미지 < 50)은 100점, 초풍(데미지 >= 80)은 800점 부여
+                int scoreGain = damage >= 80 ? 800 : 100;
+
+                if (model != null)
+                {
+                    model.AddScore(scoreGain);
+                    Debug.Log($"<color=yellow>점수 획득! +{scoreGain}</color>");
+                }
             }
         }
     }
@@ -346,25 +355,64 @@ public class PlayerPresenter : MonoBehaviour
         view.PlayAnimation("Idle");
     }
 
+    //죽었을 때 호출
     private IEnumerator DeathRoutine()
     {
         isDead = true;
         isAttacking = false;
         isAirborne = false;
+        isWaveStepping = false;
 
+        //죽는 연출
         view.SetVelocity(Vector2.zero);
         view.PlayAnimation("Down");
 
-        yield return new WaitForSeconds(1.0f);
+        //죽어서 누워있는 시간
+        yield return new WaitForSeconds(2.0f);
 
-        if (model.cuntinueCount < 0)
-        { 
-            Destroy(gameObject); 
+        if (model.continueCount <= 0)
+        {
+            //게임오버시 오브젝트를 감춤
+            Debug.Log("<color=red>GAME OVER</color>");
+            gameObject.SetActive(false);
         }
-        //else
-        //{
-        //    Instantiate();
-        //}
+        else
+        {
+            //부활 후 목숨 카운트 차감
+            model.DecreaseLife();
+            Debug.Log($"<color=green>부활! 남은 목숨: {model.continueCount}</color>");
+
+            //최대 HP로 부활
+            model.currentHp = model.maxHp;
+
+            //일어나는 애니메이션
+            view.PlayAnimation("WakeUp");
+            yield return new WaitForSeconds(0.55f);
+
+            //부활 시 무적 상태
+            StartCoroutine(InvincibilityRoutine());
+
+            isDead = false;
+            view.PlayAnimation("Idle");
+        }
+    }
+
+    //부활 시 무적
+    private IEnumerator InvincibilityRoutine()
+    {
+        model.isInvincible = true;
+        SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+
+        //3초간 무적 시간 부여 (10 = 2초)
+        for (int i = 0; i < 10; i++)
+        {
+            sprite.color = new Color(1, 1, 1, 0.5f); // 반투명
+            yield return new WaitForSeconds(0.1f);
+            sprite.color = new Color(1, 1, 1, 1f);   // 불투명
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        model.isInvincible = false;
     }
 
 

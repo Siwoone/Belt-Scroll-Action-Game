@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: 4cab08b5708d9f845ad6e34a9584bf37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5839632996774217843
+    second: Damnd_0
+  - first:
+      213: -6128620671544275524
+    second: Damnd_1
+  - first:
+      213: -5412179239027840441
+    second: Damnd_2
+  - first:
+      213: 3439223962478742938
+    second: Damnd_3
+  - first:
+      213: 6703348184866837858
+    second: Damnd_4
+  - first:
+      213: -9042083942711393372
+    second: Damnd_5
+  - first:
+      213: -5970077374937263962
+    second: Damnd_6
+  - first:
+      213: -6970785034386477204
+    second: Damnd_7
+  - first:
+      213: 1805222671144948323
+    second: Damnd_8
+  - first:
+      213: 590843243209235754
+    second: Damnd_9
+  - first:
+      213: -5626286169104109000
+    second: Damnd_10
+  - first:
+      213: 2431527996806184908
+    second: Damnd_11
+  - first:
+      213: -7083762176054640520
+    second: Damnd_12
+  - first:
+      213: 12800957160160753
+    second: Damnd_13
+  - first:
+      213: -872685377288763659
+    second: Damnd_14
+  - first:
+      213: 7574903450024297555
+    second: Damnd_15
+  - first:
+      213: -6882353725962149219
+    second: Damnd_16
+  - first:
+      213: 5955429906744705235
+    second: Damnd_17
+  - first:
+      213: 7274532677123532591
+    second: Damnd_18
+  - first:
+      213: -5929410832896343878
+    second: Damnd_19
+  - first:
+      213: -7234005308859940715
+    second: Damnd_20
+  - first:
+      213: -3073194184958304140
+    second: Damnd_21
+  - first:
+      213: 2080322496196396287
+    second: Damnd_22
+  - first:
+      213: 3182994669887547323
+    second: Damnd_23
+  - first:
+      213: 7626406104541725844
+    second: Damnd_24
+  - first:
+      213: -7628404337205750937
+    second: Damnd_25
+  - first:
+      213: -4037365626037054861
+    second: Damnd_26
+  - first:
+      213: 572879875928721157
+    second: Damnd_27
+  - first:
+      213: -952111153715382442
+    second: Damnd_28
+  - first:
+      213: -1359256291990272066
+    second: Damnd_29
+  - first:
+      213: 2605918934769855439
+    second: Damnd_30
+  - first:
+      213: 4532783736937600089
+    second: Damnd_31
+  - first:
+      213: -5642152158720188006
+    second: Damnd_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Damnd_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 384
+        width: 89
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3788067554b8a0150800000000000000
+      internalID: 5839632996774217843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 384
+        width: 89
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdcc7558f3c2faa0800000000000000
+      internalID: -6128620671544275524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 384
+        width: 89
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a600538a314e4b0800000000000000
+      internalID: -5412179239027840441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_3
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 397
+        width: 88
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d8e8ad8f39abf20800000000000000
+      internalID: 3439223962478742938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_4
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 396
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2655fb488a3170d50800000000000000
+      internalID: 6703348184866837858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_5
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 395
+        width: 88
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a38c65af80148280800000000000000
+      internalID: -9042083942711393372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_6
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 383
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a094412246062da0800000000000000
+      internalID: -5970077374937263962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_7
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 383
+        width: 93
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fe8cba1fbc24f90800000000000000
+      internalID: -6970785034386477204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_8
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 383
+        width: 93
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362931674707d0910800000000000000
+      internalID: 1805222671144948323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_9
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 383
+        width: 124
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d1d6d9cc8133800800000000000000
+      internalID: 590843243209235754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 265
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8323bddd98a6be1b0800000000000000
+      internalID: -5626286169104109000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 267
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfbc0f84d58eb120800000000000000
+      internalID: 2431527996806184908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_12
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 255
+        width: 88
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8704aee05db61bd90800000000000000
+      internalID: -7083762176054640520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_13
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 255
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdf058176a7d2000800000000000000
+      internalID: 12800957160160753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_14
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 255
+        width: 88
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f68606e54993e3f0800000000000000
+      internalID: -872685377288763659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_15
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 255
+        width: 88
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3544492ed867f1960800000000000000
+      internalID: 7574903450024297555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_16
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 255
+        width: 84
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92a07120c7fc70a0800000000000000
+      internalID: -6882353725962149219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_17
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 255
+        width: 81
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0814c62ffe5a250800000000000000
+      internalID: 5955429906744705235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_18
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 255
+        width: 88
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f276bee7de454f460800000000000000
+      internalID: 7274532677123532591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_19
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 255
+        width: 129
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab04cd9434086bda0800000000000000
+      internalID: -5929410832896343878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 128
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5900d1ebf76ab9b90800000000000000
+      internalID: -7234005308859940715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 128
+        width: 85
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470a3c7db22d955d0800000000000000
+      internalID: -3073194184958304140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff44a0cc94acedc10800000000000000
+      internalID: 2080322496196396287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7eb9cb9c44c2c20800000000000000
+      internalID: 3182994669887547323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_24
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 132
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494841612ff66d960800000000000000
+      internalID: 7626406104541725844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_25
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 128
+        width: 130
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7635dcd1ca6722690800000000000000
+      internalID: -7628404337205750937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_26
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 128
+        width: 130
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37250bf9a5568f7c0800000000000000
+      internalID: -4037365626037054861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_27
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 128
+        width: 130
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50783bf363743f700800000000000000
+      internalID: 572879875928721157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_28
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 95
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6577b1043fb69c2f0800000000000000
+      internalID: -952111153715382442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 120
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb78435aa93f22de0800000000000000
+      internalID: -1359256291990272066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_30
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1
+        width: 147
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbeb64e6751a2420800000000000000
+      internalID: 2605918934769855439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_31
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1
+        width: 147
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95455d30bcea7ee30800000000000000
+      internalID: 4532783736937600089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damnd_32
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 6
+        width: 81
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91a7ca418c03b1b0800000000000000
+      internalID: -5642152158720188006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Damnd_0: 5839632996774217843
+      Damnd_1: -6128620671544275524
+      Damnd_10: -5626286169104109000
+      Damnd_11: 2431527996806184908
+      Damnd_12: -7083762176054640520
+      Damnd_13: 12800957160160753
+      Damnd_14: -872685377288763659
+      Damnd_15: 7574903450024297555
+      Damnd_16: -6882353725962149219
+      Damnd_17: 5955429906744705235
+      Damnd_18: 7274532677123532591
+      Damnd_19: -5929410832896343878
+      Damnd_2: -5412179239027840441
+      Damnd_20: -7234005308859940715
+      Damnd_21: -3073194184958304140
+      Damnd_22: 2080322496196396287
+      Damnd_23: 3182994669887547323
+      Damnd_24: 7626406104541725844
+      Damnd_25: -7628404337205750937
+      Damnd_26: -4037365626037054861
+      Damnd_27: 572879875928721157
+      Damnd_28: -952111153715382442
+      Damnd_29: -1359256291990272066
+      Damnd_3: 3439223962478742938
+      Damnd_30: 2605918934769855439
+      Damnd_31: 4532783736937600089
+      Damnd_32: -5642152158720188006
+      Damnd_4: 6703348184866837858
+      Damnd_5: -9042083942711393372
+      Damnd_6: -5970077374937263962
+      Damnd_7: -6970785034386477204
+      Damnd_8: 1805222671144948323
+      Damnd_9: 590843243209235754
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

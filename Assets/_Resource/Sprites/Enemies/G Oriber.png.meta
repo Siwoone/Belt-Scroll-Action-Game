@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: cc64ef26ad7a1094fa7ad3a5d5c77da9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 340460507092828867
+    second: G Oriber_0
+  - first:
+      213: 3998446300151475128
+    second: G Oriber_1
+  - first:
+      213: -1177497254066173810
+    second: G Oriber_2
+  - first:
+      213: -1294386307559216383
+    second: G Oriber_3
+  - first:
+      213: -6863140134187128457
+    second: G Oriber_4
+  - first:
+      213: 6197026900700144587
+    second: G Oriber_5
+  - first:
+      213: 3103211517901604050
+    second: G Oriber_6
+  - first:
+      213: 2161970777531726328
+    second: G Oriber_7
+  - first:
+      213: -6402566303958109754
+    second: G Oriber_8
+  - first:
+      213: -4746341179300080229
+    second: G Oriber_9
+  - first:
+      213: -3422243336678116204
+    second: G Oriber_10
+  - first:
+      213: 4777914697860031488
+    second: G Oriber_11
+  - first:
+      213: 1021246812244669619
+    second: G Oriber_12
+  - first:
+      213: -3077273680625101411
+    second: G Oriber_13
+  - first:
+      213: -1127133256014581002
+    second: G Oriber_14
+  - first:
+      213: -279761775777552278
+    second: G Oriber_15
+  - first:
+      213: 5432176475124344179
+    second: G Oriber_16
+  - first:
+      213: -1182699287300484337
+    second: G Oriber_17
+  - first:
+      213: 3619690789010682634
+    second: G Oriber_18
+  - first:
+      213: 3344874424928651568
+    second: G Oriber_19
+  - first:
+      213: -6753319880470863201
+    second: G Oriber_20
+  - first:
+      213: 157780839992831405
+    second: G Oriber_21
+  - first:
+      213: -7473199474385629185
+    second: G Oriber_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: G Oriber_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 396
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c24151070f89b400800000000000000
+      internalID: 340460507092828867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 397
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbe00ea9b55d7730800000000000000
+      internalID: 3998446300151475128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 396
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88436f6c70b8afe0800000000000000
+      internalID: -1177497254066173810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_3
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 393
+        width: 70
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10badcfd28a690ee0800000000000000
+      internalID: -1294386307559216383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_4
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 393
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779ac02196a31c0a0800000000000000
+      internalID: -6863140134187128457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_5
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 385
+        width: 105
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3a5c70223400650800000000000000
+      internalID: 6197026900700144587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 266
+        width: 86
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d40d6b1f62d01b20800000000000000
+      internalID: 3103211517901604050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 259
+        width: 95
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9bd81b7fcd00e10800000000000000
+      internalID: 2161970777531726328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_8
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 257
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1f0b96ed38527a0800000000000000
+      internalID: -6402566303958109754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_9
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 259
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95920938db912eb0800000000000000
+      internalID: -4746341179300080229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_10
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 257
+        width: 66
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4947a5e21dfb180d0800000000000000
+      internalID: -3422243336678116204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 260
+        width: 75
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004a01d6a109e4240800000000000000
+      internalID: 4777914697860031488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_12
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 258
+        width: 87
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4f7df90923c2e00800000000000000
+      internalID: 1021246812244669619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 58
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d959ead34e35b45d0800000000000000
+      internalID: -3077273680625101411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 134
+        width: 59
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2b8b4864e9b50f0800000000000000
+      internalID: -1127133256014581002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_15
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 140
+        width: 79
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68eb0da5261e1cf0800000000000000
+      internalID: -279761775777552278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_16
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 140
+        width: 79
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375250529b7f26b40800000000000000
+      internalID: 5432176475124344179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_17
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 135
+        width: 59
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03d850b345369fe0800000000000000
+      internalID: -1182699287300484337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_18
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 175
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a033cbb3899bb3230800000000000000
+      internalID: 3619690789010682634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 12
+        width: 103
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039492c41916b6e20800000000000000
+      internalID: 3344874424928651568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 124
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9263fd69536742a0800000000000000
+      internalID: -6753319880470863201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_21
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 123
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dada22886dc803200800000000000000
+      internalID: 157780839992831405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G Oriber_22
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1
+        width: 73
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffcb993cacd94890800000000000000
+      internalID: -7473199474385629185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      G Oriber_0: 340460507092828867
+      G Oriber_1: 3998446300151475128
+      G Oriber_10: -3422243336678116204
+      G Oriber_11: 4777914697860031488
+      G Oriber_12: 1021246812244669619
+      G Oriber_13: -3077273680625101411
+      G Oriber_14: -1127133256014581002
+      G Oriber_15: -279761775777552278
+      G Oriber_16: 5432176475124344179
+      G Oriber_17: -1182699287300484337
+      G Oriber_18: 3619690789010682634
+      G Oriber_19: 3344874424928651568
+      G Oriber_2: -1177497254066173810
+      G Oriber_20: -6753319880470863201
+      G Oriber_21: 157780839992831405
+      G Oriber_22: -7473199474385629185
+      G Oriber_3: -1294386307559216383
+      G Oriber_4: -6863140134187128457
+      G Oriber_5: 6197026900700144587
+      G Oriber_6: 3103211517901604050
+      G Oriber_7: 2161970777531726328
+      G Oriber_8: -6402566303958109754
+      G Oriber_9: -4746341179300080229
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
