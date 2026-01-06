@@ -5134,6 +5134,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_201
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2650
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414ad5d17d69eaf489d19940d1981bd0
+      internalID: 932645246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -5263,6 +5285,7 @@ TextureImporter:
       Jin Kazama_2: -7080671553563128646
       Jin Kazama_20: 119691665598905162
       Jin Kazama_200: -3020357294000308108
+      Jin Kazama_201: 932645246
       Jin Kazama_21: 1237758650159801600
       Jin Kazama_22: -3643657633079849694
       Jin Kazama_23: -4910173802151484291

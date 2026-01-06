@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyModel
+public class EnemyModel : MonoBehaviour
 {
     //적 데이터 참조
     [SerializeField] private EnemyData data;
@@ -10,7 +10,11 @@ public class EnemyModel
     public int currentHp;
     public bool isDead = false;
 
+    public float minAreaY = -4.0f;              // 화면 아래쪽 한계선
+    public float maxAreaY = -2.2f;              // 화면 위쪽(벽) 한계선
+
     //EnemyData의 기본 능력치로 초기화
+    public int damage => data.damage;
     public float moveSpeed => data.moveSpeed;
     public float detectRange => data.detectRange;
     public float stopRange => data.stopRange;
@@ -26,7 +30,7 @@ public class EnemyModel
     }
 
     //대미지 계산
-    public void OnTakeDamage(int amount)
+    public void TakeDamage(int amount)
     {
         currentHp -= amount;
         if (currentHp <= 0)

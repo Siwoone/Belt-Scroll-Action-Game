@@ -21,7 +21,7 @@ public class PlayerView : MonoBehaviour
 
     public void SetVelocity(Vector2 velocity)
     {
-        //Rigidbody2D의 선형 속도 설정
+        //Rigidbody2D의 선형 속도 설정 (넉백 이동 등 물리적 이동 처리)
         rb.linearVelocity = velocity;
     }
 

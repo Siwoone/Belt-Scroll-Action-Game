@@ -62,8 +62,8 @@ public class InputBuffer : MonoBehaviour
         string seq = GetCurrentCommandString();
 
         //커맨드 체크
-        if (seq.Contains("Forward Forward")) //66 커맨드 웨이브
-        //if (seq.Contains("Forward Down ForwardDown")) //623 커맨드 웨이브
+        //if (seq.Contains("Forward Forward")) //66 커맨드 웨이브
+        if (seq.Contains("Forward Down ForwardDown")) //623 커맨드 웨이브
         {
             presenter.StartWaveStep();
             //웨이브 발동 시 방향키 기록은 지워줍니다.

@@ -19,7 +19,7 @@ public class EnemyView : MonoBehaviour
 
     public void PlayAnimation(string animName)
     {
-        ////Presenter가 PlayAnimation을 시키면 해당 애니메이션 재생
+        //Presenter가 PlayAnimation을 시키면 해당 애니메이션 재생
         anim.Play(animName);
     }
 
