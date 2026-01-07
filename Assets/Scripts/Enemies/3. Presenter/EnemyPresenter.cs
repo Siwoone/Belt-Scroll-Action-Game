@@ -8,17 +8,19 @@ public class EnemyPresenter : MonoBehaviour
     private EnemyView view;
     private EnemyModel model;
     private Transform playerTransform;  //추적할 플레이어의 위치
+    private Camera mainCamera;
 
     [Header("상태 확인")]
     public bool isHit = false;          //현재 맞고 있는 중인가?
-    private bool isDead = false;        //죽었는가?
+    public bool isDead = false;         //죽었는가?
     public bool isAttacking = false;    //공격 중인가?
-    public bool isAirborne = false;     // 에어본 중인가?
+    public bool isAirborne = false;     //에어본 중인가?
+    private bool isInCamera = false;    //적이 화면 안에 있는가?
 
     [Header("공격 설정")]
     [SerializeField] private Transform attackPoint; //적의 공격 중심점
     [SerializeField] private Vector2 attackSize;    //적의 공격 범위
-    [SerializeField] private LayerMask playerLayer; //플레이어 레이어 (Player)
+    [SerializeField] private LayerMask playerLayer; //플레이어 레이어
     private float lastAttackTime;                   //마지막 공격 시간
 
     void Awake()
@@ -26,6 +28,8 @@ public class EnemyPresenter : MonoBehaviour
         //컴포넌트 및 모델 할당
         view = GetComponent<EnemyView>();
         model = GetComponent<EnemyModel>();
+        mainCamera = Camera.main;
+
 
         //씬 전체에서 플레이어를 찾아 위치 정보를 가져옴
         var player = FindAnyObjectByType<PlayerPresenter>();
@@ -35,7 +39,7 @@ public class EnemyPresenter : MonoBehaviour
     void Update()
     {
         //피격, 사망, 공격, 에어본 중이거나 플레이어가 없으면 AI 행동 판단 중단
-        if (isHit || isDead || isAttacking || isAirborne || playerTransform == null || model == null) return;
+        if (isHit || isDead || isAttacking || isAirborne || model.attackType == EnemyModel.AttackType.Object || playerTransform == null || model == null) return;
 
         float distance = Vector2.Distance(transform.position, playerTransform.position);
 
@@ -76,12 +80,20 @@ public class EnemyPresenter : MonoBehaviour
         ClampPosition();
     }
 
+    //적 공격 시도
     private void TryAttack()
     {
         //공격 쿨타임 확인
         if (Time.time - lastAttackTime > 2.0f)
         {
-            StartCoroutine(EnemyAttackRoutine());
+            if (model.attackType == EnemyModel.AttackType.Dash)
+            {
+                StartCoroutine(DashAttackRoutine());
+            }
+            else
+            {
+                StartCoroutine(NormalAttackRoutine());
+            }
         }
         else
         {
@@ -90,8 +102,8 @@ public class EnemyPresenter : MonoBehaviour
         }
     }
 
-    // 적 공격 루틴
-    private IEnumerator EnemyAttackRoutine()
+    //적 노멀 공격 루틴
+    private IEnumerator NormalAttackRoutine()
     {
         isAttacking = true;
         lastAttackTime = Time.time;
@@ -112,6 +124,63 @@ public class EnemyPresenter : MonoBehaviour
         isAttacking = false;
     }
 
+    //적 대쉬 공격 루틴
+    private IEnumerator DashAttackRoutine()
+    {
+        isAttacking = true;
+        lastAttackTime = Time.time;
+        view.SetVelocity(Vector2.zero);
+
+        //모으기 동작 실행
+        view.PlayAnimation("Prepare");
+
+        //플레이어를 향해 방향 고정
+        Vector3 dirToPlayer = (playerTransform.position - transform.position).normalized;
+        view.Flip(dirToPlayer.x);
+
+        //준비 시간 동안 붉어지는 효과
+        view.FlashRed();
+        yield return new WaitForSeconds(model.prepareTime);
+
+        //돌진 공격
+        view.PlayAnimation("Dash");
+
+        //돌진 시간
+        float timer = 0f;
+
+        //플레이어와 충돌 했는지 체크
+        bool hasHitPlayer = false;
+
+        //돌진 지속시간까지 동작
+        while (timer < model.dashDuration)
+        {
+            //플레이어 방향으로 빠르게 이동
+            view.SetVelocity(new Vector2(dirToPlayer.x * model.dashSpeed, 0)); 
+
+            if (!hasHitPlayer)
+            {
+                Collider2D hit = Physics2D.OverlapBox(attackPoint.position, attackSize, 0, playerLayer);
+                if (hit != null)
+                {
+                    //돌진 중에는 몸 자체가 히트박스
+                    CheckPlayerHit(model.dashDamage, new Vector2(transform.localScale.x * 6f, 2f));
+                    
+                    //이번 돌진에서는 더 이상 때리지 않음
+                    hasHitPlayer = true;
+                }
+            }                        
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        //돌진 종료
+        view.SetVelocity(Vector2.zero);
+        view.PlayAnimation("Idle");
+        yield return new WaitForSeconds(0.8f);
+        isAttacking = false;
+    }
+
+    //히트 됐는지 확인
     private void CheckPlayerHit(int damage, Vector2 knockback)
     {
         if (attackPoint == null) return;
@@ -131,10 +200,29 @@ public class EnemyPresenter : MonoBehaviour
         }
     }
 
+    //Y축 고정
     private void ClampPosition()
     {
         Vector3 pos = transform.position;
-        pos.z = 0; //2D 게임에서 Z축이 소수점으로 튀는 것을 방지
+
+        //화면(Viewport) 좌표로 변환 (0~1 사이 값)
+        Vector3 viewportPos = mainCamera.WorldToViewportPoint(pos);
+
+        if (viewportPos.x > 0 && viewportPos.x < 1 && viewportPos.y > 0 && viewportPos.y < 1)
+        {
+            //화면 안에 한 번이라도 들어오면 체크
+            isInCamera = true;
+        }
+
+        //화면 안에 들어온 적만 못 나가게 가둠
+        if (isInCamera)
+        {
+            viewportPos.x = Mathf.Clamp(viewportPos.x, 0.05f, 0.95f);
+            pos = mainCamera.ViewportToWorldPoint(viewportPos);
+        }
+
+        //2D 게임에서 Z축이 소수점으로 튀는 것을 방지
+        pos.z = 0; 
 
         //PlayerModel에 설정된 바닥 한계치를 가져와 적용
         var playerModel = FindAnyObjectByType<PlayerModel>();
@@ -146,6 +234,7 @@ public class EnemyPresenter : MonoBehaviour
         transform.position = pos;
     }
 
+    //플레이어 인지 후 따라다니기
     private void ChasePlayer()
     {
         //플레이어 방향 계산 (Z값 무시)
@@ -156,11 +245,18 @@ public class EnemyPresenter : MonoBehaviour
         view.Flip(direction.x);
     }
 
+    //대미지 받았을 때
     public void OnDamaged(int damage, Vector2 knockbackForce)
     {
-        if (isDead || model == null) return;
+        if (isDead || model == null || model.isInvincible) return;
 
         model.TakeDamage(damage);
+
+        //UIManager 화면 갱신
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.UpdateEnemyUI(model.currentHp, model.maxHp, model.enemyName);
+        }
 
         //새로운 타격 시 이전의 모든 루틴(공격, 피격)을 중단하고 다시 시작
         StopAllCoroutines();
@@ -233,15 +329,35 @@ public class EnemyPresenter : MonoBehaviour
     private IEnumerator DeathRoutine()
     {
         isDead = true;
+        isHit = false;
         isAttacking = false;
         isAirborne = false;
 
+        StartCoroutine(InvincibilityRoutine());
+
         view.SetVelocity(Vector2.zero);
         view.FlashRed();
-        view.PlayAnimation("Down");
+        view.PlayAnimation("Down");        
 
         yield return new WaitForSeconds(1.0f);
         Destroy(gameObject);
+    }
+
+    private IEnumerator InvincibilityRoutine()
+    {
+        model.isInvincible = true;
+        SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+
+        //3초간 무적 시간 부여 (10 = 2초)
+        for (int i = 0; i < 15; i++)
+        {
+            sprite.color = new Color(1, 1, 1, 0.5f); // 반투명
+            yield return new WaitForSeconds(0.1f);
+            sprite.color = new Color(1, 1, 1, 1f);   // 불투명
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        model.isInvincible = false;
     }
 
     //기즈모를 통해 에디터에서 공격 범위를 빨간색 박스로 시각화

@@ -16,6 +16,7 @@ public class PlayerPresenter : MonoBehaviour
     [Header("5타 콤보 설정")]
     private int comboStep = 0;
     private float lastAttackTime;
+    private Camera mainCamera;
 
     [Header("공격 판정 설정")]
     [SerializeField] private Transform attackPoint;    //공격 위치
@@ -35,6 +36,7 @@ public class PlayerPresenter : MonoBehaviour
         if (view == null) view = FindAnyObjectByType<PlayerView>();
         if (inputBuffer == null) inputBuffer = FindAnyObjectByType<InputBuffer>();
         if (attackPoint == null) attackPoint = transform.Find("AttackPoint");
+        mainCamera = Camera.main;
     }
 
     void Update()
@@ -81,13 +83,24 @@ public class PlayerPresenter : MonoBehaviour
     private void ClampPosition()
     {
         Vector3 pos = transform.position;
-        Vector3 viewportPos = Camera.main.WorldToViewportPoint(pos);
-        viewportPos.x = Mathf.Clamp01(viewportPos.x);
-        viewportPos.y = Mathf.Clamp01(viewportPos.y);
-        transform.position = Camera.main.ViewportToWorldPoint(viewportPos);
+
+        //화면(Viewport) 좌표로 변환 (0~1 사이 값)
+        Vector3 viewportPos = mainCamera.WorldToViewportPoint(pos);
+
+        //X축 가두기 (0.05 ~ 0.95로 설정해 몸이 반쯤 잘리는 것 방지)
+        viewportPos.x = Mathf.Clamp(viewportPos.x, 0.05f, 0.95f);
+
+        //Y축 가두기 (화면 위아래보다는 바닥 높이 제한이 더 중요하므로 여기선 느슨하게)
+        viewportPos.y = Mathf.Clamp(viewportPos.y, 0.0f, 1.0f);
+
+        //다시 월드 좌표로 변환
+        pos = mainCamera.ViewportToWorldPoint(viewportPos);
 
         //Y축 위치를 모델에 설정한 최소/최대값 사이로 가둠
         pos.y = Mathf.Clamp(pos.y, model.minAreaY, model.maxAreaY);
+
+        //Z축 고정
+        pos.z = 0;
         transform.position = pos;
     }
 
@@ -141,7 +154,7 @@ public class PlayerPresenter : MonoBehaviour
         //애니메이션 재생 직후 대미지 판정
         //콤보 단계에 따라 대미지 차등 적용
         int damage = comboStep * 10;                                    //예: 1타=10, 2타=20, ..., 5타=50
-        ChackHit(damage, new Vector2(transform.localScale.x * 1f, 0f)); //넉백 백터
+        CheckHit(damage, new Vector2(transform.localScale.x * 1f, 0f)); //넉백 백터
 
         yield return new WaitForSeconds(attackDuration);
 
@@ -206,7 +219,7 @@ public class PlayerPresenter : MonoBehaviour
 
         //초풍 공격 판정
         int damage = 80;
-        ChackHit(damage, new Vector2(transform.localScale.x * 6f, 2f)); //넉백 백터       
+        CheckHit(damage, new Vector2(transform.localScale.x * 6f, 2f)); //넉백 백터       
 
         //짧은 시간 뒤에 속도를 다시 0으로 만들어 공격 위치 고정
         Invoke("StopMovement", 0.15f);
@@ -215,7 +228,7 @@ public class PlayerPresenter : MonoBehaviour
         Invoke("ResetAttackState", 0.5f);
     }
 
-    private void ChackHit(int damage, Vector2 knockback)
+    private void CheckHit(int damage, Vector2 knockback)
     {
         if (attackPoint == null) return;
 
@@ -228,6 +241,9 @@ public class PlayerPresenter : MonoBehaviour
             EnemyPresenter enemyPresenter = enemy.GetComponent<EnemyPresenter>();
             if (enemyPresenter != null)
             {
+                //적이 죽은 상태면 넘어감
+                if (enemyPresenter.isDead) continue;
+
                 enemyPresenter.OnDamaged(damage, knockback);
                 Debug.Log($"<color=cyan>{enemy.name}에게 {damage} 데미지!</color>");
 
@@ -287,7 +303,7 @@ public class PlayerPresenter : MonoBehaviour
 
     public void OnDamaged(int damage, Vector2 knockbackForce)
     {
-        if (isDead || model == null) return;
+        if (isDead || model == null || model.isInvincible) return;
 
         model.TakeDamage(damage);
 
@@ -342,9 +358,13 @@ public class PlayerPresenter : MonoBehaviour
             transform.position = landedPos;
             view.SetVelocity(Vector2.zero);
 
-            //바닥에 쓰러지는 연출
+            //바닥에 쓰러지는 연출            
             view.PlayAnimation("Down");
             yield return new WaitForSeconds(0.6f);
+
+            //일어날 때 무적
+            StartCoroutine(InvincibilityRoutine());
+
             view.PlayAnimation("WakeUp");
             yield return new WaitForSeconds(0.55f);
 
@@ -392,12 +412,12 @@ public class PlayerPresenter : MonoBehaviour
             //최대 HP로 부활
             model.currentHp = model.maxHp;
 
+            //부활 시 무적 상태            
+            StartCoroutine(InvincibilityRoutine());
+
             //일어나는 애니메이션
             view.PlayAnimation("WakeUp");
-            yield return new WaitForSeconds(0.55f);
-
-            //부활 시 무적 상태
-            StartCoroutine(InvincibilityRoutine());
+            yield return new WaitForSeconds(0.55f);            
 
             isDead = false;
             view.PlayAnimation("Idle");
@@ -411,7 +431,7 @@ public class PlayerPresenter : MonoBehaviour
         SpriteRenderer sprite = GetComponent<SpriteRenderer>();
 
         //3초간 무적 시간 부여 (10 = 2초)
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 15; i++)
         {
             sprite.color = new Color(1, 1, 1, 0.5f); // 반투명
             yield return new WaitForSeconds(0.1f);

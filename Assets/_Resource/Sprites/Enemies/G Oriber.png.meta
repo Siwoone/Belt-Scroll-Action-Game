@@ -182,12 +182,12 @@ TextureImporter:
       name: G Oriber_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 396
-        width: 79
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3
+        y: 397
+        width: 77
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: G Oriber_1
       rect:
         serializedVersion: 2
-        x: 135
-        y: 397
-        width: 70
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 136
+        y: 398
+        width: 68
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: G Oriber_2
       rect:
         serializedVersion: 2
-        x: 263
-        y: 396
-        width: 70
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 264
+        y: 397
+        width: 68
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: G Oriber_3
       rect:
         serializedVersion: 2
-        x: 391
-        y: 393
-        width: 70
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 392
+        y: 394
+        width: 68
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: G Oriber_4
       rect:
         serializedVersion: 2
-        x: 511
-        y: 393
-        width: 93
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 394
+        width: 91
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: G Oriber_5
       rect:
         serializedVersion: 2
-        x: 639
-        y: 385
-        width: 105
-        height: 99
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 640
+        y: 386
+        width: 103
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: G Oriber_6
       rect:
         serializedVersion: 2
-        x: 6
-        y: 266
-        width: 86
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 7
+        y: 267
+        width: 84
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: G Oriber_7
       rect:
         serializedVersion: 2
-        x: 103
-        y: 259
-        width: 95
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 104
+        y: 260
+        width: 93
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,12 +358,12 @@ TextureImporter:
       name: G Oriber_8
       rect:
         serializedVersion: 2
-        x: 232
-        y: 257
-        width: 68
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 233
+        y: 258
+        width: 66
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,12 +380,12 @@ TextureImporter:
       name: G Oriber_9
       rect:
         serializedVersion: 2
-        x: 322
-        y: 259
-        width: 74
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323
+        y: 260
+        width: 72
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: G Oriber_10
       rect:
         serializedVersion: 2
-        x: 426
-        y: 257
-        width: 66
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 427
+        y: 258
+        width: 64
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: G Oriber_11
       rect:
         serializedVersion: 2
-        x: 512
-        y: 260
-        width: 75
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 513
+        y: 261
+        width: 73
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: G Oriber_12
       rect:
         serializedVersion: 2
-        x: 649
-        y: 258
-        width: 87
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 650
+        y: 259
+        width: 85
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -469,11 +469,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 134
-        width: 58
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 135
+        width: 57
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -490,12 +490,12 @@ TextureImporter:
       name: G Oriber_14
       rect:
         serializedVersion: 2
-        x: 127
-        y: 134
-        width: 59
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 135
+        width: 57
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -512,12 +512,12 @@ TextureImporter:
       name: G Oriber_15
       rect:
         serializedVersion: 2
-        x: 258
-        y: 140
-        width: 79
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 259
+        y: 141
+        width: 77
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -534,12 +534,12 @@ TextureImporter:
       name: G Oriber_16
       rect:
         serializedVersion: 2
-        x: 386
-        y: 140
-        width: 79
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 387
+        y: 141
+        width: 77
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -556,12 +556,12 @@ TextureImporter:
       name: G Oriber_17
       rect:
         serializedVersion: 2
-        x: 518
-        y: 135
-        width: 59
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 519
+        y: 136
+        width: 57
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -578,12 +578,12 @@ TextureImporter:
       name: G Oriber_18
       rect:
         serializedVersion: 2
-        x: 639
-        y: 175
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 640
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -600,12 +600,12 @@ TextureImporter:
       name: G Oriber_19
       rect:
         serializedVersion: 2
-        x: 1
-        y: 12
-        width: 103
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 13
+        width: 101
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -622,12 +622,12 @@ TextureImporter:
       name: G Oriber_20
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 124
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 129
+        y: 1
+        width: 122
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -644,12 +644,12 @@ TextureImporter:
       name: G Oriber_21
       rect:
         serializedVersion: 2
-        x: 257
-        y: 0
-        width: 123
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 258
+        y: 1
+        width: 121
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -666,12 +666,12 @@ TextureImporter:
       name: G Oriber_22
       rect:
         serializedVersion: 2
-        x: 385
-        y: 1
-        width: 73
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 386
+        y: 2
+        width: 71
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -688,7 +688,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b0a287fafa66f5a47b60aefa88039aa4
     internalID: 0
     vertices: []
     indices: 

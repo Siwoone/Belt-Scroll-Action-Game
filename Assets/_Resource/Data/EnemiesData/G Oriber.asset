@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1cc3c73ce27f7fc438a9db605faea18c, type: 3}
-  m_Name: J
+  m_Name: G Oriber
   m_EditorClassIdentifier: 
-  enemyName: J
-  damage: 10
-  moveSpeed: 3
+  enemyName: G Oriber
+  damage: 15
+  dashDamage: 50
+  moveSpeed: 2
   detectRange: 10
-  stopRange: 1.5
-  maxHp: 100
+  stopRange: 4
+  maxHp: 180
   hitRecoveryTime: 0.4

@@ -3710,7 +3710,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1478
         y: 663
-        width: 57
+        width: 41
         height: 85
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -3930,8 +3930,8 @@ TextureImporter:
         serializedVersion: 2
         x: 846
         y: 470
-        width: 65
-        height: 84
+        width: 45
+        height: 82
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5150,8 +5150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 414ad5d17d69eaf489d19940d1981bd0
-      internalID: 932645246
+      spriteID: 9ba913bebab44e14ea7d12745ccffde1
+      internalID: -1124576067
       vertices: []
       indices: 
       edges: []
@@ -5285,7 +5285,7 @@ TextureImporter:
       Jin Kazama_2: -7080671553563128646
       Jin Kazama_20: 119691665598905162
       Jin Kazama_200: -3020357294000308108
-      Jin Kazama_201: 932645246
+      Jin Kazama_201: -1124576067
       Jin Kazama_21: 1237758650159801600
       Jin Kazama_22: -3643657633079849694
       Jin Kazama_23: -4910173802151484291

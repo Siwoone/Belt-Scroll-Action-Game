@@ -7,15 +7,21 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;   
 
-    [Header("UI 컴포넌트 연결")]
-    [SerializeField] private Slider hpSlider;
-    [SerializeField] private TextMeshProUGUI lifeText;
-    [SerializeField] private TextMeshProUGUI scoreText;
-    [SerializeField] private TextMeshProUGUI comboText;
-    [SerializeField] private TextMeshProUGUI timeText;
+    [Header("플레이어 UI 컴포넌트 연결")]
+    [SerializeField] private Slider hpSlider;                       //플레이어 HP바
+    [SerializeField] private TextMeshProUGUI lifeText;              //플레이어 라이프 수
+    [SerializeField] private TextMeshProUGUI scoreText;             //플레이어 스코어
+    [SerializeField] private TextMeshProUGUI comboText;             //플레이어 콤보 수
+    [SerializeField] private TextMeshProUGUI timeText;              //남은 게임 시간
 
-    private Coroutine comboHideRoutine;
-    private Coroutine bumpRoutine;
+    [Header("적 UI 컴포넌트 연결")]
+    [SerializeField] private GameObject enemyInfoGroup;             //적 정보 그룹
+    [SerializeField] private Slider enemyHpSlider;                  //적 HP바
+    [SerializeField] private TextMeshProUGUI enemyNameText;         //적 이름
+
+    private Coroutine comboHideRoutine;                             //콤보창 숨김
+    private Coroutine bumpRoutine;                                  //콤보창 이펙트
+    private Coroutine enemyUiHideRoutine;                           //적 UI 숨김
 
     private void Awake()
     {
@@ -31,6 +37,11 @@ public class UIManager : MonoBehaviour
         if (comboText != null)
         {
             comboText.gameObject.SetActive(false);
+        }
+
+        if (enemyInfoGroup != null)
+        {
+            enemyInfoGroup.gameObject.SetActive(false);
         }
     }
 
@@ -80,7 +91,6 @@ public class UIManager : MonoBehaviour
         }
     }
 
-
     //콤보 카운트 업데이트
     public void UpdateCombo(int comboCount)
     {
@@ -115,6 +125,7 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    //콤보 텍스트 튀어 오르는 효과
     private IEnumerator BumpEffect(Transform target)
     {
         //순간적으로 텍스트 커짐
@@ -134,5 +145,31 @@ public class UIManager : MonoBehaviour
 
         //1로 고정
         target.localScale = Vector3.one;
+    }
+
+    //적 정보 업데이트
+    public void UpdateEnemyUI(int currntHp, int maxHp, string name)
+    {
+        //null 체크
+        if (enemyInfoGroup == null || enemyHpSlider == null) return;
+
+        //info 활성화
+        enemyInfoGroup.SetActive(true);
+
+        //HP바 및 이름 표시
+        enemyHpSlider.value = (float)currntHp / maxHp;
+        if(enemyNameText != null) enemyNameText.text = name;
+
+        //기존 숨김 타이머가 있으면 취소 후 다시 시작 (3초 뒤 숨김)
+        if (enemyUiHideRoutine != null) StopCoroutine(enemyUiHideRoutine);
+        enemyUiHideRoutine = StartCoroutine(HideEnemyUIRoutine());
+    }
+
+    //적 UI 숨기기
+    private IEnumerator HideEnemyUIRoutine()
+    {
+        //마지막 타격 후 3초간 대기
+        yield return new WaitForSeconds(3.0f);
+        enemyInfoGroup.SetActive(false);
     }
 }
