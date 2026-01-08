@@ -191,12 +191,12 @@ TextureImporter:
       name: Axl_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 383
-        width: 65
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1
+        y: 384
+        width: 63
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -213,12 +213,12 @@ TextureImporter:
       name: Axl_1
       rect:
         serializedVersion: 2
-        x: 69
-        y: 386
-        width: 54
-        height: 105
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 70
+        y: 387
+        width: 52
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -235,11 +235,11 @@ TextureImporter:
       name: Axl_2
       rect:
         serializedVersion: 2
-        x: 127
-        y: 389
-        width: 229
-        height: 118
-      alignment: 0
+        x: 128
+        y: 390
+        width: 64
+        height: 107
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -257,11 +257,11 @@ TextureImporter:
       name: Axl_3
       rect:
         serializedVersion: 2
-        x: 367
-        y: 389
-        width: 77
-        height: 88
-      alignment: 0
+        x: 368
+        y: 390
+        width: 75
+        height: 86
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -279,11 +279,11 @@ TextureImporter:
       name: Axl_4
       rect:
         serializedVersion: 2
-        x: 512
-        y: 387
-        width: 56
-        height: 93
-      alignment: 0
+        x: 513
+        y: 388
+        width: 54
+        height: 91
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -301,11 +301,11 @@ TextureImporter:
       name: Axl_5
       rect:
         serializedVersion: 2
-        x: 578
-        y: 384
-        width: 56
-        height: 96
-      alignment: 0
+        x: 579
+        y: 386
+        width: 54
+        height: 94
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -323,11 +323,11 @@ TextureImporter:
       name: Axl_6
       rect:
         serializedVersion: 2
-        x: 644
-        y: 385
-        width: 101
-        height: 91
-      alignment: 0
+        x: 645
+        y: 386
+        width: 99
+        height: 89
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -346,11 +346,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 261
-        width: 68
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 262
+        width: 67
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -367,12 +367,12 @@ TextureImporter:
       name: Axl_8
       rect:
         serializedVersion: 2
-        x: 91
-        y: 262
-        width: 73
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 92
+        y: 263
+        width: 71
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -389,12 +389,12 @@ TextureImporter:
       name: Axl_9
       rect:
         serializedVersion: 2
-        x: 178
-        y: 260
-        width: 66
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 179
+        y: 261
+        width: 64
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -411,12 +411,12 @@ TextureImporter:
       name: Axl_10
       rect:
         serializedVersion: 2
-        x: 274
-        y: 260
-        width: 66
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 275
+        y: 261
+        width: 64
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -433,12 +433,12 @@ TextureImporter:
       name: Axl_11
       rect:
         serializedVersion: 2
-        x: 351
-        y: 260
-        width: 69
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 261
+        width: 67
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -455,12 +455,12 @@ TextureImporter:
       name: Axl_12
       rect:
         serializedVersion: 2
-        x: 434
-        y: 259
-        width: 66
-        height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 435
+        y: 260
+        width: 64
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -477,12 +477,12 @@ TextureImporter:
       name: Axl_13
       rect:
         serializedVersion: 2
-        x: 516
-        y: 255
-        width: 61
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 517
+        y: 256
+        width: 59
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -499,12 +499,12 @@ TextureImporter:
       name: Axl_14
       rect:
         serializedVersion: 2
-        x: 623
-        y: 267
-        width: 61
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 624
+        y: 268
+        width: 59
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -521,12 +521,12 @@ TextureImporter:
       name: Axl_15
       rect:
         serializedVersion: 2
-        x: 703
-        y: 267
-        width: 61
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 704
+        y: 268
+        width: 59
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -544,11 +544,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 133
-        width: 65
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 134
+        width: 64
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -565,12 +565,12 @@ TextureImporter:
       name: Axl_17
       rect:
         serializedVersion: 2
-        x: 91
-        y: 134
-        width: 69
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 92
+        y: 135
+        width: 67
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -587,12 +587,12 @@ TextureImporter:
       name: Axl_18
       rect:
         serializedVersion: 2
-        x: 181
-        y: 132
-        width: 59
-        height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 182
+        y: 133
+        width: 57
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -609,12 +609,12 @@ TextureImporter:
       name: Axl_19
       rect:
         serializedVersion: 2
-        x: 274
-        y: 132
-        width: 66
-        height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 275
+        y: 133
+        width: 64
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -631,12 +631,12 @@ TextureImporter:
       name: Axl_20
       rect:
         serializedVersion: 2
-        x: 351
-        y: 132
-        width: 65
-        height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 133
+        width: 63
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -653,12 +653,12 @@ TextureImporter:
       name: Axl_21
       rect:
         serializedVersion: 2
-        x: 437
-        y: 131
-        width: 59
-        height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 132
+        width: 57
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -675,12 +675,12 @@ TextureImporter:
       name: Axl_22
       rect:
         serializedVersion: 2
-        x: 515
-        y: 137
-        width: 73
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 516
+        y: 138
+        width: 71
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -697,12 +697,12 @@ TextureImporter:
       name: Axl_23
       rect:
         serializedVersion: 2
-        x: 639
-        y: 175
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 640
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -720,11 +720,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 113
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2
+        width: 112
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -741,12 +741,12 @@ TextureImporter:
       name: Axl_25
       rect:
         serializedVersion: 2
-        x: 127
+        x: 128
         y: 0
-        width: 130
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 128
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -759,11 +759,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Axl_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 390
+        width: 64
+        height: 117
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06f4372ef508f74e942e3754c14fb6f
+      internalID: 1190177146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 390
+        width: 100
+        height: 91
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac8e32d0a276b24cad636cf81db2678
+      internalID: 408403415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 552caea637f247142bb096d55d540152
     internalID: 0
     vertices: []
     indices: 
@@ -792,6 +836,8 @@ TextureImporter:
       Axl_23: 3353211689755664810
       Axl_24: -7753792048111410360
       Axl_25: -6828165797938951908
+      Axl_26: 1190177146
+      Axl_27: 408403415
       Axl_3: 917053031335411022
       Axl_4: -6180876807999093846
       Axl_5: 1020178165333438824

@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 3b04b6a4fdbb0e34ab06f35586af1b1f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5627667881127298673
+    second: Dug_0
+  - first:
+      213: 5476582385624997879
+    second: Dug_1
+  - first:
+      213: -8393212049839744731
+    second: Dug_2
+  - first:
+      213: 1100214783424447363
+    second: Dug_3
+  - first:
+      213: 7372014623764993041
+    second: Dug_4
+  - first:
+      213: 4540544852451975426
+    second: Dug_5
+  - first:
+      213: -7631791319588773800
+    second: Dug_6
+  - first:
+      213: 6220259174576060131
+    second: Dug_7
+  - first:
+      213: 8478381882309756568
+    second: Dug_8
+  - first:
+      213: -5977491943722237409
+    second: Dug_9
+  - first:
+      213: -5003212170406249801
+    second: Dug_10
+  - first:
+      213: -885545915723902632
+    second: Dug_11
+  - first:
+      213: 1132671675834598277
+    second: Dug_12
+  - first:
+      213: 6563169663237949945
+    second: Dug_13
+  - first:
+      213: -5814662711069272300
+    second: Dug_14
+  - first:
+      213: 569157300945541402
+    second: Dug_15
+  - first:
+      213: 7562449633492414541
+    second: Dug_16
+  - first:
+      213: 5271076547486973407
+    second: Dug_17
+  - first:
+      213: -3907590862834638951
+    second: Dug_18
+  - first:
+      213: 5919175384570075535
+    second: Dug_19
+  - first:
+      213: -1674810104479960529
+    second: Dug_20
+  - first:
+      213: -5107701357683087838
+    second: Dug_21
+  - first:
+      213: 7304420746415271801
+    second: Dug_22
+  - first:
+      213: -6722478930666628973
+    second: Dug_23
+  - first:
+      213: 6082633068881650674
+    second: Dug_24
+  - first:
+      213: 6301170720793201974
+    second: Dug_25
+  - first:
+      213: 3272214087499229070
+    second: Dug_26
+  - first:
+      213: -4860508211999182114
+    second: Dug_27
+  - first:
+      213: 3032337026849943349
+    second: Dug_28
+  - first:
+      213: 8091676347420202449
+    second: Dug_29
+  - first:
+      213: -1654380167724718604
+    second: Dug_30
+  - first:
+      213: 7312107447987758246
+    second: Dug_31
+  - first:
+      213: -1635776837485746924
+    second: Dug_32
+  - first:
+      213: 1415945087522000543
+    second: Dug_33
+  - first:
+      213: 2251872619800253316
+    second: Dug_34
+  - first:
+      213: 2446753129383671003
+    second: Dug_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dug_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 385
+        width: 42
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176c7780f1e791e40800000000000000
+      internalID: 5627667881127298673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 386
+        width: 42
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffd65ed9aab00c40800000000000000
+      internalID: 5476582385624997879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 386
+        width: 42
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52916cc1c12558b80800000000000000
+      internalID: -8393212049839744731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 407
+        width: 55
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383c5ae248fb44f00800000000000000
+      internalID: 1100214783424447363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 385
+        width: 56
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1145f70ed38ae4660800000000000000
+      internalID: 7372014623764993041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_5
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 384
+        width: 56
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201e0298c71430f30800000000000000
+      internalID: 4540544852451975426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_6
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 389
+        width: 65
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8506004da3e661690800000000000000
+      internalID: -7631791319588773800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_7
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 396
+        width: 60
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6787f43ccc25650800000000000000
+      internalID: 6220259174576060131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_8
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 397
+        width: 57
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8964e2dc66349a570800000000000000
+      internalID: 8478381882309756568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_9
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 395
+        width: 41
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f124dae4fbeab0da0800000000000000
+      internalID: -5977491943722237409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_10
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 396
+        width: 56
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba36070a05019ab0800000000000000
+      internalID: -5003212170406249801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_11
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 395
+        width: 55
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8519af47ea8e5b3f0800000000000000
+      internalID: -885545915723902632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 394
+        width: 41
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583844553ee08bf00800000000000000
+      internalID: 1132671675834598277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 264
+        width: 48
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f90be91900151b50800000000000000
+      internalID: 6563169663237949945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_14
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 267
+        width: 51
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417910a521b2e4fa0800000000000000
+      internalID: -5814662711069272300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_15
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 268
+        width: 51
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19dd28bc8d06e700800000000000000
+      internalID: 569157300945541402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_16
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 264
+        width: 67
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d403914cfd733f860800000000000000
+      internalID: 7562449633492414541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_17
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 264
+        width: 67
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd7adc4130a62940800000000000000
+      internalID: 5271076547486973407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_18
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 264
+        width: 68
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fdd2540d275c9c0800000000000000
+      internalID: -3907590862834638951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_19
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 258
+        width: 61
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f891980b6a2252250800000000000000
+      internalID: 5919175384570075535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_20
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 257
+        width: 51
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22bc306511e1c8e0800000000000000
+      internalID: -1674810104479960529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_21
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 257
+        width: 45
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226e48c4daccd19b0800000000000000
+      internalID: -5107701357683087838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_22
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 257
+        width: 51
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f6318e7f38e5560800000000000000
+      internalID: 7304420746415271801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_23
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 266
+        width: 49
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398519f9705f4b2a0800000000000000
+      internalID: -6722478930666628973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 140
+        width: 62
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f32cb98c8ad96450800000000000000
+      internalID: 6082633068881650674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_25
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 139
+        width: 94
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d88f1b261427750800000000000000
+      internalID: 6301170720793201974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_26
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 158
+        width: 87
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87ab6a206d396d20800000000000000
+      internalID: 3272214087499229070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_27
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 133
+        width: 96
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed27be388810c8cb0800000000000000
+      internalID: -4860508211999182114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_28
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 133
+        width: 51
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fa7acb576051a20800000000000000
+      internalID: 3032337026849943349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_29
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5596534c86b4070800000000000000
+      internalID: 8091676347420202449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_30
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 140
+        width: 120
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f52153b0067a09e0800000000000000
+      internalID: -1654380167724718604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_31
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 8
+        width: 56
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a46cc49bf2d97560800000000000000
+      internalID: 7312107447987758246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_32
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 8
+        width: 60
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415a9dd02ad8c49e0800000000000000
+      internalID: -1635776837485746924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_33
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 8
+        width: 47
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e453b1e8276a310800000000000000
+      internalID: 1415945087522000543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_34
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 8
+        width: 81
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4835f9e7732404f10800000000000000
+      internalID: 2251872619800253316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dug_35
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 8
+        width: 97
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd43df9f10d94f120800000000000000
+      internalID: 2446753129383671003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7db0e12e03d6d134bb19159bcbfc76cf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dug_0: 5627667881127298673
+      Dug_1: 5476582385624997879
+      Dug_10: -5003212170406249801
+      Dug_11: -885545915723902632
+      Dug_12: 1132671675834598277
+      Dug_13: 6563169663237949945
+      Dug_14: -5814662711069272300
+      Dug_15: 569157300945541402
+      Dug_16: 7562449633492414541
+      Dug_17: 5271076547486973407
+      Dug_18: -3907590862834638951
+      Dug_19: 5919175384570075535
+      Dug_2: -8393212049839744731
+      Dug_20: -1674810104479960529
+      Dug_21: -5107701357683087838
+      Dug_22: 7304420746415271801
+      Dug_23: -6722478930666628973
+      Dug_24: 6082633068881650674
+      Dug_25: 6301170720793201974
+      Dug_26: 3272214087499229070
+      Dug_27: -4860508211999182114
+      Dug_28: 3032337026849943349
+      Dug_29: 8091676347420202449
+      Dug_3: 1100214783424447363
+      Dug_30: -1654380167724718604
+      Dug_31: 7312107447987758246
+      Dug_32: -1635776837485746924
+      Dug_33: 1415945087522000543
+      Dug_34: 2251872619800253316
+      Dug_35: 2446753129383671003
+      Dug_4: 7372014623764993041
+      Dug_5: 4540544852451975426
+      Dug_6: -7631791319588773800
+      Dug_7: 6220259174576060131
+      Dug_8: 8478381882309756568
+      Dug_9: -5977491943722237409
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

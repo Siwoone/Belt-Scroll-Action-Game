@@ -1,0 +1,659 @@
+fileFormatVersion: 2
+guid: f4300674a2b9d234f88fc66de7fd0406
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1618822332258294196
+    second: Enemies_Bosses - J_0
+  - first:
+      213: -3578949942628440161
+    second: Enemies_Bosses - J_1
+  - first:
+      213: 5974553909110685900
+    second: Enemies_Bosses - J_2
+  - first:
+      213: -380770311203064821
+    second: Enemies_Bosses - J_3
+  - first:
+      213: 9064281706660429183
+    second: Enemies_Bosses - J_4
+  - first:
+      213: 949451486326440612
+    second: Enemies_Bosses - J_5
+  - first:
+      213: -3090640315469519882
+    second: Enemies_Bosses - J_6
+  - first:
+      213: -7630980570905852210
+    second: Enemies_Bosses - J_7
+  - first:
+      213: -9113832174826121599
+    second: Enemies_Bosses - J_8
+  - first:
+      213: -3819345789654310512
+    second: Enemies_Bosses - J_9
+  - first:
+      213: 6108102962195808787
+    second: Enemies_Bosses - J_10
+  - first:
+      213: -553020526477139102
+    second: Enemies_Bosses - J_11
+  - first:
+      213: -6031353232873031550
+    second: Enemies_Bosses - J_12
+  - first:
+      213: 4677705152120576845
+    second: Enemies_Bosses - J_13
+  - first:
+      213: 2444841713760143745
+    second: Enemies_Bosses - J_14
+  - first:
+      213: 7293017949938396239
+    second: Enemies_Bosses - J_15
+  - first:
+      213: 4795612830212018232
+    second: Enemies_Bosses - J_16
+  - first:
+      213: -1491896708128400432
+    second: Enemies_Bosses - J_17
+  - first:
+      213: -9038947498048718581
+    second: Enemies_Bosses - J_18
+  - first:
+      213: -3945799202684778927
+    second: Enemies_Bosses - J_19
+  - first:
+      213: 7128070846319903908
+    second: Enemies_Bosses - J_20
+  - first:
+      213: -6595649076920321075
+    second: Enemies_Bosses - J_21
+  - first:
+      213: -3238127928738782324
+    second: Enemies_Bosses - J_22
+  - first:
+      213: -1237103080667082068
+    second: Enemies_Bosses - J_23
+  - first:
+      213: -6873560390537615874
+    second: Enemies_Bosses - J_24
+  - first:
+      213: 1298759139107889074
+    second: Enemies_Bosses - J_25
+  - first:
+      213: 603987723337289573
+    second: Enemies_Bosses - J_26
+  - first:
+      213: 8451989305222401167
+    second: Enemies_Bosses - J_27
+  - first:
+      213: 4586512956066607622
+    second: Enemies_Bosses - J_28
+  - first:
+      213: -589511026618576442
+    second: Enemies_Bosses - J_29
+  - first:
+      213: -5619325964354016263
+    second: Enemies_Bosses - J_30
+  - first:
+      213: -8396630925058365185
+    second: Enemies_Bosses - J_31
+  - first:
+      213: -2540637450014123522
+    second: Enemies_Bosses - J_32
+  - first:
+      213: -6117758929313053961
+    second: Enemies_Bosses - J_33
+  - first:
+      213: -3414660833333486054
+    second: Enemies_Bosses - J_34
+  - first:
+      213: -5666770344510946983
+    second: Enemies_Bosses - J_35
+  - first:
+      213: 8630660852288597405
+    second: Enemies_Bosses - J_36
+  - first:
+      213: -3912849673644721914
+    second: Enemies_Bosses - J_37
+  - first:
+      213: 7947815021260637276
+    second: Enemies_Bosses - J_38
+  - first:
+      213: -4032156812409046370
+    second: Enemies_Bosses - J_39
+  - first:
+      213: -8631935599903624365
+    second: Enemies_Bosses - J_40
+  - first:
+      213: 6804935345832394978
+    second: Enemies_Bosses - J_41
+  - first:
+      213: -4769529162769863944
+    second: Enemies_Bosses - J_42
+  - first:
+      213: 4488583378850500422
+    second: Enemies_Bosses - J_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 220
+        width: 65
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b999b49556377610800000000000000
+      internalID: 1618822332258294196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 220
+        width: 51
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f972ab04df3055ec0800000000000000
+      internalID: -3578949942628440161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 219
+        width: 47
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0c6f33021e9e250800000000000000
+      internalID: 5974553909110685900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 220
+        width: 53
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04f9bb5b6b37baf0800000000000000
+      internalID: -380770311203064821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 221
+        width: 49
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7df095003ccacd70800000000000000
+      internalID: 9064281706660429183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 216
+        width: 57
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a244fda8112d2d00800000000000000
+      internalID: 949451486326440612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_6
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 221
+        width: 97
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f320fb0207db15d0800000000000000
+      internalID: -3090640315469519882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 123
+        width: 62
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6cf37f99f491690800000000000000
+      internalID: -7630980570905852210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 123
+        width: 100
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18696f49ce9258180800000000000000
+      internalID: -9113832174826121599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_9
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 121
+        width: 61
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09165457d35fefac0800000000000000
+      internalID: -3819345789654310512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_10
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 122
+        width: 89
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3124131384754c450800000000000000
+      internalID: 6108102962195808787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_39
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 19
+        width: 55
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9affad0eb6ea08c0800000000000000
+      internalID: -4032156812409046370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_40
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 16
+        width: 51
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35332bb4e44353880800000000000000
+      internalID: -8631935599903624365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_41
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 12
+        width: 97
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e007d794acff6e50800000000000000
+      internalID: 6804935345832394978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_42
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 8
+        width: 117
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa6c3b1f7a3fcdb0800000000000000
+      internalID: -4769529162769863944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Bosses - J_43
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 6
+        width: 61
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f4b113dc6aa4e30800000000000000
+      internalID: 4488583378850500422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8492cf63978caa448a60db61a3f4c8c0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Enemies_Bosses - J_0: 1618822332258294196
+      Enemies_Bosses - J_1: -3578949942628440161
+      Enemies_Bosses - J_10: 6108102962195808787
+      Enemies_Bosses - J_11: -553020526477139102
+      Enemies_Bosses - J_12: -6031353232873031550
+      Enemies_Bosses - J_13: 4677705152120576845
+      Enemies_Bosses - J_14: 2444841713760143745
+      Enemies_Bosses - J_15: 7293017949938396239
+      Enemies_Bosses - J_16: 4795612830212018232
+      Enemies_Bosses - J_17: -1491896708128400432
+      Enemies_Bosses - J_18: -9038947498048718581
+      Enemies_Bosses - J_19: -3945799202684778927
+      Enemies_Bosses - J_2: 5974553909110685900
+      Enemies_Bosses - J_20: 7128070846319903908
+      Enemies_Bosses - J_21: -6595649076920321075
+      Enemies_Bosses - J_22: -3238127928738782324
+      Enemies_Bosses - J_23: -1237103080667082068
+      Enemies_Bosses - J_24: -6873560390537615874
+      Enemies_Bosses - J_25: 1298759139107889074
+      Enemies_Bosses - J_26: 603987723337289573
+      Enemies_Bosses - J_27: 8451989305222401167
+      Enemies_Bosses - J_28: 4586512956066607622
+      Enemies_Bosses - J_29: -589511026618576442
+      Enemies_Bosses - J_3: -380770311203064821
+      Enemies_Bosses - J_30: -5619325964354016263
+      Enemies_Bosses - J_31: -8396630925058365185
+      Enemies_Bosses - J_32: -2540637450014123522
+      Enemies_Bosses - J_33: -6117758929313053961
+      Enemies_Bosses - J_34: -3414660833333486054
+      Enemies_Bosses - J_35: -5666770344510946983
+      Enemies_Bosses - J_36: 8630660852288597405
+      Enemies_Bosses - J_37: -3912849673644721914
+      Enemies_Bosses - J_38: 7947815021260637276
+      Enemies_Bosses - J_39: -4032156812409046370
+      Enemies_Bosses - J_4: 9064281706660429183
+      Enemies_Bosses - J_40: -8631935599903624365
+      Enemies_Bosses - J_41: 6804935345832394978
+      Enemies_Bosses - J_42: -4769529162769863944
+      Enemies_Bosses - J_43: 4488583378850500422
+      Enemies_Bosses - J_5: 949451486326440612
+      Enemies_Bosses - J_6: -3090640315469519882
+      Enemies_Bosses - J_7: -7630980570905852210
+      Enemies_Bosses - J_8: -9113832174826121599
+      Enemies_Bosses - J_9: -3819345789654310512
+      J_0: -661879012
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

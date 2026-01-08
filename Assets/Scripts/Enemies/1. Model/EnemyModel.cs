@@ -11,6 +11,9 @@ public class EnemyModel : MonoBehaviour
     public bool isDead = false;
     public bool isInvincible = false;
 
+    //어떤 풀에서 나왔는지 기억하는 변수
+    [HideInInspector] public string poolKey;
+
     //공격 타입 설정 (기본 / 돌진형)
     public enum AttackType { Normal, Dash, Object }
     public AttackType attackType = AttackType.Normal;
@@ -24,7 +27,7 @@ public class EnemyModel : MonoBehaviour
     public float maxAreaY = -2.2f;              //화면 위쪽(벽) 한계선
 
     //EnemyData의 기본 능력치로 초기화
-    public string enemyName => data.name;
+    public string enemyName => data != null ? data.enemyName : "Enemy";
     public int damage => data.damage;
     public int dashDamage => data.dashDamage;
     public int maxHp => data.maxHp;
@@ -35,11 +38,19 @@ public class EnemyModel : MonoBehaviour
 
     void Awake()
     {
-        //최대 체력으로 현재 체력 초기화
-        if(data!=null)
+        Initialize();
+    }
+
+    //다시 사용될 때 마다 초기화
+    public void Initialize()
+    {
+        if (data != null)
         {
             currentHp = data.maxHp;
+            attackType = EnemyModel.AttackType.Normal; //기본값 리셋 필요 시
         }
+        isDead = false;
+        isInvincible = false;
     }
 
     //대미지 계산

@@ -23,7 +23,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &572713762008389915
 Transform:
   m_ObjectHideFlags: 0
@@ -35,7 +35,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 753309613888781177}
   m_Father: {fileID: 0}
@@ -215,6 +215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHit: 0
+  isDead: 0
   isAttacking: 0
   isAirborne: 0
   attackPoint: {fileID: 753309613888781177}
@@ -237,6 +238,12 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: a1b38639d441d654c8635617c2a546f3, type: 2}
   currentHp: 0
   isDead: 0
+  isInvincible: 0
+  poolKey: 
+  attackType: 0
+  dashSpeed: 12
+  dashDuration: 0.5
+  prepareTime: 0.7
   minAreaY: -5
   maxAreaY: -2.4
 --- !u!114 &5840527149735994569

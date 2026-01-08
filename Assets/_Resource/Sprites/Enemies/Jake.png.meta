@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: fb0bf17cdcb5af543bf2ba79d5d7fa72
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6285912514520907756
+    second: Jake_0
+  - first:
+      213: 5350955492053121551
+    second: Jake_1
+  - first:
+      213: 381060237469803124
+    second: Jake_2
+  - first:
+      213: -5705364590701319987
+    second: Jake_3
+  - first:
+      213: 6409333022842779489
+    second: Jake_4
+  - first:
+      213: -8755164594469859336
+    second: Jake_5
+  - first:
+      213: -4104805920565683736
+    second: Jake_6
+  - first:
+      213: -8596030601315838305
+    second: Jake_7
+  - first:
+      213: 8923670954232441378
+    second: Jake_8
+  - first:
+      213: 5376699135002068856
+    second: Jake_9
+  - first:
+      213: -3746673084676372460
+    second: Jake_10
+  - first:
+      213: 2915719617167077449
+    second: Jake_11
+  - first:
+      213: 640393169297002939
+    second: Jake_12
+  - first:
+      213: 1996286320652934410
+    second: Jake_13
+  - first:
+      213: -1471791217473538498
+    second: Jake_14
+  - first:
+      213: 9125736993155971056
+    second: Jake_15
+  - first:
+      213: 5313154987813711936
+    second: Jake_16
+  - first:
+      213: -8567778043957779699
+    second: Jake_17
+  - first:
+      213: 718477838217979053
+    second: Jake_18
+  - first:
+      213: 8061859463314587852
+    second: Jake_19
+  - first:
+      213: 7007891609034272078
+    second: Jake_20
+  - first:
+      213: 2171483389711747982
+    second: Jake_21
+  - first:
+      213: -587424191544117895
+    second: Jake_22
+  - first:
+      213: 2009461907156252732
+    second: Jake_23
+  - first:
+      213: -6390162564941662365
+    second: Jake_24
+  - first:
+      213: 3701659210763271591
+    second: Jake_25
+  - first:
+      213: 3072955083187934993
+    second: Jake_26
+  - first:
+      213: -5169563738201488242
+    second: Jake_27
+  - first:
+      213: -5755659465898958271
+    second: Jake_28
+  - first:
+      213: 4904934106544327488
+    second: Jake_29
+  - first:
+      213: 5862657266251711084
+    second: Jake_30
+  - first:
+      213: -9150414753009307639
+    second: Jake_31
+  - first:
+      213: -8730466490627554158
+    second: Jake_32
+  - first:
+      213: -3252356774898240895
+    second: Jake_33
+  - first:
+      213: 6303332035970172291
+    second: Jake_34
+  - first:
+      213: 3741773514169029227
+    second: Jake_35
+  - first:
+      213: -8508144203419720393
+    second: Jake_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jake_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 385
+        width: 42
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef7335b02c0c3750800000000000000
+      internalID: 6285912514520907756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 386
+        width: 42
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a70c06ba9624a40800000000000000
+      internalID: 5350955492053121551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 386
+        width: 42
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472e96c544cc94500800000000000000
+      internalID: 381060237469803124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 407
+        width: 55
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8e721122972d0b0800000000000000
+      internalID: -5705364590701319987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 385
+        width: 56
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16779b91d6682f850800000000000000
+      internalID: 6409333022842779489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_5
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 384
+        width: 56
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff0c8c20386f7680800000000000000
+      internalID: -8755164594469859336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_6
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 389
+        width: 65
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e913c073ccc807c0800000000000000
+      internalID: -4104805920565683736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_7
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 396
+        width: 60
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f969e2a36b3c4b880800000000000000
+      internalID: -8596030601315838305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_8
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 397
+        width: 57
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22aee77047f37db70800000000000000
+      internalID: 8923670954232441378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_9
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 395
+        width: 41
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877c2f5506fdd9a40800000000000000
+      internalID: 5376699135002068856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_10
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 396
+        width: 56
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41809522ea4210cc0800000000000000
+      internalID: -3746673084676372460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_11
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 395
+        width: 55
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940b1ed2b87b67820800000000000000
+      internalID: 2915719617167077449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 394
+        width: 41
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1d88cc13223e800800000000000000
+      internalID: 640393169297002939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 264
+        width: 48
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d5d74f4db34bb10800000000000000
+      internalID: 1996286320652934410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_14
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 267
+        width: 51
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3633f28fa5239be0800000000000000
+      internalID: -1471791217473538498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_15
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 268
+        width: 51
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7f3bee17125ae70800000000000000
+      internalID: 9125736993155971056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_16
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 264
+        width: 68
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0403b35af4e1cb940800000000000000
+      internalID: 5313154987813711936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_17
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 264
+        width: 68
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0361875343291980800000000000000
+      internalID: -8567778043957779699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_18
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 264
+        width: 68
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da429f589cb88f900800000000000000
+      internalID: 718477838217979053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_19
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 258
+        width: 61
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0ccf3e77a71ef60800000000000000
+      internalID: 8061859463314587852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_20
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 257
+        width: 51
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4dadecf948014160800000000000000
+      internalID: 7007891609034272078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_21
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 257
+        width: 45
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b0e6f43a8a22e10800000000000000
+      internalID: 2171483389711747982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_22
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 257
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975ba826fcc09d7f0800000000000000
+      internalID: -587424191544117895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_23
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 257
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c383abd35fa03eb10800000000000000
+      internalID: 2009461907156252732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_24
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 266
+        width: 51
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36737a3f0059157a0800000000000000
+      internalID: -6390162564941662365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_25
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 140
+        width: 62
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adf811a07fee5330800000000000000
+      internalID: 3701659210763271591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_26
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 139
+        width: 94
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117d520fd5455aa20800000000000000
+      internalID: 3072955083187934993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_27
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 158
+        width: 87
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8482cc6b250248b0800000000000000
+      internalID: -5169563738201488242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_28
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 133
+        width: 96
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1426af6e53acf10b0800000000000000
+      internalID: -5755659465898958271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_29
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 133
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bc54b1593d11440800000000000000
+      internalID: 4904934106544327488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_30
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62cbc2d8b75c5150800000000000000
+      internalID: 5862657266251711084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_31
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 140
+        width: 121
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900f26b5342330180800000000000000
+      internalID: -9150414753009307639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_32
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 8
+        width: 56
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29481b69bf627d680800000000000000
+      internalID: -8730466490627554158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_33
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 8
+        width: 60
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182fa55bebe4dd2d0800000000000000
+      internalID: -3252356774898240895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_34
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 8
+        width: 47
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3858759171fe97750800000000000000
+      internalID: 6303332035970172291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_35
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 8
+        width: 81
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b629206bf237de330800000000000000
+      internalID: 3741773514169029227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jake_36
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 8
+        width: 97
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7356e51dceffce980800000000000000
+      internalID: -8508144203419720393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f3ce8f4dfb7925d42a9997d380435adf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Jake_0: 6285912514520907756
+      Jake_1: 5350955492053121551
+      Jake_10: -3746673084676372460
+      Jake_11: 2915719617167077449
+      Jake_12: 640393169297002939
+      Jake_13: 1996286320652934410
+      Jake_14: -1471791217473538498
+      Jake_15: 9125736993155971056
+      Jake_16: 5313154987813711936
+      Jake_17: -8567778043957779699
+      Jake_18: 718477838217979053
+      Jake_19: 8061859463314587852
+      Jake_2: 381060237469803124
+      Jake_20: 7007891609034272078
+      Jake_21: 2171483389711747982
+      Jake_22: -587424191544117895
+      Jake_23: 2009461907156252732
+      Jake_24: -6390162564941662365
+      Jake_25: 3701659210763271591
+      Jake_26: 3072955083187934993
+      Jake_27: -5169563738201488242
+      Jake_28: -5755659465898958271
+      Jake_29: 4904934106544327488
+      Jake_3: -5705364590701319987
+      Jake_30: 5862657266251711084
+      Jake_31: -9150414753009307639
+      Jake_32: -8730466490627554158
+      Jake_33: -3252356774898240895
+      Jake_34: 6303332035970172291
+      Jake_35: 3741773514169029227
+      Jake_36: -8508144203419720393
+      Jake_4: 6409333022842779489
+      Jake_5: -8755164594469859336
+      Jake_6: -4104805920565683736
+      Jake_7: -8596030601315838305
+      Jake_8: 8923670954232441378
+      Jake_9: 5376699135002068856
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

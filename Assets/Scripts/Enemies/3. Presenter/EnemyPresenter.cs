@@ -333,14 +333,35 @@ public class EnemyPresenter : MonoBehaviour
         isAttacking = false;
         isAirborne = false;
 
+        //죽을 때 콜라이더를 꺼서 추가 타격 방지 (선택 사항)
+        GetComponent<Collider2D>().enabled = false;
+
+        //죽었을 때 깜빡거리기
         StartCoroutine(InvincibilityRoutine());
 
         view.SetVelocity(Vector2.zero);
         view.FlashRed();
-        view.PlayAnimation("Down");        
+        view.PlayAnimation("Down");
+
+        //스테이지 매니저에게 죽음 보고
+        var stageManager = FindAnyObjectByType<StageManager>();
+        if (stageManager != null)
+        {
+            stageManager.OnEnemyKilled();
+        }
 
         yield return new WaitForSeconds(1.0f);
-        Destroy(gameObject);
+
+        //ObjectPool로 반환
+        if (ObjectPoolManager.Instance != null && model != null)
+        {
+            ObjectPoolManager.Instance.ReturnToPool(model.poolKey, gameObject);
+        }
+        else
+        {
+            //풀 매니저가 없으면 그냥 끄기
+            gameObject.SetActive(false);
+        }
     }
 
     private IEnumerator InvincibilityRoutine()

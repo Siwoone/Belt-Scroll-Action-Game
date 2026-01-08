@@ -15,8 +15,8 @@ MonoBehaviour:
   enemyName: G Oriber
   damage: 15
   dashDamage: 50
-  moveSpeed: 2
-  detectRange: 10
-  stopRange: 4
+  moveSpeed: 2.3
+  detectRange: 15
+  stopRange: 10
   maxHp: 180
   hitRecoveryTime: 0.4
