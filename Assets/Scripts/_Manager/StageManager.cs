@@ -26,13 +26,21 @@ public class StageManager : MonoBehaviour
     [SerializeField] private List<EnemyWave> waves;
     [SerializeField] private string nextSceneName;      //스테이지 클리어 후 이동할 Scene 이름
 
+    [Header("게임 시간 설정")]
+    public float gameTime = 99f; // 제한 시간 (초)
+    private bool isTimeOver = false;
+
     [Header("참조")]
     private CameraController cameraController;
     private Transform playerTransform;
+    private PlayerModel playerModel;
+    private PlayerPresenter playerPresenter;
+    private PlayerView playerView;
 
     //현재 전투 상태 관리
     private int currentEnemyCount = 0;
     private bool isBattleActive = false;
+    private bool isSpawning = false;
     private int currentWaveIndex = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -40,24 +48,50 @@ public class StageManager : MonoBehaviour
     {
         //참조한 컴포넌트 초기화
         cameraController = FindAnyObjectByType<CameraController>();
-        var p = FindAnyObjectByType<PlayerPresenter>();
-        if (p != null) playerTransform = p.transform;
+        playerModel = FindAnyObjectByType<PlayerModel>();
+        playerPresenter = FindAnyObjectByType<PlayerPresenter>();
+        
+        if (playerPresenter != null)
+        {
+            playerTransform = playerPresenter.transform;            
+            playerModel = playerPresenter.GetComponent<PlayerModel>();
+            playerView = playerPresenter.GetComponent<PlayerView>();
+        }        
+        
+        if (playerModel == null) playerModel = FindAnyObjectByType<PlayerModel>();
+        if (UIManager.Instance != null) UIManager.Instance.UpdateTime((int)gameTime);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (playerTransform == null) return;
+        if (playerTransform == null || isTimeOver) return;
 
         //아직 작동하지 않은 EnemyWave가 있는지 확인
-        if (currentWaveIndex < waves.Count)
+        if (!isBattleActive || isSpawning || currentWaveIndex < waves.Count)
         {
             EnemyWave wave = waves[currentWaveIndex];
 
             //플레이어가 Trigger 라인을 넘었고, 현재 전투중이 아니라면 실행
-            if (!wave.hasTriggered && !isBattleActive && playerTransform.position.x >= wave.triggerXPosition)
+            if (!wave.hasTriggered && playerTransform.position.x >= wave.triggerXPosition)
             {
                 StartCoroutine(StartWaveRoutine(wave));
+            }
+        }
+
+        if (!isTimeOver && gameTime > 0)
+        {
+            gameTime -= Time.deltaTime;
+
+            if (UIManager.Instance != null)
+            {
+                UIManager.Instance.UpdateTime((int)gameTime);
+            }
+
+            if (gameTime <= 0)
+            {
+                gameTime = 0;
+                TimeOver();
             }
         }
     }
@@ -68,6 +102,7 @@ public class StageManager : MonoBehaviour
         Debug.Log($"<color=yellow>웨이브 시작: {wave.waveName}</color>");
 
         isBattleActive = true;
+        isSpawning = true;
         wave.hasTriggered = true;
 
         //카메라 고정
@@ -77,11 +112,39 @@ public class StageManager : MonoBehaviour
         foreach (var info in wave.enemies)
         {
             //스폰 위치 계산
-            Vector3 spawnPos = new Vector3(wave.triggerXPosition, 0, 0) + info.spawnOffset;
+            //Vector3 spawnPos = new Vector3(wave.triggerXPosition, 0, 0) + info.spawnOffset;
+            float finalX = wave.triggerXPosition + info.spawnOffset.x;
+            float finalY = 0f;
 
-            //Y축은 이동 범위 제한 내로 랜덤 조정
-            spawnPos.y = Mathf.Clamp(spawnPos.y, -5f, -2.4f);
-            spawnPos.z = 0;
+            //if (playerModel != null)
+            //{
+            //    //설정한 minY, maxY 값 내에서 랜덤 생성
+            //    float randomY = Random.Range(playerModel.minAreaY, playerModel.maxAreaY);
+            //    spawnPos.y = randomY;                
+            //}
+            //else
+            //{
+            //    //-3.0 기본값 설정
+            //    spawnPos.y = -3.0f;
+            //}
+
+            //spawnPos.z = 0;
+
+            //오프셋 Y가 0이면 랜덤, 아니면 입력한 고정값 사용 (매복 적 등 대응)
+            if (info.spawnOffset.y != 0)
+            {
+                finalY = info.spawnOffset.y;
+            }
+            else if (playerModel != null)
+            {
+                finalY = Random.Range(playerModel.minAreaY, playerModel.maxAreaY);
+            }
+            else
+            {
+                finalY = -3.0f;
+            }
+
+            Vector3 spawnPos = new Vector3(finalX, finalY, 0);
 
             //ObjectPoolManager를 통해 적 생성
             GameObject enemyObj = ObjectPoolManager.Instance.SpawnFromPool(info.enemyPoolKey, spawnPos, Quaternion.identity);
@@ -112,14 +175,47 @@ public class StageManager : MonoBehaviour
                 }
 
                 //다시 활성화 될 때 콜라이더 켜기 (죽을 때 껐다면)
-                enemyObj.GetComponent<Collider2D>().enabled = true;
+                //enemyObj.GetComponent<Collider2D>().enabled = true;
+                Collider2D col = enemyObj.GetComponent<Collider2D>();
+                if (col != null) col.enabled = true;
             }
 
             //0.2초마다 순차적으로 스폰
             yield return new WaitForSeconds(0.2f);
         }
 
+        isSpawning = false;
         currentWaveIndex++;
+    }
+
+    //타임 오버
+    private void TimeOver()
+    {
+        isTimeOver = true;
+        Debug.Log("<color=red>TIME OVER</color>");
+
+        //타임오버 즉사 처리 시 플레이어가 보고 있는 위치에 따라 날아가는 방향 변경
+        if (playerView.transform.localScale.x > 0)
+        {   
+            //왼쪽
+            playerPresenter.OnDamaged(9999, new Vector2(transform.localScale.x * -6f, 2f));
+        }
+        else
+        {
+            //오른쪽
+            playerPresenter.OnDamaged(9999, new Vector2(transform.localScale.x * 6f, 2f));
+        }
+    }
+
+    //시간 초기화
+    public void ResetTime()
+    {
+        gameTime = 99f;
+        isTimeOver = false;
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.UpdateTime((int)gameTime);
+        }
     }
 
     public void OnEnemyKilled()
@@ -127,7 +223,7 @@ public class StageManager : MonoBehaviour
         currentEnemyCount--;
         Debug.Log($"<color=yellow>적 처치! 남은 적: {currentEnemyCount}</color>");
 
-        if (currentEnemyCount <= 0 && isBattleActive)
+        if (currentEnemyCount <= 0 && isBattleActive && !isSpawning)
         {
             EndWave();
         }

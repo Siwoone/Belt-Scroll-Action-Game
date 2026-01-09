@@ -87,8 +87,8 @@ public class ObjectPoolManager : MonoBehaviour
         GameObject obj = queue.Dequeue();
 
         //위치 및 회전 설정
-        obj.transform.localPosition = position;
-        obj.transform.localRotation = rotation;
+        obj.transform.position = position;
+        obj.transform.rotation = rotation;
 
         //활성화
         obj.SetActive(true);

@@ -16,7 +16,7 @@ MonoBehaviour:
   damage: 10
   dashDamage: 50
   moveSpeed: 3
-  detectRange: 15
+  detectRange: 20
   stopRange: 1.5
   maxHp: 100
   hitRecoveryTime: 0.4

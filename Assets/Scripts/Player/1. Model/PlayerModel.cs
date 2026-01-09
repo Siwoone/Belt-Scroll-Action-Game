@@ -25,11 +25,7 @@ public class PlayerModel : MonoBehaviour
     [Header("콤보 시스템")]
     public int currentCombo = 0;                //현재 콤보 수
     public float comboTimer = 0f;               //콤보 타이머
-    public float comboDuration = 2.0f;          //콤보 유지 시간
-
-    [Header("게임 시간 설정")]
-    public float gameTime = 99f; // 제한 시간 (초)
-    private bool isTimeOver = false;
+    public float comboDuration = 2.0f;          //콤보 유지 시간    
 
     private void Start()
     {
@@ -47,23 +43,7 @@ public class PlayerModel : MonoBehaviour
             {
                 ResetCombo();
             }
-        }
-
-        if(!isTimeOver && gameTime > 0)
-        {
-            gameTime -= Time.deltaTime;
-
-            if (UIManager.Instance != null)
-            {
-                UIManager.Instance.UpdateTime((int)gameTime);
-            }
-
-            if (gameTime <= 0)
-            {
-                gameTime = 0;
-                TimeOver();
-            }
-        }
+        }        
     }
 
     private void InitializeUI()
@@ -72,26 +52,15 @@ public class PlayerModel : MonoBehaviour
         {
             UIManager.Instance.UpdateHP(currentHp, maxHp);
             UIManager.Instance.UpdateScore(score);
-            UIManager.Instance.UpdateLife(continueCount);
-            UIManager.Instance.UpdateTime((int)gameTime);
+            UIManager.Instance.UpdateLife(continueCount);            
         }
-    }
-
-    //타임 오버
-    private void TimeOver()
-    {
-        isTimeOver = true;
-        Debug.Log("<color = red>TIME OVER</color>");
-
-        //즉사 처리
-        TakeDamage(maxHp);
-    }
+    }    
 
     //대미지 계산
     public void TakeDamage(int amount)
     {
         //무적일 때는 대미지 무시 (타임 오버 제외)
-        if (isInvincible && !isTimeOver) return;
+        if (isInvincible) return;
 
         currentHp -= amount;
         if (currentHp <= 0) currentHp = 0;
@@ -114,8 +83,12 @@ public class PlayerModel : MonoBehaviour
 
         if (continueCount >= 0)
         {
-            gameTime = 99;
-            isTimeOver = false;
+            StageManager stageManager = FindAnyObjectByType<StageManager>();
+            if(stageManager != null)
+            {
+                stageManager.gameTime = 99f;
+                stageManager.ResetTime();
+            }
         }
     }
 

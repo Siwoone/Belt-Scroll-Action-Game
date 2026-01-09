@@ -15,7 +15,7 @@ public class EnemyModel : MonoBehaviour
     [HideInInspector] public string poolKey;
 
     //공격 타입 설정 (기본 / 돌진형)
-    public enum AttackType { Normal, Dash, Object }
+    public enum AttackType { Normal, Dash }
     public AttackType attackType = AttackType.Normal;
 
     //돌진 공격 관련 스탯
@@ -47,7 +47,7 @@ public class EnemyModel : MonoBehaviour
         if (data != null)
         {
             currentHp = data.maxHp;
-            attackType = EnemyModel.AttackType.Normal; //기본값 리셋 필요 시
+            //attackType = EnemyModel.AttackType.Normal; //기본값 리셋 필요 시
         }
         isDead = false;
         isInvincible = false;

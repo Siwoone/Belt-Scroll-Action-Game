@@ -1,7 +1,8 @@
+using System;
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections;
-using System;
 
 public class PlayerPresenter : MonoBehaviour
 {    
@@ -315,7 +316,7 @@ public class PlayerPresenter : MonoBehaviour
         if (model.currentHp <= 0)
         {
             //사망처리
-            StartCoroutine(DeathRoutine());
+            StartCoroutine(DeathRoutine(knockbackForce));
         }
         else
         {
@@ -383,14 +384,40 @@ public class PlayerPresenter : MonoBehaviour
     }
 
     //죽었을 때 호출
-    private IEnumerator DeathRoutine()
+    private IEnumerator DeathRoutine(Vector2 force)
     {
         isDead = true;
         isAttacking = false;
-        isAirborne = false;
+        isAirborne = true;
         isWaveStepping = false;
 
+        //맞기 전 원래 서 있던 지면의 Y값을 저장 (에어본 후 복귀용)
+        float groundY = transform.position.y;
+
         //죽는 연출
+        //view.Flip(moveInput.x);
+        view.PlayAnimation("Airborne");
+
+        //위로 솟구치는 힘 적용
+        view.SetVelocity(force);
+
+        //공중 체류 시간 적용
+        yield return new WaitForSeconds(0.6f);
+
+        //가짜 중력 적용: 아래로 빠르게 하당
+        view.SetVelocity(new Vector2(0, -10f));
+
+        //현재 위치가 원래 지면 높이보다 위에 있는 동안 계속 대기
+        while (transform.position.y > groundY)
+        {
+            yield return null;
+        }
+
+        //바닥에 닿으면 위치를 정확히 고정하고 속도 초기화
+        Vector3 landedPos = transform.position;
+        landedPos.y = groundY;
+        transform.position = landedPos;
+
         view.SetVelocity(Vector2.zero);
         view.PlayAnimation("Down");
 
@@ -411,6 +438,7 @@ public class PlayerPresenter : MonoBehaviour
 
             //최대 HP로 부활
             model.currentHp = model.maxHp;
+            UIManager.Instance.UpdateHP(model.currentHp, model.maxHp);
 
             //부활 시 무적 상태            
             StartCoroutine(InvincibilityRoutine());
@@ -420,6 +448,7 @@ public class PlayerPresenter : MonoBehaviour
             yield return new WaitForSeconds(0.55f);            
 
             isDead = false;
+            isAirborne = false;
             view.PlayAnimation("Idle");
         }
     }

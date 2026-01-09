@@ -39,7 +39,7 @@ public class EnemyPresenter : MonoBehaviour
     void Update()
     {
         //피격, 사망, 공격, 에어본 중이거나 플레이어가 없으면 AI 행동 판단 중단
-        if (isHit || isDead || isAttacking || isAirborne || model.attackType == EnemyModel.AttackType.Object || playerTransform == null || model == null) return;
+        if (isHit || isDead || isAttacking || isAirborne || playerTransform == null || model == null) return;
 
         float distance = Vector2.Distance(transform.position, playerTransform.position);
 

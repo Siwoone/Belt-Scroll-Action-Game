@@ -4,7 +4,7 @@ using UnityEngine;
 public class EnemyData : ScriptableObject
 {    
     [Header("기본 능력치 설계도")]
-    public string enemyName = "Enemy";
+    public string enemyName = "Enemy";  
     public int damage = 10;
     public int dashDamage = 50;
     public float moveSpeed = 3f;

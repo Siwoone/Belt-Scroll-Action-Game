@@ -86,6 +86,10 @@ public class UIManager : MonoBehaviour
             {
                 timeText.color = Color.red;
             }
+            else
+            {
+                timeText.color = Color.white;
+            }
 
             timeText.text = time.ToString();
         }
