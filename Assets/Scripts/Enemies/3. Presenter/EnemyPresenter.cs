@@ -11,11 +11,12 @@ public class EnemyPresenter : MonoBehaviour
     private Camera mainCamera;
 
     [Header("상태 확인")]
-    public bool isHit = false;          //현재 맞고 있는 중인가?
-    public bool isDead = false;         //죽었는가?
-    public bool isAttacking = false;    //공격 중인가?
-    public bool isAirborne = false;     //에어본 중인가?
-    private bool isInCamera = false;    //적이 화면 안에 있는가?
+    public bool isHit = false;              //현재 맞고 있는 중인가?
+    public bool isDead = false;             //죽었는가?
+    public bool isAttacking = false;        //공격 중인가?
+    public bool isAirborne = false;         //에어본 중인가?
+    private bool isInCamera = false;        //적이 화면 안에 있는가?
+    public bool isSpawningState = false;    //스폰 연출 중인가?
 
     [Header("공격 설정")]
     [SerializeField] private Transform attackPoint; //적의 공격 중심점
@@ -39,20 +40,36 @@ public class EnemyPresenter : MonoBehaviour
     void Update()
     {
         //피격, 사망, 공격, 에어본 중이거나 플레이어가 없으면 AI 행동 판단 중단
-        if (isHit || isDead || isAttacking || isAirborne || playerTransform == null || model == null) return;
+        if (isHit || isDead || isAttacking || isAirborne || isSpawningState || playerTransform == null || model == null) return;
 
         float distance = Vector2.Distance(transform.position, playerTransform.position);
 
-        //공격 사거리 안이면 공격 시도
-        if (distance <= model.stopRange)
+        //공격 타입에 따라 사정거리 판단
+        bool canAttack = false;
+
+        if (model.attackType == EnemyModel.AttackType.Dash)
+        {
+            //대시 타입은 5.0f 거리 안으로 들어오면 공격 시도 (일반보다 멈)
+            if (distance <= 5.0f) canAttack = true;
+        }
+
+        else
+        {
+            //일반 타입은 stopRange(1.5f)까지 붙어야 공격
+            if (distance <= model.stopRange) canAttack = true;
+        }
+
+        if (canAttack)
         {
             TryAttack();
         }
+
         //추적 범위 안이면 이동 애니메이션 재생
         else if (distance < model.detectRange)
         {
             view.PlayAnimation("Walk");
         }
+
         //그 외에는 정지
         else
         {
@@ -63,7 +80,7 @@ public class EnemyPresenter : MonoBehaviour
     void FixedUpdate()
     {
         //물리적인 이동과 위치 고정은 FixedUpdate에서 처리
-        if (isHit || isDead || isAttacking || isAirborne || playerTransform == null || model == null) return;
+        if (isHit || isDead || isAttacking || isAirborne || isSpawningState || playerTransform == null || model == null) return;
 
         float distance = Vector2.Distance(transform.position, playerTransform.position);
 
@@ -78,6 +95,59 @@ public class EnemyPresenter : MonoBehaviour
 
         //매 물리 프레임마다 바닥 범위를 벗어나지 못하게 고정
         ClampPosition();
+    }
+
+    //적 스폰 애니메이션 코루틴 실행
+    public void PlaySpawnAnimation()
+    {
+        StartCoroutine(SpawnRoutine());
+    }
+
+    //스폰 코루틴
+    private IEnumerator SpawnRoutine()
+    {
+        isSpawningState = true;
+        view.SetVelocity(Vector2.zero);
+
+        //문 안쪽에서 밖으로 나오는 듯한 느낌
+        Vector3 startPos = transform.position;
+        Vector3 targetPos = startPos - new Vector3(0, 0.8f, 0);
+
+        //투명상태에서 점점 크게 등장
+        view.SetAlpha(0f);
+        view.SetScale(0.8f);
+
+        //애니메이션 클립 길이에 맞춰 실행
+        view.PlayAnimation("Spawn");
+
+        float duration = 1.0f;
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / duration;
+
+            //Fade in 효과
+            view.SetAlpha(Mathf.Lerp(0f, 1f, t));
+
+            //원근감 효과
+            view.SetScale(Mathf.Lerp(0.8f, 1f, t));
+
+            //문에서 걸어서 나옴
+            transform.position = Vector3.Lerp(startPos, targetPos, t);
+
+            yield return null;
+        }
+
+        //투명도 및 크기 고정
+        view.SetAlpha(1f);
+        view.SetScale(1f);
+        transform.position = targetPos;
+
+        //스폰 종료
+        isSpawningState = false;
+        view.PlayAnimation("Idle");
     }
 
     //적 공격 시도
@@ -283,6 +353,8 @@ public class EnemyPresenter : MonoBehaviour
         //초풍급 데미지를 받았을 때 에어본 처리
         if (damage >= 80)
         {
+            GetComponent<Collider2D>().enabled = false;
+
             isAirborne = true;
             view.PlayAnimation("Airborne");
 
@@ -312,6 +384,7 @@ public class EnemyPresenter : MonoBehaviour
             yield return new WaitForSeconds(0.6f);
 
             isAirborne = false;
+            GetComponent<Collider2D>().enabled = true;
         }
         else
         {

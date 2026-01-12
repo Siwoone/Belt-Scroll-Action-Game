@@ -335,6 +335,7 @@ public class PlayerPresenter : MonoBehaviour
         //큰 대미지를 받았을 때 에어본 처리
         if (damage >= 50)
         {
+            GetComponent<Collider2D>().enabled = false;
             isAirborne = true;
             view.PlayAnimation("Airborne");
 
@@ -367,9 +368,10 @@ public class PlayerPresenter : MonoBehaviour
             StartCoroutine(InvincibilityRoutine());
 
             view.PlayAnimation("WakeUp");
-            yield return new WaitForSeconds(0.55f);
-
+            yield return new WaitForSeconds(0.6f);
+            
             isAirborne = false;
+            GetComponent<Collider2D>().enabled = true;
         }
         else
         {                                 
@@ -445,7 +447,7 @@ public class PlayerPresenter : MonoBehaviour
 
             //일어나는 애니메이션
             view.PlayAnimation("WakeUp");
-            yield return new WaitForSeconds(0.55f);            
+            yield return new WaitForSeconds(0.6f);            
 
             isDead = false;
             isAirborne = false;

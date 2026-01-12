@@ -18,8 +18,11 @@ public class StageManager : MonoBehaviour
     [System.Serializable]
     public class EnemySpawnInfo
     {
-        public string enemyPoolKey;     //ObjectPoolManager에 등록된 키
-        public Vector3 spawnOffset;     //플레이어/카메라 기준 스폰 위치
+        public string enemyPoolKey;                             //ObjectPoolManager에 등록된 키
+        public enum SpawnSide { Left, Right, Door, Custom };    //스폰 위치
+        public SpawnSide spawnSide = SpawnSide.Right;
+        public Vector3 spawnOffset;                             //커스텀 선택시 플레이어/카메라 기준 스폰 위치
+        public Transform specificSpawnPoint;                    //특정 오브젝트(에: 문)에서 등장 
     }
 
     [Header("스테이지 설정")]
@@ -36,6 +39,7 @@ public class StageManager : MonoBehaviour
     private PlayerModel playerModel;
     private PlayerPresenter playerPresenter;
     private PlayerView playerView;
+    private Camera mainCamera;
 
     //현재 전투 상태 관리
     private int currentEnemyCount = 0;
@@ -47,6 +51,7 @@ public class StageManager : MonoBehaviour
     void Start()
     {
         //참조한 컴포넌트 초기화
+        mainCamera = Camera.main;
         cameraController = FindAnyObjectByType<CameraController>();
         playerModel = FindAnyObjectByType<PlayerModel>();
         playerPresenter = FindAnyObjectByType<PlayerPresenter>();
@@ -68,7 +73,7 @@ public class StageManager : MonoBehaviour
         if (playerTransform == null || isTimeOver) return;
 
         //아직 작동하지 않은 EnemyWave가 있는지 확인
-        if (!isBattleActive || isSpawning || currentWaveIndex < waves.Count)
+        if (currentWaveIndex < waves.Count && !isBattleActive && !isSpawning)
         {
             EnemyWave wave = waves[currentWaveIndex];
 
@@ -95,7 +100,7 @@ public class StageManager : MonoBehaviour
             }
         }
     }
-
+    
     //Enemy Wave 시작 로직
     private IEnumerator StartWaveRoutine(EnemyWave wave)
     {
@@ -112,23 +117,44 @@ public class StageManager : MonoBehaviour
         foreach (var info in wave.enemies)
         {
             //스폰 위치 계산
-            //Vector3 spawnPos = new Vector3(wave.triggerXPosition, 0, 0) + info.spawnOffset;
-            float finalX = wave.triggerXPosition + info.spawnOffset.x;
+            float finalX = 0f;
             float finalY = 0f;
+            bool isDoorSpawn = false;
 
-            //if (playerModel != null)
-            //{
-            //    //설정한 minY, maxY 값 내에서 랜덤 생성
-            //    float randomY = Random.Range(playerModel.minAreaY, playerModel.maxAreaY);
-            //    spawnPos.y = randomY;                
-            //}
-            //else
-            //{
-            //    //-3.0 기본값 설정
-            //    spawnPos.y = -3.0f;
-            //}
+            //Door 스폰
+            if (info.spawnSide == EnemySpawnInfo.SpawnSide.Door && info.specificSpawnPoint != null)
+            {
+                isDoorSpawn = true;
+                finalX = info.specificSpawnPoint.position.x;
+                finalY = info.specificSpawnPoint.position.y;
 
-            //spawnPos.z = 0;
+                //문 열림 효과
+                DoorObject door = info.specificSpawnPoint.GetComponent<DoorObject>();
+                if (door != null) door.OpenDoor();
+            }
+
+            //화면 기준으로 스폰 위치 계산
+            else if (info.spawnSide == EnemySpawnInfo.SpawnSide.Custom)
+            {
+                finalX = wave.triggerXPosition + info.spawnOffset.x;
+                finalY = info.spawnOffset.y != 0 ? info.spawnOffset.y : -3.0f;
+            }
+
+            else
+            {
+                float screenWidth = mainCamera.orthographicSize * mainCamera.aspect;
+                float cameraX = mainCamera.transform.position.x;
+
+                if (info.spawnSide == EnemySpawnInfo.SpawnSide.Right)
+                {
+                    finalX = cameraX + screenWidth + info.spawnOffset.x + 1f;
+                }
+
+                else
+                {
+                    finalX = cameraX - screenWidth + info.spawnOffset.x - 1f;
+                }
+            }
 
             //오프셋 Y가 0이면 랜덤, 아니면 입력한 고정값 사용 (매복 적 등 대응)
             if (info.spawnOffset.y != 0)
@@ -172,6 +198,12 @@ public class StageManager : MonoBehaviour
                     enemyPresenter.isDead = false;
                     enemyPresenter.isHit = false;
                     enemyPresenter.isAttacking = false;
+
+                    //문에서 나올 때는 Spawn 애니메이션 재생
+                    if (isDoorSpawn)
+                    {
+                        enemyPresenter.PlaySpawnAnimation();
+                    }
                 }
 
                 //다시 활성화 될 때 콜라이더 켜기 (죽을 때 껐다면)
@@ -180,8 +212,11 @@ public class StageManager : MonoBehaviour
                 if (col != null) col.enabled = true;
             }
 
-            //0.2초마다 순차적으로 스폰
-            yield return new WaitForSeconds(0.2f);
+            //문에서 나올 때는 텀을 조금 더 줌
+            float waitTime = isDoorSpawn ? 3.0f : 0.2f;
+
+            //3초마다 순차적으로 스폰
+            yield return new WaitForSeconds(waitTime);
         }
 
         isSpawning = false;

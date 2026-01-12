@@ -39,6 +39,25 @@ public class EnemyView : MonoBehaviour
         }
     }
 
+    //문 등장 연출용 알파값 함수
+    public void SetAlpha(float alpha)
+    {
+        if (sprite != null)
+        {
+            Color color = sprite.color;
+            color.a = alpha;
+            sprite.color = color;
+        }
+    }
+
+    //문 등장 연출용 크기 조절 함수
+    public void SetScale(float scaleRatio)
+    {
+        //현재 바라보는 방향(좌/우) 유지하고 크기만 조절
+        float direction = transform.localScale.x >= 0 ? 1 : -1;
+        transform.localScale = new Vector3(direction * scaleRatio, scaleRatio, 1);
+    }
+
     //피격 시 하얗게 반짝이는 효과
     public void FlashRed()
     {
