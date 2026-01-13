@@ -18,5 +18,5 @@ MonoBehaviour:
   moveSpeed: 3
   detectRange: 25
   stopRange: 1.5
-  maxHp: 400
+  maxHp: 600
   hitRecoveryTime: 0.4

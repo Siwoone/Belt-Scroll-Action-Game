@@ -40,12 +40,18 @@ public class PlayerPresenter : MonoBehaviour
         mainCamera = Camera.main;
     }
 
+    //이동 혹은 공격 로직 시작 전에 확인
+    public bool CanAct()
+    {
+        return !isDead && !isHit && !isAirborne;
+    }
+
     void Update()
     {
         if (view == null || inputBuffer == null || model == null) return;
 
         //공격이나 웨이브 중이 아닐 때만 일반 이동 상태를 View에 전달
-        if (!isHit && !isDead && !isAirborne && !isWaveStepping && !isAttacking)
+        if (CanAct() && !isWaveStepping && !isAttacking)
         {
             view.SetFloat("MoveX", moveInput.x);
             view.SetFloat("MoveY", moveInput.y);
@@ -74,7 +80,7 @@ public class PlayerPresenter : MonoBehaviour
         if (view == null) return;
 
         //기술 사용 중이 아닐 때의 일반 이동 물리 처리
-        if (!isHit && !isDead && !isAirborne && !isWaveStepping && !isAttacking)
+        if (CanAct() && !isWaveStepping && !isAttacking)
         {            
             view.SetVelocity(moveInput * model.moveSpeed);
         }
@@ -110,14 +116,18 @@ public class PlayerPresenter : MonoBehaviour
 
     //기본 공격 및 콤보 로직
     public void OnAttack()
-    {
+    {        
         if (inputBuffer == null) return;
+
+        //맞거나 공중에 뜬 상태에서 입력 불가
+        if (!CanAct()) return;
 
         inputBuffer.RecordInput("Attack");
 
         if (isWaveStepping)
         {
             ExecuteWindFist();
+            return;
         }
 
         //현재 공격 애니메이션 재생 중이라면 중복 입력 방지
@@ -142,8 +152,8 @@ public class PlayerPresenter : MonoBehaviour
 
         //공격 시 전진 가속도 부여
         float forwardForce = 0f;
-        if (comboStep == 4) forwardForce = 0.5f;
-        if (comboStep == 5) forwardForce = 2f;
+        if (comboStep == 4) forwardForce = 0.3f;
+        if (comboStep == 5) forwardForce = 0.6f;
 
         view.SetVelocity(new Vector2(transform.localScale.x * forwardForce, 0));
 
@@ -171,7 +181,7 @@ public class PlayerPresenter : MonoBehaviour
     //웨이브 스텝
     public void StartWaveStep()
     {
-        if (isWaveStepping || isAttacking) return;
+        if (!CanAct() || isWaveStepping || isAttacking) return;
         StartCoroutine(WaveStepRoutine());
     }
 
@@ -187,6 +197,13 @@ public class PlayerPresenter : MonoBehaviour
         while (timer < model.waveDuration)
         {
             // 공격(초풍)이 입력되면 코루틴을 즉시 종료
+            if (!CanAct())
+            {
+                isWaveStepping = false;
+                yield break;
+            }
+
+            //공격으로 캔슬됨
             if (isAttacking) yield break;
 
             view.SetVelocity(new Vector2(dashDir * model.waveSpeed, 0));
@@ -201,16 +218,23 @@ public class PlayerPresenter : MonoBehaviour
             isWaveStepping = false;
             view.PlayAnimation("Idle");
         }
+
+        else if (!CanAct())
+        {
+            //맞아서 끝난 경우
+            isWaveStepping = false;
+        }
     }
 
     //초풍 발동 (웨이브 중 공격 입력 시 호출)
     public void ExecuteWindFist()
     {        
         if (view == null) return;
+        if (!CanAct()) return;
 
         isAttacking = true;
         isWaveStepping = false;
-        StopAllCoroutines(); //진행 중인 웨이브 루틴 중단
+        //StopAllCoroutines(); //진행 중인 웨이브 루틴 중단
 
         //웨이브 속도를 0으로 초기화
         view.SetVelocity(Vector2.zero);
@@ -268,7 +292,7 @@ public class PlayerPresenter : MonoBehaviour
     private void ResetAttackState() 
     { 
         isAttacking = false; 
-        if(view != null)
+        if(view != null && CanAct())
         {
             view.PlayAnimation("Idle");
         }
@@ -304,12 +328,20 @@ public class PlayerPresenter : MonoBehaviour
 
     public void OnDamaged(int damage, Vector2 knockbackForce)
     {
+        //이미 죽었거나 무적 상태면 무시
         if (isDead || model == null || model.isInvincible) return;
 
         model.TakeDamage(damage);
 
         //새로운 타격 시 이전의 모든 루틴(공격, 피격)을 중단하고 다시 시작
         StopAllCoroutines();
+
+        //알파값 및 색상값 초기화
+        view.ResetVisuals();
+
+        //강제 무적 해제
+        model.isInvincible = false;
+
         isAttacking = false;
         isWaveStepping = false;
 
@@ -328,6 +360,9 @@ public class PlayerPresenter : MonoBehaviour
     private IEnumerator HitRoutine(int damage, Vector2 force)
     {
         isHit = true;
+
+        //피격 시 무적 부여 (연속 타격 방지)
+        model.isInvincible = true;
 
         //맞기 전 원래 서 있던 지면의 Y값을 저장 (에어본 후 복귀용)
         float groundY = transform.position.y;
@@ -369,7 +404,7 @@ public class PlayerPresenter : MonoBehaviour
 
             view.PlayAnimation("WakeUp");
             yield return new WaitForSeconds(0.6f);
-            
+
             isAirborne = false;
             GetComponent<Collider2D>().enabled = true;
         }
@@ -379,9 +414,13 @@ public class PlayerPresenter : MonoBehaviour
             view.SetVelocity(Vector2.zero);         //넉백               
             yield return new WaitForSeconds(0.4f);  //넉백 시간            
             //view.SetVelocity(Vector2.zero);         //넉백 정지
+
+            //일반 피격 후 무적 해제
+            model.isInvincible = false;
         }
 
-        isHit = false;        
+        isHit = false;
+        view.ResetVisuals();
         view.PlayAnimation("Idle");
     }
 
@@ -464,12 +503,12 @@ public class PlayerPresenter : MonoBehaviour
         //3초간 무적 시간 부여 (10 = 2초)
         for (int i = 0; i < 15; i++)
         {
-            sprite.color = new Color(1, 1, 1, 0.5f); // 반투명
+            sprite.color = new Color(1, 1, 1, 0.5f); //반투명
             yield return new WaitForSeconds(0.1f);
-            sprite.color = new Color(1, 1, 1, 1f);   // 불투명
+            sprite.color = new Color(1, 1, 1, 1f);   //불투명
             yield return new WaitForSeconds(0.1f);
         }
-
+        
         model.isInvincible = false;
     }
 

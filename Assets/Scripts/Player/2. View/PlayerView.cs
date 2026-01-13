@@ -5,12 +5,26 @@ public class PlayerView : MonoBehaviour
     //각 컴포넌트 변수 선언
     private Animator anim;
     private Rigidbody2D rb;
+    private SpriteRenderer sprite;
 
     void Awake()
     {
         //컴포넌트 변수 초기화
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
+    }
+
+    //알파값 및 색상값 초기화
+    public void ResetVisuals()
+    {
+        if (sprite != null)
+        {
+            sprite.color = Color.white;
+            Color color = sprite.color;
+            color.a = 1f;
+            sprite.color = color;
+        }
     }
     
     public void PlayAnimation(string animName)
@@ -37,10 +51,29 @@ public class PlayerView : MonoBehaviour
 
     public void SetTrigger(string triggerName)
     {
-        //애니메이터의 트리거 설정
-        anim.SetTrigger(triggerName);
+        if (anim != null)
+        {
+            //애니메이터의 트리거 설정
+            anim.SetTrigger(triggerName);
+        }
     }
-    
-    public void SetFloat(string name, float value) => anim.SetFloat(name, value);   //애니메이터의 float 파라미터 설정
-    public void SetBool(string name, bool value) => anim.SetBool(name, value);      //애니메이터의 bool 파라미터 설정
+
+    public void SetFloat(string name, float value)
+    {
+        if (anim != null)
+        {
+            //애니메이터의 float 파라미터 설정
+            anim.SetFloat(name, value);   
+        }
+    }
+
+    //public void SetBool(string name, bool value) => anim.SetBool(name, value);
+    public void SetBool(string name, bool value)
+    {
+        if (anim != null)
+        {
+            //애니메이터의 bool 파라미터 설정
+            anim.SetBool(name, value);      
+        }
+    }
 }

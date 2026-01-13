@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 48321424}
   - component: {fileID: 48321423}
   m_Layer: 0
-  m_Name: Object_2
+  m_Name: DoorObject_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -207,6 +207,9 @@ MonoBehaviour:
   openSprite: {fileID: -7341407202210888751, guid: e30d735681de0a743aa93acdab2fd86a, type: 3}
   closedSprite: {fileID: 6623719234781301212, guid: e30d735681de0a743aa93acdab2fd86a, type: 3}
   openDuration: 2
+  exitOffset: {x: 0, y: -0.8, z: 0}
+  startScale: 0.8
+  spawnFacing: 0
 --- !u!4 &48321425
 Transform:
   m_ObjectHideFlags: 0
@@ -215,12 +218,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48321422}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.86, y: 0.01, z: -0.0567}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 31.191599, y: 0.5440264, z: -0.024815872}
   m_LocalScale: {x: 3.7917, y: 3.7917, z: 3.7917}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 496197934}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &112044904
 GameObject:
@@ -337,7 +340,7 @@ GameObject:
   - component: {fileID: 124314096}
   - component: {fileID: 124314098}
   m_Layer: 0
-  m_Name: Object_1
+  m_Name: DoorObject_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,6 +361,9 @@ MonoBehaviour:
   openSprite: {fileID: -7341407202210888751, guid: e30d735681de0a743aa93acdab2fd86a, type: 3}
   closedSprite: {fileID: 6623719234781301212, guid: e30d735681de0a743aa93acdab2fd86a, type: 3}
   openDuration: 1
+  exitOffset: {x: 0, y: -0.8, z: 0}
+  startScale: 0.8
+  spawnFacing: 0
 --- !u!4 &124314097
 Transform:
   m_ObjectHideFlags: 0
@@ -366,12 +372,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 124314095}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.19, y: -0.0296, z: -0.0567}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.521599, y: 0.50442636, z: -0.024815872}
   m_LocalScale: {x: 3.7917, y: 3.7917, z: 3.7917}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 496197934}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &124314098
 SpriteRenderer:
@@ -673,6 +679,39 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &496197933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 496197934}
+  m_Layer: 0
+  m_Name: Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &496197934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496197933}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.3315988, y: -0.5340264, z: -0.031884126}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 124314097}
+  - {fileID: 48321425}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &550274142
@@ -1018,10 +1057,6 @@ MonoBehaviour:
   - waveName: 1-1 boss
     triggerXPosition: 25
     enemies:
-    - enemyPoolKey: Damnd
-      spawnSide: 1
-      spawnOffset: {x: 10, y: -2.3, z: 0}
-      specificSpawnPoint: {fileID: 0}
     - enemyPoolKey: Dug
       spawnSide: 2
       spawnOffset: {x: 10, y: -2.3, z: 0}
@@ -1035,7 +1070,7 @@ MonoBehaviour:
       spawnOffset: {x: 10, y: -2.3, z: 0}
       specificSpawnPoint: {fileID: 48321425}
     hasTriggered: 0
-  nextSceneName: 
+  nextSceneName: Stage2
   gameTime: 100
 --- !u!1 &697974876
 GameObject:
@@ -2936,5 +2971,4 @@ SceneRoots:
   - {fileID: 1038182525}
   - {fileID: 1651286207}
   - {fileID: 415837012}
-  - {fileID: 124314097}
-  - {fileID: 48321425}
+  - {fileID: 496197934}

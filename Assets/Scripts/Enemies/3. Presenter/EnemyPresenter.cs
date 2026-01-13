@@ -98,27 +98,54 @@ public class EnemyPresenter : MonoBehaviour
     }
 
     //적 스폰 애니메이션 코루틴 실행
-    public void PlaySpawnAnimation()
+    public void PlaySpawnAnimation(DoorObject doorInfo = null)
     {
-        StartCoroutine(SpawnRoutine());
+        StartCoroutine(SpawnRoutine(doorInfo));
     }
 
     //스폰 코루틴
-    private IEnumerator SpawnRoutine()
+    private IEnumerator SpawnRoutine(DoorObject doorInfo)
     {
         isSpawningState = true;
         view.SetVelocity(Vector2.zero);
 
         //문 안쪽에서 밖으로 나오는 듯한 느낌
         Vector3 startPos = transform.position;
-        Vector3 targetPos = startPos - new Vector3(0, 0.8f, 0);
+        Vector3 targetPos;
+        float sScale = 0.8f;
+        string animName = "Spawn";
+
+        //좌/우 문에서 나올 경우 계단에서 걸어 내려오는 느낌
+        if (doorInfo != null)
+        {
+            //문에서 설정한 방향대로 나감 (계단이면 대각선, 옆문이면 좌우 등)
+            targetPos = startPos + doorInfo.exitOffset;
+            sScale = doorInfo.startScale;
+
+            //X축 오프셋이 거의 0보다 크거나 작을 경우 Walk 애니메이션 클립 실행
+            if (Mathf.Abs(doorInfo.exitOffset.x) > 0.1f || Mathf.Abs(doorInfo.exitOffset.x) < -0.1f)
+            {
+                animName = "Walk";
+            }
+
+            //방향 설정
+            if (doorInfo.spawnFacing != 0) view.Flip(doorInfo.spawnFacing);
+            else if (playerTransform != null) view.Flip(playerTransform.position.x - startPos.x);
+        }
+
+        else
+        {
+            //기본값 (아래로 등장)
+            targetPos = startPos - new Vector3(0, 0.8f, 0);
+            if (playerTransform != null) view.Flip(playerTransform.position.x - startPos.x);
+        }
 
         //투명상태에서 점점 크게 등장
         view.SetAlpha(0f);
-        view.SetScale(0.8f);
+        view.SetScale(sScale);
 
-        //애니메이션 클립 길이에 맞춰 실행
-        view.PlayAnimation("Spawn");
+        //애니메이션 초기설정값 복원
+        view.PlayAnimation(animName);
 
         float duration = 1.0f;
         float elapsed = 0f;
@@ -351,7 +378,7 @@ public class EnemyPresenter : MonoBehaviour
         float groundY = transform.position.y;
 
         //초풍급 데미지를 받았을 때 에어본 처리
-        if (damage >= 80)
+        if (damage >= 50)
         {
             GetComponent<Collider2D>().enabled = false;
 

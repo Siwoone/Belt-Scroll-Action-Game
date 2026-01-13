@@ -41,6 +41,9 @@ public class StageManager : MonoBehaviour
     private PlayerView playerView;
     private Camera mainCamera;
 
+    //화면 효과 제어
+    private ScreenFader screenFader;
+
     //현재 전투 상태 관리
     private int currentEnemyCount = 0;
     private bool isBattleActive = false;
@@ -55,7 +58,8 @@ public class StageManager : MonoBehaviour
         cameraController = FindAnyObjectByType<CameraController>();
         playerModel = FindAnyObjectByType<PlayerModel>();
         playerPresenter = FindAnyObjectByType<PlayerPresenter>();
-        
+        screenFader = FindAnyObjectByType<ScreenFader>();
+
         if (playerPresenter != null)
         {
             playerTransform = playerPresenter.transform;            
@@ -197,12 +201,22 @@ public class StageManager : MonoBehaviour
                     //프레젠터 변수 초기화 (혹시 꼬였을 경우 대비)
                     enemyPresenter.isDead = false;
                     enemyPresenter.isHit = false;
-                    enemyPresenter.isAttacking = false;
+                    enemyPresenter.isAttacking = false;                    
 
                     //문에서 나올 때는 Spawn 애니메이션 재생
                     if (isDoorSpawn)
                     {
-                        enemyPresenter.PlaySpawnAnimation();
+                        //enemyPresenter.PlaySpawnAnimation();
+                        //info.specificSpawnPoint에 붙은 DoorObject 컴포넌트를 찾아서 넘겨줌
+                        DoorObject door = info.specificSpawnPoint.GetComponent<DoorObject>();
+                        enemyPresenter.PlaySpawnAnimation(door);
+                    }
+
+                    //적 스폰 후 플레이어를 바라봄
+                    if (playerTransform != null)
+                    {
+                        float dir = playerTransform.position.x - enemyObj.transform.position.x;
+                        enemyPresenter.GetComponent<EnemyView>().Flip(dir);
                     }
                 }
 
@@ -287,6 +301,13 @@ public class StageManager : MonoBehaviour
     private IEnumerator StageClearRoutine()
     {
         yield return new WaitForSeconds(2.0f);
+
+        //Scene을 바로 넘기지 않고 암전 후 이동
+        if (screenFader != null)
+        {
+            // 페이드 아웃(어두워짐)이 끝날 때까지 대기
+            yield return StartCoroutine(screenFader.FadeOutRoutine());
+        }
 
         //다음 Scene 로드
         if (!string.IsNullOrEmpty(nextSceneName))

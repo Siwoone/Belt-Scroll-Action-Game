@@ -20,7 +20,7 @@ public class PlayerModel : MonoBehaviour
 
     [Header("이동 범위 제한 (바닥 설정)")]
     public float minAreaY = -5.0f;              //화면 아래쪽 한계선
-    public float maxAreaY = -2.2f;              //화면 위쪽(벽) 한계선
+    public float maxAreaY = -2.4f;              //화면 위쪽(벽) 한계선
 
     [Header("콤보 시스템")]
     public int currentCombo = 0;                //현재 콤보 수
