@@ -29,6 +29,10 @@ public class StageManager : MonoBehaviour
     [SerializeField] private List<EnemyWave> waves;
     [SerializeField] private string nextSceneName;      //스테이지 클리어 후 이동할 Scene 이름
 
+    //Inspector에서 직접 번호를 지정할 수도 있게 변수 추가 (기본값 -1이면 자동 감지)
+    [Tooltip("재생할 BGM 번호. -1이면 씬 이름(Stage1=0, Stage2=1...)에 따라 자동 설정됩니다.")]
+    public int stageBgmIndex = -1;
+
     [Header("게임 시간 설정")]
     public float gameTime = 99f; // 제한 시간 (초)
     private bool isTimeOver = false;
@@ -69,6 +73,9 @@ public class StageManager : MonoBehaviour
         
         if (playerModel == null) playerModel = FindAnyObjectByType<PlayerModel>();
         if (UIManager.Instance != null) UIManager.Instance.UpdateTime((int)gameTime);
+
+        //스테이지 별 BGM 실행
+        PlayStageBGM();
     }
 
     // Update is called once per frame
@@ -235,6 +242,36 @@ public class StageManager : MonoBehaviour
 
         isSpawning = false;
         currentWaveIndex++;
+    }
+
+    //스테이지 별 BGM 실행
+    public void PlayStageBGM()
+    {
+        //null 체크
+        if (SoundManager.Instance == null) return;
+
+        //BGM 인덱스 초기화
+        int bgmIndex = 0;
+
+        //Inspector에서 직접 번호를 정해줬다면 그걸 최우선으로 사용
+        if (stageBgmIndex >= 0)
+        {
+            bgmIndex = stageBgmIndex;
+        }
+
+        //씬 이름을 보고 자동 결정
+        else
+        {
+            string sceneName = SceneManager.GetActiveScene().name;
+
+            if (sceneName.Contains("Stage1")) bgmIndex = 0;
+            if (sceneName.Contains("Stage2")) bgmIndex = 1;
+            if (sceneName.Contains("Stage3")) bgmIndex = 2;
+        }
+
+        // oundManager 초기화 시 등록한 키값 "Audio Clips"를 사용해 재생
+        SoundManager.Instance.PlayBGM("Audio Clips", bgmIndex);
+        Debug.Log($"<color=cyan>🎵 BGM 재생: 인덱스 {bgmIndex}</color>");
     }
 
     //타임 오버

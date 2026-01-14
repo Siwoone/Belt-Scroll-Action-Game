@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using System;
+using Random = UnityEngine.Random;
 
 public class EnemyPresenter : MonoBehaviour
 {
@@ -384,6 +385,7 @@ public class EnemyPresenter : MonoBehaviour
 
             isAirborne = true;
             view.PlayAnimation("Airborne");
+            SoundManager.Instance.PlaySFX("Audio Clips", 30);
 
             //위로 솟구치는 힘 적용
             view.SetVelocity(force);
@@ -418,6 +420,8 @@ public class EnemyPresenter : MonoBehaviour
             //일반 피격
             view.PlayAnimation("Hit");
             view.SetVelocity(force);
+            int soundIndex = Random.Range(12, 14);                      //랜덤 히트 사운드 출력
+            SoundManager.Instance.PlaySFX("Audio Clips", soundIndex);
             yield return new WaitForSeconds(model.hitRecoveryTime);
             view.SetVelocity(Vector2.zero);
         }

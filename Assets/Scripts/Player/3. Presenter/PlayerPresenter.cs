@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Random = UnityEngine.Random;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -148,6 +149,7 @@ public class PlayerPresenter : MonoBehaviour
 
         //애니메이션 실행
         string attackAnimName = "Attack" + comboStep;
+        AttackSound(comboStep);
         view.PlayAnimation(attackAnimName);
 
         //공격 시 전진 가속도 부여
@@ -238,19 +240,45 @@ public class PlayerPresenter : MonoBehaviour
 
         //웨이브 속도를 0으로 초기화
         view.SetVelocity(Vector2.zero);
+        
         //초풍 애니메이션 실행 및 앞으로 조금 전진
         view.PlayAnimation("WindFist");        
         view.SetVelocity(new Vector2(transform.localScale.x * 4f, 0));
 
+        //초풍 SFX 실행
+        SoundManager.Instance.PlaySFX("Audio Clips", 0);
+        SoundManager.Instance.PlaySFX("Audio Clips", 1);
+
         //초풍 공격 판정
         int damage = 80;
-        CheckHit(damage, new Vector2(transform.localScale.x * 6f, 2f)); //넉백 백터       
+        CheckHit(damage, new Vector2(transform.localScale.x * 6f, 2f)); //넉백 백터               
 
         //짧은 시간 뒤에 속도를 다시 0으로 만들어 공격 위치 고정
         Invoke("StopMovement", 0.15f);
 
         //애니메이션 재생 시간에 맞춰 공격 상태 리셋 (약 0.5초)
         Invoke("ResetAttackState", 0.5f);
+    }
+
+    void AttackSound(int sound)
+    {
+        if (comboStep == 1)
+        {
+            int soundIndex = Random.Range(2, 4);
+            SoundManager.Instance.PlaySFX("Audio Clips", soundIndex);
+        }
+
+        if (comboStep == 3)
+        {
+            int soundIndex = Random.Range(4, 6);
+            SoundManager.Instance.PlaySFX("Audio Clips", soundIndex);
+        }
+
+        if (comboStep == 5)
+        {
+            int soundIndex = Random.Range(6, 8);
+            SoundManager.Instance.PlaySFX("Audio Clips", soundIndex);
+        }
     }
 
     private void CheckHit(int damage, Vector2 knockback)
@@ -373,6 +401,10 @@ public class PlayerPresenter : MonoBehaviour
             GetComponent<Collider2D>().enabled = false;
             isAirborne = true;
             view.PlayAnimation("Airborne");
+            SoundManager.Instance.PlaySFX("Audio Clips", 30);
+
+            int soundIndex = Random.Range(10, 12);                      //랜덤 대미지 사운드 출력
+            SoundManager.Instance.PlaySFX("Audio Clips", soundIndex);
 
             //위로 솟구치는 힘 적용
             view.SetVelocity(force);
@@ -410,10 +442,17 @@ public class PlayerPresenter : MonoBehaviour
         }
         else
         {                                 
-            view.PlayAnimation("Hit");              //일반 피격               
-            view.SetVelocity(Vector2.zero);         //넉백               
-            yield return new WaitForSeconds(0.4f);  //넉백 시간            
-            //view.SetVelocity(Vector2.zero);         //넉백 정지
+            view.PlayAnimation("Hit");                                  //일반 피격               
+            view.SetVelocity(Vector2.zero);                             //넉백                         
+            
+            int soundIndex = Random.Range(12, 14);                      //랜덤 히트 사운드 출력
+            SoundManager.Instance.PlaySFX("Audio Clips", soundIndex);
+
+            int soundIndex2 = Random.Range(8, 10);                      //랜덤 대미지 사운드 출력
+            SoundManager.Instance.PlaySFX("Audio Clips", soundIndex2);
+
+            yield return new WaitForSeconds(0.4f);                      //넉백 시간            
+            //view.SetVelocity(Vector2.zero);                           //넉백 정지
 
             //일반 피격 후 무적 해제
             model.isInvincible = false;
