@@ -38,8 +38,52 @@ public class EnemyPresenter : MonoBehaviour
         if (player != null) playerTransform = player.transform;
     }
 
+    private void OnEnable()
+    {
+        FindPlayer();
+        mainCamera = Camera.main;
+    }
+
+    private void OnDisable()
+    {
+        //참조하고 있던 플레이어의 위치 정보를 비워줌
+        playerTransform = null;
+        mainCamera = Camera.main;
+
+        //코루틴이 작동 중이라면 모두 정지
+        StopAllCoroutines();
+
+        //bool 상태값 초기화
+        isHit = false;
+        isDead = false;
+        isAttacking = false;
+        isAirborne = false;
+    }
+
+    public void FindPlayer()
+    {
+        //Scene에 있는 PlayerPresenter를 탐색
+        var player = FindAnyObjectByType<PlayerPresenter>();
+        if (player !=null)
+        {
+            playerTransform = player.transform;
+        }
+
+        else
+        {
+            playerTransform = null;
+        }
+
+    }
+
     void Update()
     {
+        if (playerTransform == null)
+        {
+            FindPlayer();
+            return;
+        }
+
         //피격, 사망, 공격, 에어본 중이거나 플레이어가 없으면 AI 행동 판단 중단
         if (isHit || isDead || isAttacking || isAirborne || isSpawningState || playerTransform == null || model == null) return;
 
@@ -108,6 +152,8 @@ public class EnemyPresenter : MonoBehaviour
     private IEnumerator SpawnRoutine(DoorObject doorInfo)
     {
         isSpawningState = true;
+        model.isInvincible = true;
+
         view.SetVelocity(Vector2.zero);
 
         //문 안쪽에서 밖으로 나오는 듯한 느낌
@@ -175,6 +221,7 @@ public class EnemyPresenter : MonoBehaviour
 
         //스폰 종료
         isSpawningState = false;
+        model.isInvincible = false;
         view.PlayAnimation("Idle");
     }
 
@@ -301,6 +348,13 @@ public class EnemyPresenter : MonoBehaviour
     //Y축 고정
     private void ClampPosition()
     {
+        //카메라가 없으면 작동 중지
+        if(mainCamera == null)
+        {
+            mainCamera = Camera.main;       //한번 더 찾기
+            if (mainCamera == null) return; //없으면 리턴
+        }
+
         Vector3 pos = transform.position;
 
         //화면(Viewport) 좌표로 변환 (0~1 사이 값)

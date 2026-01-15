@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2053902964941735893}
-  - component: {fileID: 2566340460509216546}
+  - component: {fileID: 6786186621718867440}
   - component: {fileID: 6532714053002952638}
   - component: {fileID: 931157897610570172}
   - component: {fileID: 4085512143241327490}
@@ -35,7 +35,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2566340460509216546
+--- !u!114 &6786186621718867440
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,65 +44,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1633724678095175868}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07b395edb3bc47646a4f9974f10fc489, type: 3}
+  m_Script: {fileID: 11500000, guid: 2563eb8f40ce58c409a7eac715d303d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waves:
-  - waveName: StartWave
-    triggerXPosition: -1
-    enemies:
-    - enemyPoolKey: J
-      spawnSide: 1
-      spawnOffset: {x: 1, y: -5, z: 0}
-      specificSpawnPoint: {fileID: 0}
-    - enemyPoolKey: G Oriber
-      spawnSide: 1
-      spawnOffset: {x: 2, y: -3, z: 0}
-      specificSpawnPoint: {fileID: 0}
-    - enemyPoolKey: J
-      spawnSide: 0
-      spawnOffset: {x: 1, y: -3, z: 0}
-      specificSpawnPoint: {fileID: 0}
-    hasTriggered: 0
-  - waveName: SeconedWave
-    triggerXPosition: 8
-    enemies:
-    - enemyPoolKey: J
-      spawnSide: 1
-      spawnOffset: {x: 4, y: -5, z: 0}
-      specificSpawnPoint: {fileID: 0}
-    - enemyPoolKey: G Oriber
-      spawnSide: 1
-      spawnOffset: {x: 1.5, y: -2.5, z: 0}
-      specificSpawnPoint: {fileID: 0}
-    - enemyPoolKey: Jake
-      spawnSide: 2
-      spawnOffset: {x: 1.5, y: -2.3, z: 0}
-      specificSpawnPoint: {fileID: 0}
-    - enemyPoolKey: Bred
-      spawnSide: 2
-      spawnOffset: {x: 1.5, y: -2.3, z: 0}
-      specificSpawnPoint: {fileID: 0}
-    hasTriggered: 0
-  - waveName: 1-1 boss
-    triggerXPosition: 25
-    enemies:
-    - enemyPoolKey: Dug
-      spawnSide: 2
-      spawnOffset: {x: 10, y: -2.3, z: 0}
-      specificSpawnPoint: {fileID: 0}
-    - enemyPoolKey: J
-      spawnSide: 0
-      spawnOffset: {x: 1, y: -2.3, z: 0}
-      specificSpawnPoint: {fileID: 0}
-    - enemyPoolKey: Bred
-      spawnSide: 2
-      spawnOffset: {x: 10, y: -2.3, z: 0}
-      specificSpawnPoint: {fileID: 0}
-    hasTriggered: 0
-  nextSceneName: Stage2
-  stageBgmIndex: -1
-  gameTime: 100
+  savedScore: 0
+  savedLives: 2
+  savedHp: 200
+  isFirstStage: 1
 --- !u!114 &6532714053002952638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,8 +84,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 0fda324fa9e09f34ca468029c17e0e13, type: 3}
   - {fileID: 8300000, guid: 3c5950478f81bd44dad830da870b51a3, type: 3}
   - {fileID: 8300000, guid: d161957d75de8014f8a6257f168a6ae9, type: 3}
-  - {fileID: 8300000, guid: 62d7291e01ced1c49806b389f67fffd8, type: 3}
-  - {fileID: 8300000, guid: e62d26d305af3874b9f3f2f173fdb86e, type: 3}
+  - {fileID: 8300000, guid: 30283fe5ecee97a4da6f65f9f75e3597, type: 3}
+  - {fileID: 8300000, guid: c06be58382f0f4c46b3a577b1fc0f41a, type: 3}
   - {fileID: 8300000, guid: f1395b78648d96442845967105c43ea4, type: 3}
   - {fileID: 8300000, guid: 8582e2760a5aa1b4888a67c394286a87, type: 3}
   - {fileID: 8300000, guid: 97488cf4f4d5a07479000c609cd985a5, type: 3}
@@ -154,9 +102,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 61654fa12bbe13b4099cda3d70647867, type: 3}
   - {fileID: 8300000, guid: d1ceffa6c12e3a54ca3f1f952afc21d9, type: 3}
   - {fileID: 8300000, guid: 3bf4bd8791f0bc84bb0fdb335be5a4e9, type: 3}
+  - {fileID: 8300000, guid: 3146aa4c13fd4a143945fd89a4b419b9, type: 3}
   masterVolume: 1
   bgmVolume: 0.5
-  sfxVolume: 0.3
+  sfxVolume: 0.2
 --- !u!82 &931157897610570172
 AudioSource:
   m_ObjectHideFlags: 0

@@ -54,6 +54,16 @@ public class StageManager : MonoBehaviour
     private bool isSpawning = false;
     private int currentWaveIndex = 0;
 
+    public static StageManager Instance;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -72,7 +82,30 @@ public class StageManager : MonoBehaviour
         }        
         
         if (playerModel == null) playerModel = FindAnyObjectByType<PlayerModel>();
+        
+        //UIManager 시간 초기화
         if (UIManager.Instance != null) UIManager.Instance.UpdateTime((int)gameTime);
+
+        if (MasterManager.Instance != null && playerModel != null)
+        {
+            //Stage1이 아니면 저장된 데이터를 덮어씌움
+            if (!MasterManager.Instance.isFirstStage)
+            {
+                playerModel.score = MasterManager.Instance.savedScore;
+                playerModel.continueCount = MasterManager.Instance.savedLives;
+                playerModel.currentHp = MasterManager.Instance.savedHp;
+
+                Debug.Log($"<color=green>데이터 로드 완료: HP {playerModel.currentHp}</color>");
+            }
+        }
+
+        //불러온 데이터 기반으로 UI 갱신
+        if (UIManager.Instance != null && playerModel != null)
+        {
+            UIManager.Instance.UpdateScore(playerModel.score);
+            UIManager.Instance.UpdateLife(playerModel.continueCount);
+            UIManager.Instance.UpdateHP(playerModel.currentHp, playerModel.maxHp);
+        }
 
         //스테이지 별 BGM 실행
         PlayStageBGM();
@@ -338,6 +371,12 @@ public class StageManager : MonoBehaviour
     private IEnumerator StageClearRoutine()
     {
         yield return new WaitForSeconds(2.0f);
+
+        //씬 이동 전에 현재 상태를 MasterManager에 저장
+        if (MasterManager.Instance != null && playerModel != null)
+        {
+            MasterManager.Instance.SavePlayerData(playerModel.score, playerModel.continueCount, playerModel.currentHp);
+        }
 
         //Scene을 바로 넘기지 않고 암전 후 이동
         if (screenFader != null)
