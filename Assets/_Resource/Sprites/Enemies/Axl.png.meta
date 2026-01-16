@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: cd0871f6437760448ba6790f69c8097f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4521319680779412461
+    second: Axl_0
+  - first:
+      213: -7838219528280230407
+    second: Axl_1
+  - first:
+      213: 267835768098500918
+    second: Axl_2
+  - first:
+      213: 917053031335411022
+    second: Axl_3
+  - first:
+      213: -6180876807999093846
+    second: Axl_4
+  - first:
+      213: 1020178165333438824
+    second: Axl_5
+  - first:
+      213: 5307495155475026749
+    second: Axl_6
+  - first:
+      213: -4288128283036476070
+    second: Axl_7
+  - first:
+      213: -2899089409065493998
+    second: Axl_8
+  - first:
+      213: 2124241682159476186
+    second: Axl_9
+  - first:
+      213: -3611811264045021768
+    second: Axl_10
+  - first:
+      213: 9007222384602837716
+    second: Axl_11
+  - first:
+      213: 1088818628845780212
+    second: Axl_12
+  - first:
+      213: -5378481503580364940
+    second: Axl_13
+  - first:
+      213: -4100053054784841259
+    second: Axl_14
+  - first:
+      213: -6955428846733460387
+    second: Axl_15
+  - first:
+      213: -6835171482979183614
+    second: Axl_16
+  - first:
+      213: -4327891617978159365
+    second: Axl_17
+  - first:
+      213: 7239298079870432302
+    second: Axl_18
+  - first:
+      213: -5837999323265937707
+    second: Axl_19
+  - first:
+      213: 2145353422607186650
+    second: Axl_20
+  - first:
+      213: 5219088612533032789
+    second: Axl_21
+  - first:
+      213: 6018653890667064198
+    second: Axl_22
+  - first:
+      213: 3353211689755664810
+    second: Axl_23
+  - first:
+      213: -7753792048111410360
+    second: Axl_24
+  - first:
+      213: -6828165797938951908
+    second: Axl_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Axl_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 384
+        width: 63
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c192f84bb0141c0800000000000000
+      internalID: -4521319680779412461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 387
+        width: 52
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5b3512edc093390800000000000000
+      internalID: -7838219528280230407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 390
+        width: 64
+        height: 107
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631b7a7463b87b300800000000000000
+      internalID: 267835768098500918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 390
+        width: 75
+        height: 86
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d31fc8fd60abc00800000000000000
+      internalID: 917053031335411022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_4
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 388
+        width: 54
+        height: 91
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa383c27a4d193aa0800000000000000
+      internalID: -6180876807999093846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_5
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 386
+        width: 54
+        height: 94
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8613f40e2a6682e00800000000000000
+      internalID: 1020178165333438824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_6
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 386
+        width: 99
+        height: 89
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33123d39b208a940800000000000000
+      internalID: 5307495155475026749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 67
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d1e4acb028d74c0800000000000000
+      internalID: -4288128283036476070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_8
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 263
+        width: 71
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21add80ea8d54c7d0800000000000000
+      internalID: -2899089409065493998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 261
+        width: 64
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add91322e82da7d10800000000000000
+      internalID: 2124241682159476186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_10
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 261
+        width: 64
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b587d2aac440edc0800000000000000
+      internalID: -3611811264045021768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 261
+        width: 67
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2f2375905100d70800000000000000
+      internalID: 9007222384602837716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_12
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 260
+        width: 64
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc3e2d26c24c1f00800000000000000
+      internalID: 1088818628845780212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_13
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 256
+        width: 59
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f5514a19bcb55b0800000000000000
+      internalID: -5378481503580364940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_14
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 268
+        width: 59
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d95b4d387fa917c0800000000000000
+      internalID: -4100053054784841259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_15
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 268
+        width: 59
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c72f9b05a597f90800000000000000
+      internalID: -6955428846733460387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 64
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204552220c79421a0800000000000000
+      internalID: -6835171482979183614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_17
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 135
+        width: 67
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe650ce08d30f3c0800000000000000
+      internalID: -4327891617978159365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_18
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 133
+        width: 57
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2438d98f37277460800000000000000
+      internalID: 7239298079870432302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_19
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 133
+        width: 64
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de43c9eb824bfea0800000000000000
+      internalID: -5837999323265937707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_20
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 133
+        width: 63
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada7b204293d5cd10800000000000000
+      internalID: 2145353422607186650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 132
+        width: 57
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5575151f07ded6840800000000000000
+      internalID: 5219088612533032789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_22
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 138
+        width: 71
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bab3b43dd868350800000000000000
+      internalID: 6018653890667064198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1e2980440098e20800000000000000
+      internalID: 3353211689755664810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 112
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843221ea63ff46490800000000000000
+      internalID: -7753792048111410360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19806a426b7d31a0800000000000000
+      internalID: -6828165797938951908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 391
+        width: 64
+        height: 117
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06f4372ef508f74e942e3754c14fb6f
+      internalID: 1190177146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axl_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 390
+        width: 100
+        height: 91
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac8e32d0a276b24cad636cf81db2678
+      internalID: 408403415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 552caea637f247142bb096d55d540152
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Axl_0: -4521319680779412461
+      Axl_1: -7838219528280230407
+      Axl_10: -3611811264045021768
+      Axl_11: 9007222384602837716
+      Axl_12: 1088818628845780212
+      Axl_13: -5378481503580364940
+      Axl_14: -4100053054784841259
+      Axl_15: -6955428846733460387
+      Axl_16: -6835171482979183614
+      Axl_17: -4327891617978159365
+      Axl_18: 7239298079870432302
+      Axl_19: -5837999323265937707
+      Axl_2: 267835768098500918
+      Axl_20: 2145353422607186650
+      Axl_21: 5219088612533032789
+      Axl_22: 6018653890667064198
+      Axl_23: 3353211689755664810
+      Axl_24: -7753792048111410360
+      Axl_25: -6828165797938951908
+      Axl_26: 1190177146
+      Axl_27: 408403415
+      Axl_3: 917053031335411022
+      Axl_4: -6180876807999093846
+      Axl_5: 1020178165333438824
+      Axl_6: 5307495155475026749
+      Axl_7: -4288128283036476070
+      Axl_8: -2899089409065493998
+      Axl_9: 2124241682159476186
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

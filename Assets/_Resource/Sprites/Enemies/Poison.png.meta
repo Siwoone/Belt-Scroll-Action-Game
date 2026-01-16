@@ -1,0 +1,983 @@
+fileFormatVersion: 2
+guid: fd3fbcf4fcefe7049ad8720efe577f90
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4347532159779508366
+    second: Poison_0
+  - first:
+      213: 3262310651707003250
+    second: Poison_1
+  - first:
+      213: -5105903152727900799
+    second: Poison_2
+  - first:
+      213: 2603825704377797380
+    second: Poison_3
+  - first:
+      213: -6863629707666585689
+    second: Poison_4
+  - first:
+      213: -7175055541474461152
+    second: Poison_5
+  - first:
+      213: 1432012168791554657
+    second: Poison_6
+  - first:
+      213: 6473215476523261844
+    second: Poison_7
+  - first:
+      213: 1701727939502181370
+    second: Poison_8
+  - first:
+      213: -2087330603230245899
+    second: Poison_9
+  - first:
+      213: 9123244236688175025
+    second: Poison_10
+  - first:
+      213: -2575824622433614701
+    second: Poison_11
+  - first:
+      213: 9095566125438933365
+    second: Poison_12
+  - first:
+      213: 3132693990400651657
+    second: Poison_13
+  - first:
+      213: 4737254830457010318
+    second: Poison_14
+  - first:
+      213: -5805528177733173155
+    second: Poison_15
+  - first:
+      213: 7265736618138638250
+    second: Poison_16
+  - first:
+      213: -5853408888546735090
+    second: Poison_17
+  - first:
+      213: 308738621737474375
+    second: Poison_18
+  - first:
+      213: -3424178852489757454
+    second: Poison_19
+  - first:
+      213: 308819833599429358
+    second: Poison_20
+  - first:
+      213: -3778568597193287187
+    second: Poison_21
+  - first:
+      213: 3422117103972530160
+    second: Poison_22
+  - first:
+      213: 8059631876980208271
+    second: Poison_23
+  - first:
+      213: 2313833391902835763
+    second: Poison_24
+  - first:
+      213: 7873014356061934403
+    second: Poison_25
+  - first:
+      213: 2200526572610050124
+    second: Poison_26
+  - first:
+      213: 5392411487130088880
+    second: Poison_27
+  - first:
+      213: 498250295103171135
+    second: Poison_28
+  - first:
+      213: 5576815790603569419
+    second: Poison_29
+  - first:
+      213: -1762371088279098996
+    second: Poison_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Poison_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 391
+        width: 63
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d3b1482203429b0800000000000000
+      internalID: -5105903152727900799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 386
+        width: 119
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b4876bea5a22420800000000000000
+      internalID: 2603825704377797380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 124
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a707bc552d7fb0a0800000000000000
+      internalID: -6863629707666585689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 383
+        width: 132
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a77b600051d6c90800000000000000
+      internalID: -7175055541474461152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 389
+        width: 119
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb826a7b80cd9710800000000000000
+      internalID: 1701727939502181370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_11
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 359
+        width: 111
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394c3283725d04cd0800000000000000
+      internalID: -2575824622433614701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_12
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 396
+        width: 92
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5791dd16331f93e70800000000000000
+      internalID: 9095566125438933365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_16
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 360
+        width: 48
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa793bb65f415d460800000000000000
+      internalID: 7265736618138638250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_18
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 368
+        width: 84
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7491b15042cd84400800000000000000
+      internalID: 308738621737474375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_21
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 264
+        width: 100
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de919dc61e3df8bc0800000000000000
+      internalID: -3778568597193287187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_26
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 242
+        width: 116
+        height: 130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48da374247d98e10800000000000000
+      internalID: 2200526572610050124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_28
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 260
+        width: 85
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3aabd8e0042ae600800000000000000
+      internalID: 498250295103171135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_32
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 260
+        width: 85
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02c84c84231a6b4da9433cc99d4f91e
+      internalID: -1965642242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_38
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 64
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7416e2042a1a9ce49acef9700c5828ae
+      internalID: 1697023004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_41
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 260
+        width: 98
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c778ca210a9cdc4eaed5e04af7a4da2
+      internalID: 1559854213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_42
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 258
+        width: 48
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0897a731c9402e42b8eb334399c3c72
+      internalID: -753844926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_43
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 240
+        width: 108
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dbbf207fab3ab4bb2b3bcf6eb47cfa
+      internalID: 1974373176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_46
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 228
+        width: 95
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5046e43706f74744f8a8353ad4dc81dc
+      internalID: 687817463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 124
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594426567aa52474ca9d2ccf06cc040b
+      internalID: 1242465290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_56
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 133
+        width: 87
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7177fb977f1d340a9be25dc1dd456f
+      internalID: -357021155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_57
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 132
+        width: 91
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc1c357e129bce4291249e94218ad6c
+      internalID: 572834143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_59
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 132
+        width: 80
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff279cb5ad3de047bba1ea5aace7f6a
+      internalID: -1991611194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_60
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 132
+        width: 69
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227befbdc3322344ebdc93a877b8de37
+      internalID: 1942544583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_61
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790e01c4a3763e643a21e7c4bab62453
+      internalID: 460795213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_62
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 114
+        width: 123
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61725868560e1642876ca590b1de8a0
+      internalID: -480425851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_68
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2
+        width: 49
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0418c58e1071b8c41ad903bcb99a772b
+      internalID: -446240537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_70
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 4
+        width: 28
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2526e43ebf2082a49961740dae53ceac
+      internalID: -333813666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_72
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 60
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63666b138568e9143809a84c88236f2c
+      internalID: -1375888831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1
+        width: 60
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf22cffc508e3541b7dd5fa2e5be9e6
+      internalID: 1008527478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_74
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 54
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523b1b8dd674f1e4ea2c459bc1c78b2b
+      internalID: 1704901782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison_75
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 4
+        width: 46
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22bb20c4c81c3d449e2d4282f9a3c9c
+      internalID: 1646413588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dca935e89ab852747a52ce5f2b8ff6d7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Poison_0: -4347532159779508366
+      Poison_1: 3262310651707003250
+      Poison_10: 9123244236688175025
+      Poison_11: -2575824622433614701
+      Poison_12: 9095566125438933365
+      Poison_13: 3132693990400651657
+      Poison_14: 4737254830457010318
+      Poison_15: -5805528177733173155
+      Poison_16: 7265736618138638250
+      Poison_17: -5853408888546735090
+      Poison_18: 308738621737474375
+      Poison_19: -3424178852489757454
+      Poison_2: -5105903152727900799
+      Poison_20: 308819833599429358
+      Poison_21: -3778568597193287187
+      Poison_22: 3422117103972530160
+      Poison_23: 8059631876980208271
+      Poison_24: 2313833391902835763
+      Poison_25: 7873014356061934403
+      Poison_26: 2200526572610050124
+      Poison_27: 5392411487130088880
+      Poison_28: 498250295103171135
+      Poison_29: 5576815790603569419
+      Poison_3: 2603825704377797380
+      Poison_30: -1762371088279098996
+      Poison_31: -959915118
+      Poison_32: -1965642242
+      Poison_33: -1107173357
+      Poison_34: -1235713317
+      Poison_35: -695639015
+      Poison_36: -331352403
+      Poison_37: -1245534340
+      Poison_38: 1697023004
+      Poison_39: 387599899
+      Poison_4: -6863629707666585689
+      Poison_40: 1722933258
+      Poison_41: 1559854213
+      Poison_42: -753844926
+      Poison_43: 1974373176
+      Poison_44: -724416966
+      Poison_45: -1461403656
+      Poison_46: 687817463
+      Poison_47: -2103513767
+      Poison_48: -450123019
+      Poison_49: -982378370
+      Poison_5: -7175055541474461152
+      Poison_50: -2102321140
+      Poison_51: -2013240675
+      Poison_52: 1177904839
+      Poison_53: -774469739
+      Poison_54: 1242465290
+      Poison_55: -981097730
+      Poison_56: -357021155
+      Poison_57: 572834143
+      Poison_58: -1337662115
+      Poison_59: -1991611194
+      Poison_6: 1432012168791554657
+      Poison_60: 1942544583
+      Poison_61: 460795213
+      Poison_62: -480425851
+      Poison_63: 189194806
+      Poison_64: 368978147
+      Poison_65: 727192074
+      Poison_66: 1144294479
+      Poison_67: 1463581194
+      Poison_68: -446240537
+      Poison_69: -1664140652
+      Poison_7: 6473215476523261844
+      Poison_70: -333813666
+      Poison_71: 129133073
+      Poison_72: -1375888831
+      Poison_73: 1008527478
+      Poison_74: 1704901782
+      Poison_75: 1646413588
+      Poison_76: 510077016
+      Poison_77: 480947011
+      Poison_8: 1701727939502181370
+      Poison_9: -2087330603230245899
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

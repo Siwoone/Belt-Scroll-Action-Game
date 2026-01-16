@@ -1,0 +1,4741 @@
+fileFormatVersion: 2
+guid: a4e11769f1158354cb6b0319c4ac8b8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1640198999346854052
+    second: Jin Kazama_0
+  - first:
+      213: 1641865332259108202
+    second: Jin Kazama_1
+  - first:
+      213: -7080671553563128646
+    second: Jin Kazama_2
+  - first:
+      213: 2488732697238433239
+    second: Jin Kazama_3
+  - first:
+      213: -6821014241843030696
+    second: Jin Kazama_4
+  - first:
+      213: 8243395679291168970
+    second: Jin Kazama_5
+  - first:
+      213: 61961690603845193
+    second: Jin Kazama_6
+  - first:
+      213: -3398907996117328983
+    second: Jin Kazama_7
+  - first:
+      213: -6885674248511695285
+    second: Jin Kazama_8
+  - first:
+      213: -3792771632241758428
+    second: Jin Kazama_9
+  - first:
+      213: 3130665589767883175
+    second: Jin Kazama_10
+  - first:
+      213: 170493325875960524
+    second: Jin Kazama_11
+  - first:
+      213: 6851591280223126109
+    second: Jin Kazama_12
+  - first:
+      213: 6122859262241515410
+    second: Jin Kazama_13
+  - first:
+      213: 1137520181447898106
+    second: Jin Kazama_14
+  - first:
+      213: -6284085364099330370
+    second: Jin Kazama_15
+  - first:
+      213: -7713528158156881137
+    second: Jin Kazama_16
+  - first:
+      213: -6002447964418216888
+    second: Jin Kazama_17
+  - first:
+      213: -1280323868723998883
+    second: Jin Kazama_18
+  - first:
+      213: -8429474067598844276
+    second: Jin Kazama_19
+  - first:
+      213: 119691665598905162
+    second: Jin Kazama_20
+  - first:
+      213: 1237758650159801600
+    second: Jin Kazama_21
+  - first:
+      213: -3643657633079849694
+    second: Jin Kazama_22
+  - first:
+      213: -4910173802151484291
+    second: Jin Kazama_23
+  - first:
+      213: 6350598358404753344
+    second: Jin Kazama_24
+  - first:
+      213: -6655371640950407058
+    second: Jin Kazama_25
+  - first:
+      213: 1928133269670621890
+    second: Jin Kazama_26
+  - first:
+      213: -3499289522958331225
+    second: Jin Kazama_27
+  - first:
+      213: -2969356742165719946
+    second: Jin Kazama_28
+  - first:
+      213: -2513505096323605588
+    second: Jin Kazama_29
+  - first:
+      213: -4087300943665390765
+    second: Jin Kazama_30
+  - first:
+      213: 2914887100963625303
+    second: Jin Kazama_31
+  - first:
+      213: -67100495797481036
+    second: Jin Kazama_32
+  - first:
+      213: -8545566275958730432
+    second: Jin Kazama_33
+  - first:
+      213: -8669503472517845028
+    second: Jin Kazama_34
+  - first:
+      213: -7361673755864654430
+    second: Jin Kazama_35
+  - first:
+      213: -7980735926312109495
+    second: Jin Kazama_36
+  - first:
+      213: 8403319666460001613
+    second: Jin Kazama_37
+  - first:
+      213: 6573267133699459017
+    second: Jin Kazama_38
+  - first:
+      213: 4130457175378594361
+    second: Jin Kazama_39
+  - first:
+      213: 4870982149741515004
+    second: Jin Kazama_40
+  - first:
+      213: -6176152993761618725
+    second: Jin Kazama_41
+  - first:
+      213: 5244837932013386013
+    second: Jin Kazama_42
+  - first:
+      213: -1795343850965630313
+    second: Jin Kazama_43
+  - first:
+      213: -8188539531041183389
+    second: Jin Kazama_44
+  - first:
+      213: -668864460969906557
+    second: Jin Kazama_45
+  - first:
+      213: -2345516313013708221
+    second: Jin Kazama_46
+  - first:
+      213: 8284516520367718971
+    second: Jin Kazama_47
+  - first:
+      213: -6889134382614614033
+    second: Jin Kazama_48
+  - first:
+      213: -90365277429402212
+    second: Jin Kazama_49
+  - first:
+      213: 3200404920934171284
+    second: Jin Kazama_50
+  - first:
+      213: 4787901172746817087
+    second: Jin Kazama_51
+  - first:
+      213: 35978753440379845
+    second: Jin Kazama_52
+  - first:
+      213: -6405865842314208202
+    second: Jin Kazama_53
+  - first:
+      213: -3488893385344598972
+    second: Jin Kazama_54
+  - first:
+      213: -3348860804738275407
+    second: Jin Kazama_55
+  - first:
+      213: -8021727177698959486
+    second: Jin Kazama_56
+  - first:
+      213: -3524711774072476097
+    second: Jin Kazama_57
+  - first:
+      213: 6847367140243220312
+    second: Jin Kazama_58
+  - first:
+      213: 9016999291155017790
+    second: Jin Kazama_59
+  - first:
+      213: 6583563854392967262
+    second: Jin Kazama_60
+  - first:
+      213: -5206025356416483300
+    second: Jin Kazama_61
+  - first:
+      213: -7343014518373228896
+    second: Jin Kazama_62
+  - first:
+      213: -5410142923273266366
+    second: Jin Kazama_63
+  - first:
+      213: -8393065206201874903
+    second: Jin Kazama_64
+  - first:
+      213: -4022719128421026702
+    second: Jin Kazama_65
+  - first:
+      213: 541592508634213716
+    second: Jin Kazama_66
+  - first:
+      213: -6636074527963829059
+    second: Jin Kazama_67
+  - first:
+      213: -4743675564548530719
+    second: Jin Kazama_68
+  - first:
+      213: 8573563114910112892
+    second: Jin Kazama_69
+  - first:
+      213: 1772260370968025942
+    second: Jin Kazama_70
+  - first:
+      213: 91066059344057349
+    second: Jin Kazama_71
+  - first:
+      213: -5363668998987483631
+    second: Jin Kazama_72
+  - first:
+      213: 8006126793272847590
+    second: Jin Kazama_73
+  - first:
+      213: -6702740998237179338
+    second: Jin Kazama_74
+  - first:
+      213: -6108982110295902971
+    second: Jin Kazama_75
+  - first:
+      213: -4832823136556017846
+    second: Jin Kazama_76
+  - first:
+      213: 3183264694232123529
+    second: Jin Kazama_77
+  - first:
+      213: -6640545451699120277
+    second: Jin Kazama_78
+  - first:
+      213: -2739814219299371013
+    second: Jin Kazama_79
+  - first:
+      213: -2637358971044712419
+    second: Jin Kazama_80
+  - first:
+      213: 5274876230398750487
+    second: Jin Kazama_81
+  - first:
+      213: 536195352734024452
+    second: Jin Kazama_82
+  - first:
+      213: -1667099452764023982
+    second: Jin Kazama_83
+  - first:
+      213: 4282707611792093838
+    second: Jin Kazama_84
+  - first:
+      213: -8530383056706455247
+    second: Jin Kazama_85
+  - first:
+      213: 2417404630129719300
+    second: Jin Kazama_86
+  - first:
+      213: 2980453379379808267
+    second: Jin Kazama_87
+  - first:
+      213: -5646256002311769714
+    second: Jin Kazama_88
+  - first:
+      213: -7987794749476041181
+    second: Jin Kazama_89
+  - first:
+      213: -6812501681507883095
+    second: Jin Kazama_90
+  - first:
+      213: 258780582257470189
+    second: Jin Kazama_91
+  - first:
+      213: 4716185854234814378
+    second: Jin Kazama_92
+  - first:
+      213: 5971769531222996818
+    second: Jin Kazama_93
+  - first:
+      213: 5992362312203722388
+    second: Jin Kazama_94
+  - first:
+      213: 7622126552440834640
+    second: Jin Kazama_95
+  - first:
+      213: 5130208111755338280
+    second: Jin Kazama_96
+  - first:
+      213: -4391344842559471074
+    second: Jin Kazama_97
+  - first:
+      213: 1244179431405964077
+    second: Jin Kazama_98
+  - first:
+      213: -2126500603946289645
+    second: Jin Kazama_99
+  - first:
+      213: -2469329736751550424
+    second: Jin Kazama_100
+  - first:
+      213: 8801823504870794294
+    second: Jin Kazama_101
+  - first:
+      213: 8891947136903998531
+    second: Jin Kazama_102
+  - first:
+      213: -240252549116385591
+    second: Jin Kazama_103
+  - first:
+      213: 7008365922607860735
+    second: Jin Kazama_104
+  - first:
+      213: -26078481633309291
+    second: Jin Kazama_105
+  - first:
+      213: -2893756902881391501
+    second: Jin Kazama_106
+  - first:
+      213: -5456688614852619224
+    second: Jin Kazama_107
+  - first:
+      213: 4574099918145203104
+    second: Jin Kazama_108
+  - first:
+      213: 7765163427163651268
+    second: Jin Kazama_109
+  - first:
+      213: 5563804723323832178
+    second: Jin Kazama_110
+  - first:
+      213: 6685666776298112912
+    second: Jin Kazama_111
+  - first:
+      213: -793175373002537154
+    second: Jin Kazama_112
+  - first:
+      213: 6875201343447726878
+    second: Jin Kazama_113
+  - first:
+      213: -8044841275598845585
+    second: Jin Kazama_114
+  - first:
+      213: -4716141833277979723
+    second: Jin Kazama_115
+  - first:
+      213: 6685151877879148515
+    second: Jin Kazama_116
+  - first:
+      213: 6816853904532184309
+    second: Jin Kazama_117
+  - first:
+      213: 6450285731966971129
+    second: Jin Kazama_118
+  - first:
+      213: 8127424757490794720
+    second: Jin Kazama_119
+  - first:
+      213: 2925745086387028423
+    second: Jin Kazama_120
+  - first:
+      213: 4263915984855239774
+    second: Jin Kazama_121
+  - first:
+      213: -7851979804405499593
+    second: Jin Kazama_122
+  - first:
+      213: -8323059966208054
+    second: Jin Kazama_123
+  - first:
+      213: -1975158875621315418
+    second: Jin Kazama_124
+  - first:
+      213: 5627011599384167651
+    second: Jin Kazama_125
+  - first:
+      213: -837110018097909435
+    second: Jin Kazama_126
+  - first:
+      213: 2419088220379418800
+    second: Jin Kazama_127
+  - first:
+      213: 3144794239417217263
+    second: Jin Kazama_128
+  - first:
+      213: -7855630446781082560
+    second: Jin Kazama_129
+  - first:
+      213: 3341293132864860815
+    second: Jin Kazama_130
+  - first:
+      213: 8483572130352924029
+    second: Jin Kazama_131
+  - first:
+      213: 843983984667195102
+    second: Jin Kazama_132
+  - first:
+      213: -7132139516658985970
+    second: Jin Kazama_133
+  - first:
+      213: 4346057283343130256
+    second: Jin Kazama_134
+  - first:
+      213: 5152755175098706088
+    second: Jin Kazama_135
+  - first:
+      213: 2422607217667657566
+    second: Jin Kazama_136
+  - first:
+      213: 693236543591548440
+    second: Jin Kazama_137
+  - first:
+      213: -4463975890506449673
+    second: Jin Kazama_138
+  - first:
+      213: 571820681685183529
+    second: Jin Kazama_139
+  - first:
+      213: -1345313024833870534
+    second: Jin Kazama_140
+  - first:
+      213: -8266460107788653036
+    second: Jin Kazama_141
+  - first:
+      213: -8944420981379165385
+    second: Jin Kazama_142
+  - first:
+      213: 7233171477234611679
+    second: Jin Kazama_143
+  - first:
+      213: 1607752228680519922
+    second: Jin Kazama_144
+  - first:
+      213: 3113728296456566195
+    second: Jin Kazama_145
+  - first:
+      213: -6836279067851398287
+    second: Jin Kazama_146
+  - first:
+      213: -1532804280995877178
+    second: Jin Kazama_147
+  - first:
+      213: -2011008163543504231
+    second: Jin Kazama_148
+  - first:
+      213: 4767323371440035794
+    second: Jin Kazama_149
+  - first:
+      213: 2395066325091850520
+    second: Jin Kazama_150
+  - first:
+      213: -5498915373811034108
+    second: Jin Kazama_151
+  - first:
+      213: -5808891368580922467
+    second: Jin Kazama_152
+  - first:
+      213: 4308408126291074092
+    second: Jin Kazama_153
+  - first:
+      213: -6044546739803509842
+    second: Jin Kazama_154
+  - first:
+      213: 2635338321365649690
+    second: Jin Kazama_155
+  - first:
+      213: -3270240971580109010
+    second: Jin Kazama_156
+  - first:
+      213: 2338501323613538494
+    second: Jin Kazama_157
+  - first:
+      213: 4239153516672085978
+    second: Jin Kazama_158
+  - first:
+      213: 4837935639268796241
+    second: Jin Kazama_159
+  - first:
+      213: 8129836893497791900
+    second: Jin Kazama_160
+  - first:
+      213: -8311223140413097765
+    second: Jin Kazama_161
+  - first:
+      213: 2492223622062738934
+    second: Jin Kazama_162
+  - first:
+      213: -2637516787935003100
+    second: Jin Kazama_163
+  - first:
+      213: -3820714440525477733
+    second: Jin Kazama_164
+  - first:
+      213: -6352329505726584435
+    second: Jin Kazama_165
+  - first:
+      213: 7239089842631766007
+    second: Jin Kazama_166
+  - first:
+      213: 6103383163199680268
+    second: Jin Kazama_167
+  - first:
+      213: -1715496866385538296
+    second: Jin Kazama_168
+  - first:
+      213: -3123204768871803422
+    second: Jin Kazama_169
+  - first:
+      213: 2102600162704042186
+    second: Jin Kazama_170
+  - first:
+      213: 7887259524093139015
+    second: Jin Kazama_171
+  - first:
+      213: 2087203436906539570
+    second: Jin Kazama_172
+  - first:
+      213: 2541351033592925512
+    second: Jin Kazama_173
+  - first:
+      213: 5006432131759057915
+    second: Jin Kazama_174
+  - first:
+      213: 2669538202118445636
+    second: Jin Kazama_175
+  - first:
+      213: -4310944621420772536
+    second: Jin Kazama_176
+  - first:
+      213: -7498114792271567494
+    second: Jin Kazama_177
+  - first:
+      213: -4763464560056011764
+    second: Jin Kazama_178
+  - first:
+      213: -6857212489655383403
+    second: Jin Kazama_179
+  - first:
+      213: -3249492705643047115
+    second: Jin Kazama_180
+  - first:
+      213: 4852031519284078053
+    second: Jin Kazama_181
+  - first:
+      213: 6196181359984107108
+    second: Jin Kazama_182
+  - first:
+      213: 5764620487624652635
+    second: Jin Kazama_183
+  - first:
+      213: -6199578277503428478
+    second: Jin Kazama_184
+  - first:
+      213: 2851592263212935170
+    second: Jin Kazama_185
+  - first:
+      213: -2454847845950932879
+    second: Jin Kazama_186
+  - first:
+      213: -1161677948210889886
+    second: Jin Kazama_187
+  - first:
+      213: 5123524817481854572
+    second: Jin Kazama_188
+  - first:
+      213: 8749462031357395376
+    second: Jin Kazama_189
+  - first:
+      213: 5957602449453625402
+    second: Jin Kazama_190
+  - first:
+      213: -4799183439781124213
+    second: Jin Kazama_191
+  - first:
+      213: -5604139629589391596
+    second: Jin Kazama_192
+  - first:
+      213: 5585498431855985220
+    second: Jin Kazama_193
+  - first:
+      213: -5352779645002497248
+    second: Jin Kazama_194
+  - first:
+      213: 8193341319351690857
+    second: Jin Kazama_195
+  - first:
+      213: -7217403455692927149
+    second: Jin Kazama_196
+  - first:
+      213: -8140836066656619918
+    second: Jin Kazama_197
+  - first:
+      213: 5592581672451632805
+    second: Jin Kazama_198
+  - first:
+      213: 8889734659220217028
+    second: Jin Kazama_199
+  - first:
+      213: -3020357294000308108
+    second: Jin Kazama_200
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jin Kazama_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2593
+        width: 49
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8350dbc4823c610800000000000000
+      internalID: 1640198999346854052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2593
+        width: 50
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65355a12d319c610800000000000000
+      internalID: 1641865332259108202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2593
+        width: 50
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc08aeacb66cbd90800000000000000
+      internalID: -7080671553563128646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_3
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 2593
+        width: 50
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddebc7c331c98220800000000000000
+      internalID: 2488732697238433239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_4
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 2593
+        width: 29
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855d013bfa3e651a0800000000000000
+      internalID: -6821014241843030696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_5
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 2593
+        width: 30
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8d327e1bc666270800000000000000
+      internalID: 8243395679291168970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_6
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 2593
+        width: 45
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946ff1e44d12cd000800000000000000
+      internalID: 61961690603845193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_7
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2593
+        width: 28
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab113b8f27a4d0d0800000000000000
+      internalID: -3398907996117328983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_8
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 2593
+        width: 30
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46d76ab0cb2170a0800000000000000
+      internalID: -6885674248511695285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_9
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 2593
+        width: 49
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f2d02ab4e5d5bc0800000000000000
+      internalID: -3792771632241758428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_10
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2593
+        width: 57
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a947a454cb527b20800000000000000
+      internalID: 3130665589767883175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_11
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 2593
+        width: 47
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca596dc6c6bd5200800000000000000
+      internalID: 170493325875960524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_12
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2407
+        width: 47
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d520dd3d7fdb51f50800000000000000
+      internalID: 6851591280223126109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2332
+        width: 42
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297ad970f04c8f450800000000000000
+      internalID: 6122859262241515410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_14
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2334
+        width: 49
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af33a04049849cf00800000000000000
+      internalID: 1137520181447898106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_15
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 2337
+        width: 51
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebec0a6e7a17ac8a0800000000000000
+      internalID: -6284085364099330370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_16
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 2335
+        width: 49
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f030618120b04f490800000000000000
+      internalID: -7713528158156881137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_17
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 2332
+        width: 42
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ce512f06503bca0800000000000000
+      internalID: -6002447964418216888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_18
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 2400
+        width: 55
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f804f89306b3ee0800000000000000
+      internalID: -1280323868723998883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_19
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 2400
+        width: 47
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e576d2ffd740b80800000000000000
+      internalID: -8429474067598844276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_20
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 2400
+        width: 42
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bf89a8fea39a100800000000000000
+      internalID: 119691665598905162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_21
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 2400
+        width: 32
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00521743fe66d2110800000000000000
+      internalID: 1237758650159801600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_22
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 2400
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d822900b02f6dc0800000000000000
+      internalID: -3643657633079849694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_23
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 2400
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74e45131fe8bdbb0800000000000000
+      internalID: -4910173802151484291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_24
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2207
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7e4ef5f8bd12850800000000000000
+      internalID: 6350598358404753344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_25
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2207
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6041f411ce53a3a0800000000000000
+      internalID: -6655371640950407058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_26
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2207
+        width: 43
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2745a3efa12ca10800000000000000
+      internalID: 1928133269670621890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_27
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2207
+        width: 43
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a292d908b6007fc0800000000000000
+      internalID: -3499289522958331225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_28
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 2207
+        width: 43
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6741dcb76c9bac6d0800000000000000
+      internalID: -2969356742165719946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_29
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2207
+        width: 43
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab5f789e6c3e1dd0800000000000000
+      internalID: -2513505096323605588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_30
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 2205
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b94ba727df647c0800000000000000
+      internalID: -4087300943665390765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_31
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 2204
+        width: 90
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7591e45ef52c37820800000000000000
+      internalID: 2914887100963625303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_32
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2204
+        width: 82
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b11dbf547c911ff0800000000000000
+      internalID: -67100495797481036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_33
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 2204
+        width: 90
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0411ce49fbc086980800000000000000
+      internalID: -8545566275958730432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_34
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 2204
+        width: 82
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfee85568cbfa780800000000000000
+      internalID: -8669503472517845028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_35
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 2205
+        width: 47
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad1f5d09b416d990800000000000000
+      internalID: -7361673755864654430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_36
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2004
+        width: 84
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94af7f175fabe3190800000000000000
+      internalID: -7980735926312109495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_37
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2011
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d450765c6b69e9470800000000000000
+      internalID: 8403319666460001613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_38
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 2014
+        width: 47
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c708e5a1afe83b50800000000000000
+      internalID: 6573267133699459017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_39
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 2014
+        width: 57
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a876abae4525930800000000000000
+      internalID: 4130457175378594361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_40
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 2014
+        width: 47
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf09c962574399340800000000000000
+      internalID: 4870982149741515004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_41
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 2014
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd49f582395e94aa0800000000000000
+      internalID: -6176152993761618725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_42
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2014
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19f6229f4869c840800000000000000
+      internalID: 5244837932013386013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_43
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2021
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79203899748a517e0800000000000000
+      internalID: -1795343850965630313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_44
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 2006
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369eb076ea67c5e80800000000000000
+      internalID: -8188539531041183389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_45
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 2006
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e61090157b7b6f0800000000000000
+      internalID: -668864460969906557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_46
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 2014
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a1fe3275d037fd0800000000000000
+      internalID: -2345516313013708221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_47
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 2014
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b328f5cc1e388f270800000000000000
+      internalID: 8284516520367718971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_48
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1821
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef635a77c0e460a0800000000000000
+      internalID: -6889134382614614033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_49
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1815
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c957aca4245febef0800000000000000
+      internalID: -90365277429402212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_50
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1818
+        width: 90
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49281b1b15f1a6c20800000000000000
+      internalID: 3200404920934171284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_51
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1821
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e004dcfba027240800000000000000
+      internalID: 4787901172746817087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_52
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1821
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c376425c72df7000800000000000000
+      internalID: 35978753440379845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_53
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1819
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c9d06c4fac917a0800000000000000
+      internalID: -6405865842314208202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_54
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1819
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c335373f5f49fc0800000000000000
+      internalID: -3488893385344598972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_55
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1821
+        width: 43
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7a85357d47681d0800000000000000
+      internalID: -3348860804738275407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_56
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1820
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f182002a91da090800000000000000
+      internalID: -8021727177698959486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_57
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1818
+        width: 90
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ee5c2f055b51fc0800000000000000
+      internalID: -3524711774072476097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_58
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1817
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85721e8922cb60f50800000000000000
+      internalID: 6847367140243220312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_59
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1820
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e307e39c411d22d70800000000000000
+      internalID: 9016999291155017790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_60
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1628
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50c131c1748d5b50800000000000000
+      internalID: 6583563854392967262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_61
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1628
+        width: 51
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c108e13658b70c7b0800000000000000
+      internalID: -5206025356416483300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_62
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1628
+        width: 49
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aed3d3533f581a90800000000000000
+      internalID: -7343014518373228896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_63
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1628
+        width: 45
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b143aecaf4be4b0800000000000000
+      internalID: -5410142923273266366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_64
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1628
+        width: 59
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92685afc9a7d58b80800000000000000
+      internalID: -8393065206201874903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_65
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1628
+        width: 61
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274bb47144e6c28c0800000000000000
+      internalID: -4022719128421026702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_66
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1628
+        width: 37
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45da722648f148700800000000000000
+      internalID: 541592508634213716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_67
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1628
+        width: 35
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbca2b1506de7e3a0800000000000000
+      internalID: -6636074527963829059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_68
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 1628
+        width: 47
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed526505341b2eb0800000000000000
+      internalID: -4743675564548530719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_69
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1628
+        width: 57
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7cdb937a3a6bf670800000000000000
+      internalID: 8573563114910112892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_70
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1628
+        width: 54
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b1d05ea65589810800000000000000
+      internalID: 1772260370968025942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_71
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1633
+        width: 42
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5041c463918834100800000000000000
+      internalID: 91066059344057349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_72
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1435
+        width: 49
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116739e967b6095b0800000000000000
+      internalID: -5363668998987483631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_73
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1435
+        width: 57
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ece3c376e97b1f60800000000000000
+      internalID: 8006126793272847590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_74
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1430
+        width: 85
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63230a223941bf2a0800000000000000
+      internalID: -6702740998237179338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_75
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1439
+        width: 52
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505b8903329883ba0800000000000000
+      internalID: -6108982110295902971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_76
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1429
+        width: 65
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a471a4376fc5eecb0800000000000000
+      internalID: -4832823136556017846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_77
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1426
+        width: 72
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9888fbdaf5a3d2c20800000000000000
+      internalID: 3183264694232123529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_78
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1427
+        width: 65
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6753a4481b08d3a0800000000000000
+      internalID: -6640545451699120277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_79
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1436
+        width: 52
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7c814db793af9d0800000000000000
+      internalID: -2739814219299371013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_80
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1435
+        width: 48
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10b0b93df7366bd0800000000000000
+      internalID: -2637358971044712419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_81
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 1450
+        width: 91
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fa11bebff143940800000000000000
+      internalID: 5274876230398750487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_82
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1444
+        width: 64
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4034de915d2f07700800000000000000
+      internalID: 536195352734024452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_83
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 1435
+        width: 55
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25390c061e54dd8e0800000000000000
+      internalID: -1667099452764023982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_84
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1242
+        width: 66
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82bab5d1eb3f6b30800000000000000
+      internalID: 4282707611792093838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_85
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1242
+        width: 55
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139300b4ecdfd9980800000000000000
+      internalID: -8530383056706455247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_86
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1242
+        width: 50
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408344104b85c8120800000000000000
+      internalID: 2417404630129719300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_87
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1242
+        width: 69
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08cb83be82bc5920800000000000000
+      internalID: 2980453379379808267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_88
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1242
+        width: 50
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e813a4fb41874a1b0800000000000000
+      internalID: -5646256002311769714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_89
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1242
+        width: 41
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e00ca1ff6a52190800000000000000
+      internalID: -7987794749476041181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_90
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1242
+        width: 64
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7a8f990d12571a0800000000000000
+      internalID: -6812501681507883095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_91
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1242
+        width: 41
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deaa938819f579300800000000000000
+      internalID: 258780582257470189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_92
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1242
+        width: 45
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa763680c02437140800000000000000
+      internalID: 4716185854234814378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_93
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1242
+        width: 55
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2573c05bfbcffd250800000000000000
+      internalID: 5971769531222996818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_94
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1242
+        width: 48
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e575826c5292350800000000000000
+      internalID: 5992362312203722388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_95
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 1242
+        width: 78
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a0f4737bb37c960800000000000000
+      internalID: 7622126552440834640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_96
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1049
+        width: 80
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822210db819223740800000000000000
+      internalID: 5130208111755338280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_97
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1049
+        width: 61
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12cffcc12fce03c0800000000000000
+      internalID: -4391344842559471074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_98
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1049
+        width: 45
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bccc5d996344110800000000000000
+      internalID: 1244179431405964077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_99
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1049
+        width: 40
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316b027a7f62d72e0800000000000000
+      internalID: -2126500603946289645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_100
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1049
+        width: 46
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8207d9fffad2bbdd0800000000000000
+      internalID: -2469329736751550424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_101
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1049
+        width: 63
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634e187f7db562a70800000000000000
+      internalID: 8801823504870794294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_102
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1049
+        width: 63
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ce6b83fca866b70800000000000000
+      internalID: 8891947136903998531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_103
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1049
+        width: 84
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6298954937aacf0800000000000000
+      internalID: -240252549116385591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_104
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1049
+        width: 65
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb8ef8bca7b24160800000000000000
+      internalID: 7008365922607860735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_105
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1049
+        width: 64
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d07f552c953aff0800000000000000
+      internalID: -26078481633309291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_106
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1049
+        width: 64
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c8b69bd6f47d7d0800000000000000
+      internalID: -2893756902881391501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_107
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1100
+        width: 7
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8249ac59d92f544b0800000000000000
+      internalID: -5456688614852619224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_108
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1049
+        width: 61
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab203414a77a7f30800000000000000
+      internalID: 4574099918145203104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_109
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 893
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ccb1f2def663cb60800000000000000
+      internalID: 7765163427163651268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_110
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 856
+        width: 63
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2778b55eaea963d40800000000000000
+      internalID: 5563804723323832178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_111
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 856
+        width: 89
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09741e7c28248cc50800000000000000
+      internalID: 6685666776298112912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_112
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 856
+        width: 91
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37889f53331ef4f0800000000000000
+      internalID: -793175373002537154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_113
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 856
+        width: 85
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b7d7b023f996f50800000000000000
+      internalID: 6875201343447726878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_114
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 856
+        width: 57
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69c785bb7bfa5090800000000000000
+      internalID: -8044841275598845585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_115
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 856
+        width: 76
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b34b156df5ec8eb0800000000000000
+      internalID: -4716141833277979723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_116
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 856
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efa586a63e66cc50800000000000000
+      internalID: 6685151877879148515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_117
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 883
+        width: 22
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc106942845a9e50800000000000000
+      internalID: 6816853904532184309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_118
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 856
+        width: 76
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc69a9b2b4048950800000000000000
+      internalID: 6450285731966971129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_119
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 856
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e044f881c96ac070800000000000000
+      internalID: 8127424757490794720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_120
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 883
+        width: 22
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c18171a7a55a9820800000000000000
+      internalID: 2925745086387028423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_121
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 856
+        width: 70
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c086d3ff87c2b30800000000000000
+      internalID: 4263915984855239774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_122
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 855
+        width: 54
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7397ede28f9280390800000000000000
+      internalID: -7851979804405499593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_123
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 856
+        width: 51
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac71547983e62eff0800000000000000
+      internalID: -8323059966208054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_124
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 901
+        width: 11
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aca1aba773d694e0800000000000000
+      internalID: -1975158875621315418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_125
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 856
+        width: 6
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4cb488c39271e40800000000000000
+      internalID: 5627011599384167651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_126
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 663
+        width: 47
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5417a5dafdcf164f0800000000000000
+      internalID: -837110018097909435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_127
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 663
+        width: 46
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b01c086be3529120800000000000000
+      internalID: 2419088220379418800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_128
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 663
+        width: 66
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0782ce2bd84ab20800000000000000
+      internalID: 3144794239417217263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_129
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 663
+        width: 59
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044ded4cab13bf290800000000000000
+      internalID: -7855630446781082560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_130
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 663
+        width: 59
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82bcd2c668ae5e20800000000000000
+      internalID: 3341293132864860815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_131
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 663
+        width: 85
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75071897e3bbb570800000000000000
+      internalID: 8483572130352924029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_132
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 664
+        width: 78
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6f43266fe66bb00800000000000000
+      internalID: 843983984667195102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_133
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 695
+        width: 19
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04d305b5ec850d90800000000000000
+      internalID: -7132139516658985970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_134
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 663
+        width: 41
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e9a23a21c405c30800000000000000
+      internalID: 4346057283343130256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_135
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 663
+        width: 63
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a860520883428740800000000000000
+      internalID: 5152755175098706088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_136
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 663
+        width: 41
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fc06fcd64de9120800000000000000
+      internalID: 2422607217667657566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_137
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 712
+        width: 21
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8160816a6fede9900800000000000000
+      internalID: 693236543591548440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_138
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 663
+        width: 71
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc74782495cc02c0800000000000000
+      internalID: -4463975890506449673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_139
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 662
+        width: 60
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c211f51e38fe700800000000000000
+      internalID: 571820681685183529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_140
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 691
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3522138eec745de0800000000000000
+      internalID: -1345313024833870534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_141
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 470
+        width: 43
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ee15d5452a74d80800000000000000
+      internalID: -8266460107788653036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_142
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 470
+        width: 70
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733185bc1880fd380800000000000000
+      internalID: -8944420981379165385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_143
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 470
+        width: 43
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd57e04b223616460800000000000000
+      internalID: 7233171477234611679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_144
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 470
+        width: 41
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0585d3222ef4610800000000000000
+      internalID: 1607752228680519922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_145
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 470
+        width: 64
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5306d636f263b20800000000000000
+      internalID: 3113728296456566195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_146
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 470
+        width: 45
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173674f6868a021a0800000000000000
+      internalID: -6836279067851398287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_147
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 506
+        width: 16
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ceea09a0a26abae0800000000000000
+      internalID: -1532804280995877178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_148
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 470
+        width: 66
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a2493eab67714e0800000000000000
+      internalID: -2011008163543504231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_149
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 470
+        width: 59
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7d914195fe82240800000000000000
+      internalID: 4767323371440035794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_150
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 470
+        width: 46
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8199990122cfc3120800000000000000
+      internalID: 2395066325091850520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_151
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 478
+        width: 45
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4081f0e1a9defa3b0800000000000000
+      internalID: -5498915373811034108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_152
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 470
+        width: 64
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93c6ecb31ca26fa0800000000000000
+      internalID: -5808891368580922467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_153
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 472
+        width: 45
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c5cfa2d5a8acb30800000000000000
+      internalID: 4308408126291074092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_154
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 277
+        width: 57
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab24c9f3c47d1ca0800000000000000
+      internalID: -6044546739803509842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_155
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 277
+        width: 58
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1949fb9d3a929420800000000000000
+      internalID: 2635338321365649690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_156
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 277
+        width: 59
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f0a0fa925cd92d0800000000000000
+      internalID: -3270240971580109010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_157
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 277
+        width: 82
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb804cc5096047020800000000000000
+      internalID: 2338501323613538494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_158
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 277
+        width: 59
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf6695d9af74da30800000000000000
+      internalID: 4239153516672085978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_159
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 277
+        width: 58
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157a1d8d4dcc32340800000000000000
+      internalID: 4837935639268796241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_160
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 277
+        width: 64
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c951dc6b49bf2d070800000000000000
+      internalID: 8129836893497791900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_161
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 277
+        width: 63
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8bbaaa69a98ac80800000000000000
+      internalID: -8311223140413097765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_162
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 277
+        width: 67
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd03ed0e28269220800000000000000
+      internalID: 2492223622062738934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_163
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 277
+        width: 55
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e310e9478a56bd0800000000000000
+      internalID: -2637516787935003100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_164
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 277
+        width: 53
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98064895781afac0800000000000000
+      internalID: -3820714440525477733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_165
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 277
+        width: 70
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d892fea78fdf7d7a0800000000000000
+      internalID: -6352329505726584435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_166
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 84
+        width: 53
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff64378bd9667460800000000000000
+      internalID: 7239089842631766007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_167
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 84
+        width: 55
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fed9a56a293b450800000000000000
+      internalID: 6103383163199680268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_168
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 84
+        width: 47
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8035bc960b45138e0800000000000000
+      internalID: -1715496866385538296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_169
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 84
+        width: 59
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e517966fc528a4d0800000000000000
+      internalID: -3123204768871803422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_170
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 84
+        width: 47
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac827aa35bfed2d10800000000000000
+      internalID: 2102600162704042186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_171
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 84
+        width: 62
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74853e8afbc257d60800000000000000
+      internalID: 7887259524093139015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jin Kazama_201
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2650
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba913bebab44e14ea7d12745ccffde1
+      internalID: -1124576067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 34c8e124473dd0241802c27951e08f18
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Jin Kazama_0: 1640198999346854052
+      Jin Kazama_1: 1641865332259108202
+      Jin Kazama_10: 3130665589767883175
+      Jin Kazama_100: -2469329736751550424
+      Jin Kazama_101: 8801823504870794294
+      Jin Kazama_102: 8891947136903998531
+      Jin Kazama_103: -240252549116385591
+      Jin Kazama_104: 7008365922607860735
+      Jin Kazama_105: -26078481633309291
+      Jin Kazama_106: -2893756902881391501
+      Jin Kazama_107: -5456688614852619224
+      Jin Kazama_108: 4574099918145203104
+      Jin Kazama_109: 7765163427163651268
+      Jin Kazama_11: 170493325875960524
+      Jin Kazama_110: 5563804723323832178
+      Jin Kazama_111: 6685666776298112912
+      Jin Kazama_112: -793175373002537154
+      Jin Kazama_113: 6875201343447726878
+      Jin Kazama_114: -8044841275598845585
+      Jin Kazama_115: -4716141833277979723
+      Jin Kazama_116: 6685151877879148515
+      Jin Kazama_117: 6816853904532184309
+      Jin Kazama_118: 6450285731966971129
+      Jin Kazama_119: 8127424757490794720
+      Jin Kazama_12: 6851591280223126109
+      Jin Kazama_120: 2925745086387028423
+      Jin Kazama_121: 4263915984855239774
+      Jin Kazama_122: -7851979804405499593
+      Jin Kazama_123: -8323059966208054
+      Jin Kazama_124: -1975158875621315418
+      Jin Kazama_125: 5627011599384167651
+      Jin Kazama_126: -837110018097909435
+      Jin Kazama_127: 2419088220379418800
+      Jin Kazama_128: 3144794239417217263
+      Jin Kazama_129: -7855630446781082560
+      Jin Kazama_13: 6122859262241515410
+      Jin Kazama_130: 3341293132864860815
+      Jin Kazama_131: 8483572130352924029
+      Jin Kazama_132: 843983984667195102
+      Jin Kazama_133: -7132139516658985970
+      Jin Kazama_134: 4346057283343130256
+      Jin Kazama_135: 5152755175098706088
+      Jin Kazama_136: 2422607217667657566
+      Jin Kazama_137: 693236543591548440
+      Jin Kazama_138: -4463975890506449673
+      Jin Kazama_139: 571820681685183529
+      Jin Kazama_14: 1137520181447898106
+      Jin Kazama_140: -1345313024833870534
+      Jin Kazama_141: -8266460107788653036
+      Jin Kazama_142: -8944420981379165385
+      Jin Kazama_143: 7233171477234611679
+      Jin Kazama_144: 1607752228680519922
+      Jin Kazama_145: 3113728296456566195
+      Jin Kazama_146: -6836279067851398287
+      Jin Kazama_147: -1532804280995877178
+      Jin Kazama_148: -2011008163543504231
+      Jin Kazama_149: 4767323371440035794
+      Jin Kazama_15: -6284085364099330370
+      Jin Kazama_150: 2395066325091850520
+      Jin Kazama_151: -5498915373811034108
+      Jin Kazama_152: -5808891368580922467
+      Jin Kazama_153: 4308408126291074092
+      Jin Kazama_154: -6044546739803509842
+      Jin Kazama_155: 2635338321365649690
+      Jin Kazama_156: -3270240971580109010
+      Jin Kazama_157: 2338501323613538494
+      Jin Kazama_158: 4239153516672085978
+      Jin Kazama_159: 4837935639268796241
+      Jin Kazama_16: -7713528158156881137
+      Jin Kazama_160: 8129836893497791900
+      Jin Kazama_161: -8311223140413097765
+      Jin Kazama_162: 2492223622062738934
+      Jin Kazama_163: -2637516787935003100
+      Jin Kazama_164: -3820714440525477733
+      Jin Kazama_165: -6352329505726584435
+      Jin Kazama_166: 7239089842631766007
+      Jin Kazama_167: 6103383163199680268
+      Jin Kazama_168: -1715496866385538296
+      Jin Kazama_169: -3123204768871803422
+      Jin Kazama_17: -6002447964418216888
+      Jin Kazama_170: 2102600162704042186
+      Jin Kazama_171: 7887259524093139015
+      Jin Kazama_172: 2087203436906539570
+      Jin Kazama_173: 2541351033592925512
+      Jin Kazama_174: 5006432131759057915
+      Jin Kazama_175: 2669538202118445636
+      Jin Kazama_176: -4310944621420772536
+      Jin Kazama_177: -7498114792271567494
+      Jin Kazama_178: -4763464560056011764
+      Jin Kazama_179: -6857212489655383403
+      Jin Kazama_18: -1280323868723998883
+      Jin Kazama_180: -3249492705643047115
+      Jin Kazama_181: 4852031519284078053
+      Jin Kazama_182: 6196181359984107108
+      Jin Kazama_183: 5764620487624652635
+      Jin Kazama_184: -6199578277503428478
+      Jin Kazama_185: 2851592263212935170
+      Jin Kazama_186: -2454847845950932879
+      Jin Kazama_187: -1161677948210889886
+      Jin Kazama_188: 5123524817481854572
+      Jin Kazama_189: 8749462031357395376
+      Jin Kazama_19: -8429474067598844276
+      Jin Kazama_190: 5957602449453625402
+      Jin Kazama_191: -4799183439781124213
+      Jin Kazama_192: -5604139629589391596
+      Jin Kazama_193: 5585498431855985220
+      Jin Kazama_194: -5352779645002497248
+      Jin Kazama_195: 8193341319351690857
+      Jin Kazama_196: -7217403455692927149
+      Jin Kazama_197: -8140836066656619918
+      Jin Kazama_198: 5592581672451632805
+      Jin Kazama_199: 8889734659220217028
+      Jin Kazama_2: -7080671553563128646
+      Jin Kazama_20: 119691665598905162
+      Jin Kazama_200: -3020357294000308108
+      Jin Kazama_201: -1124576067
+      Jin Kazama_21: 1237758650159801600
+      Jin Kazama_22: -3643657633079849694
+      Jin Kazama_23: -4910173802151484291
+      Jin Kazama_24: 6350598358404753344
+      Jin Kazama_25: -6655371640950407058
+      Jin Kazama_26: 1928133269670621890
+      Jin Kazama_27: -3499289522958331225
+      Jin Kazama_28: -2969356742165719946
+      Jin Kazama_29: -2513505096323605588
+      Jin Kazama_3: 2488732697238433239
+      Jin Kazama_30: -4087300943665390765
+      Jin Kazama_31: 2914887100963625303
+      Jin Kazama_32: -67100495797481036
+      Jin Kazama_33: -8545566275958730432
+      Jin Kazama_34: -8669503472517845028
+      Jin Kazama_35: -7361673755864654430
+      Jin Kazama_36: -7980735926312109495
+      Jin Kazama_37: 8403319666460001613
+      Jin Kazama_38: 6573267133699459017
+      Jin Kazama_39: 4130457175378594361
+      Jin Kazama_4: -6821014241843030696
+      Jin Kazama_40: 4870982149741515004
+      Jin Kazama_41: -6176152993761618725
+      Jin Kazama_42: 5244837932013386013
+      Jin Kazama_43: -1795343850965630313
+      Jin Kazama_44: -8188539531041183389
+      Jin Kazama_45: -668864460969906557
+      Jin Kazama_46: -2345516313013708221
+      Jin Kazama_47: 8284516520367718971
+      Jin Kazama_48: -6889134382614614033
+      Jin Kazama_49: -90365277429402212
+      Jin Kazama_5: 8243395679291168970
+      Jin Kazama_50: 3200404920934171284
+      Jin Kazama_51: 4787901172746817087
+      Jin Kazama_52: 35978753440379845
+      Jin Kazama_53: -6405865842314208202
+      Jin Kazama_54: -3488893385344598972
+      Jin Kazama_55: -3348860804738275407
+      Jin Kazama_56: -8021727177698959486
+      Jin Kazama_57: -3524711774072476097
+      Jin Kazama_58: 6847367140243220312
+      Jin Kazama_59: 9016999291155017790
+      Jin Kazama_6: 61961690603845193
+      Jin Kazama_60: 6583563854392967262
+      Jin Kazama_61: -5206025356416483300
+      Jin Kazama_62: -7343014518373228896
+      Jin Kazama_63: -5410142923273266366
+      Jin Kazama_64: -8393065206201874903
+      Jin Kazama_65: -4022719128421026702
+      Jin Kazama_66: 541592508634213716
+      Jin Kazama_67: -6636074527963829059
+      Jin Kazama_68: -4743675564548530719
+      Jin Kazama_69: 8573563114910112892
+      Jin Kazama_7: -3398907996117328983
+      Jin Kazama_70: 1772260370968025942
+      Jin Kazama_71: 91066059344057349
+      Jin Kazama_72: -5363668998987483631
+      Jin Kazama_73: 8006126793272847590
+      Jin Kazama_74: -6702740998237179338
+      Jin Kazama_75: -6108982110295902971
+      Jin Kazama_76: -4832823136556017846
+      Jin Kazama_77: 3183264694232123529
+      Jin Kazama_78: -6640545451699120277
+      Jin Kazama_79: -2739814219299371013
+      Jin Kazama_8: -6885674248511695285
+      Jin Kazama_80: -2637358971044712419
+      Jin Kazama_81: 5274876230398750487
+      Jin Kazama_82: 536195352734024452
+      Jin Kazama_83: -1667099452764023982
+      Jin Kazama_84: 4282707611792093838
+      Jin Kazama_85: -8530383056706455247
+      Jin Kazama_86: 2417404630129719300
+      Jin Kazama_87: 2980453379379808267
+      Jin Kazama_88: -5646256002311769714
+      Jin Kazama_89: -7987794749476041181
+      Jin Kazama_9: -3792771632241758428
+      Jin Kazama_90: -6812501681507883095
+      Jin Kazama_91: 258780582257470189
+      Jin Kazama_92: 4716185854234814378
+      Jin Kazama_93: 5971769531222996818
+      Jin Kazama_94: 5992362312203722388
+      Jin Kazama_95: 7622126552440834640
+      Jin Kazama_96: 5130208111755338280
+      Jin Kazama_97: -4391344842559471074
+      Jin Kazama_98: 1244179431405964077
+      Jin Kazama_99: -2126500603946289645
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
