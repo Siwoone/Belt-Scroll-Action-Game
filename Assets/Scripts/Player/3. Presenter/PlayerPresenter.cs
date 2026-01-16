@@ -14,7 +14,8 @@ public class PlayerPresenter : MonoBehaviour
 
     private Vector2 moveInput;
     private string lastRecordedDir = "";
-    
+    private ContinueManager continueManager;
+
     [Header("5타 콤보 설정")]
     private int comboStep = 0;
     private float lastAttackTime;
@@ -25,11 +26,17 @@ public class PlayerPresenter : MonoBehaviour
     [SerializeField] private Vector2 attackSize;        //공격 범위
     [SerializeField] private LayerMask enemyLayer;      //적 레이어
 
+    [Header("점프 설정")]
+    public float jumpForce = 10f;    // 점프 힘
+    public float gravity = 25f;      // 중력
+    private float groundY;
+
     public bool isWaveStepping = false;
     private bool isAttacking = false;
     private bool isHit = false;
     private bool isAirborne = false;
     private bool isDead = false;
+    private bool isJumping = false;
 
     void Awake()
     {
@@ -38,6 +45,8 @@ public class PlayerPresenter : MonoBehaviour
         if (view == null) view = FindAnyObjectByType<PlayerView>();
         if (inputBuffer == null) inputBuffer = FindAnyObjectByType<InputBuffer>();
         if (attackPoint == null) attackPoint = transform.Find("AttackPoint");
+        if (continueManager == null) continueManager = FindAnyObjectByType<ContinueManager>(FindObjectsInactive.Include);
+
         mainCamera = Camera.main;
     }
 
@@ -51,11 +60,21 @@ public class PlayerPresenter : MonoBehaviour
     {
         if (view == null || inputBuffer == null || model == null) return;
 
+        //Input System을 활용한 점프키
+        bool cPressed = Keyboard.current != null && Keyboard.current.pKey.wasPressedThisFrame;
+
+        //공격이나 웨이브 중이 아닐 때만 일반 이동 상태를 View에 전달
+        if (cPressed && CanAct() && !isAttacking && !isWaveStepping && !isJumping)
+        {
+            StartCoroutine(JumpRoutine());
+        }
+
         //공격이나 웨이브 중이 아닐 때만 일반 이동 상태를 View에 전달
         if (CanAct() && !isWaveStepping && !isAttacking)
         {
             view.SetFloat("MoveX", moveInput.x);
-            view.SetFloat("MoveY", moveInput.y);
+            //view.SetFloat("MoveY", moveInput.y);
+            if (!isJumping) view.SetFloat("MoveY", moveInput.y);
             view.SetBool("isMoving", moveInput != Vector2.zero);
             view.Flip(moveInput.x);
         }
@@ -87,6 +106,47 @@ public class PlayerPresenter : MonoBehaviour
         }
     }
 
+    //점프 코루틴
+    private IEnumerator JumpRoutine()
+    {
+        isJumping = true;
+        view.PlayAnimation("Jump"); // Animator에 "Jump" 상태 필요
+
+        groundY = transform.position.y; // 점프 시작 높이 저장 (착지 지점)
+        float currentVerticalSpeed = jumpForce;
+
+        while (true)
+        {
+            // 피격, 사망 시 점프 중단
+            if (isHit || isAirborne || isDead)
+            {
+                isJumping = false;
+                yield break;
+            }
+
+            // 가짜 중력 적용 (transform.Translate로 Y축 이동 - 점프 효과)
+            currentVerticalSpeed -= gravity * Time.deltaTime;
+            transform.Translate(Vector3.up * currentVerticalSpeed * Time.deltaTime);
+
+            // 땅에 닿았는지 체크 (내려오는 중이고, 원래 높이보다 낮아지면 착지)
+            if (currentVerticalSpeed < 0 && transform.position.y <= groundY)
+            {
+                // 위치 보정
+                Vector3 pos = transform.position;
+                pos.y = groundY;
+                transform.position = pos;
+                break;
+            }
+
+            yield return null;
+        }
+
+        isJumping = false;
+
+        // 공격 중이 아니었다면 Idle로 복귀
+        if (!isAttacking) view.PlayAnimation("Idle");
+    }
+
     //화면 밖으로 나가지 않도록 위치 제한
     private void ClampPosition()
     {
@@ -105,7 +165,14 @@ public class PlayerPresenter : MonoBehaviour
         pos = mainCamera.ViewportToWorldPoint(viewportPos);
 
         //Y축 위치를 모델에 설정한 최소/최대값 사이로 가둠
-        pos.y = Mathf.Clamp(pos.y, model.minAreaY, model.maxAreaY);
+        //pos.y = Mathf.Clamp(pos.y, model.minAreaY, model.maxAreaY);
+        if (!isJumping)
+        {
+            if (model != null)
+            {
+                pos.y = Mathf.Clamp(pos.y, model.minAreaY, model.maxAreaY);
+            }
+        }
 
         //Z축 고정
         pos.z = 0;
@@ -131,6 +198,17 @@ public class PlayerPresenter : MonoBehaviour
             return;
         }
 
+        //점프 중 공격 (Jump Attack)
+        if (isJumping)
+        {
+            // 점프 중에는 한 번만 공격 가능하도록
+            if (!isAttacking)
+            {
+                StartCoroutine(JumpAttackRoutine());
+            }
+            return;
+        }
+
         //현재 공격 애니메이션 재생 중이라면 중복 입력 방지
         if (isAttacking) return;
 
@@ -146,7 +224,7 @@ public class PlayerPresenter : MonoBehaviour
 
         //5타를 초과하면 1타로 복귀
         if (comboStep > 5) comboStep = 1;
-
+        if (isJumping) comboStep = 5;
         //애니메이션 실행
         string attackAnimName = "Attack" + comboStep;
         AttackSound(comboStep);
@@ -178,6 +256,26 @@ public class PlayerPresenter : MonoBehaviour
         //콤보 단계에 따른 후처리 및 Idle 복귀
         if (comboStep == 5) comboStep = 0;
         view.PlayAnimation("Idle");
+    }
+
+    //점프 공격 코루틴
+    private IEnumerator JumpAttackRoutine()
+    {
+        isAttacking = true;
+        view.PlayAnimation("JumpAttack"); // Animator에 "JumpAttack" 상태 필요
+
+        // 점프 공격 발동 딜레이 (애니메이션에 맞게 조절)
+        yield return new WaitForSeconds(0.1f);
+
+        // 점프 공격 판정 (범위를 조금 넓게 설정)
+        // 넉백 벡터: X축으로 조금 밀림, Y축으로 조금 뜸
+        CheckHit(20, new Vector2(transform.localScale.x * 2f, 1f));
+
+        // 공격 후딜레이
+        yield return new WaitForSeconds(0.3f);
+
+        isAttacking = false;
+        // 점프 중이므로 애니메이션을 강제로 Idle로 돌리지 않음 (착지 시 Idle로 감)
     }
 
     //웨이브 스텝
@@ -373,7 +471,13 @@ public class PlayerPresenter : MonoBehaviour
         isAttacking = false;
         isWaveStepping = false;
 
-        if (model.currentHp <= 0)
+        //점프 중일 때 맞으면 점프 취소
+        if (isJumping)
+        {
+            isJumping = false;
+        }
+
+            if (model.currentHp <= 0)
         {
             //사망처리
             StartCoroutine(DeathRoutine(knockbackForce));
@@ -392,8 +496,13 @@ public class PlayerPresenter : MonoBehaviour
         //피격 시 무적 부여 (연속 타격 방지)
         model.isInvincible = true;
 
-        //맞기 전 원래 서 있던 지면의 Y값을 저장 (에어본 후 복귀용)
-        float groundY = transform.position.y;
+        //점프 중이라면 저장해둔 groundY를 목표 바닥으로 사용
+        float startY = transform.position.y;
+
+        //바닥 높이 추정
+        float groundY = startY;
+        if (startY > model.maxAreaY) groundY = model.maxAreaY; // 너무 높으면 보정
+        if (startY < model.minAreaY) groundY = model.minAreaY;
 
         //큰 대미지를 받았을 때 에어본 처리
         if (damage >= 50)
@@ -401,7 +510,7 @@ public class PlayerPresenter : MonoBehaviour
             GetComponent<Collider2D>().enabled = false;
             isAirborne = true;
             view.PlayAnimation("Airborne");
-            SoundManager.Instance.PlaySFX("Audio Clips", 30);
+            SoundManager.Instance.PlaySFX("Audio Clips", 31);
 
             int soundIndex = Random.Range(10, 12);                      //랜덤 대미지 사운드 출력
             SoundManager.Instance.PlaySFX("Audio Clips", soundIndex);
@@ -418,6 +527,10 @@ public class PlayerPresenter : MonoBehaviour
             //현재 위치가 원래 지면 높이보다 위에 있는 동안 계속 대기
             while (transform.position.y > groundY)
             {
+                // 바닥(원래 위치 혹은 맵 최하단)에 닿으면 착지
+                // 점프 중 맞았을 경우를 대비해 model.minAreaY 체크 추가 가능
+                if (transform.position.y <= groundY) break;
+                if (transform.position.y <= model.minAreaY) break; // 맵 밖으로 떨어짐 방지
                 yield return null;
             }
 
@@ -474,6 +587,9 @@ public class PlayerPresenter : MonoBehaviour
         //맞기 전 원래 서 있던 지면의 Y값을 저장 (에어본 후 복귀용)
         float groundY = transform.position.y;
 
+        int soundIndex = Random.Range(32, 34);
+        SoundManager.Instance.PlaySFX("Audio Clips", soundIndex);
+
         //죽는 연출
         //view.Flip(moveInput.x);
         view.PlayAnimation("Airborne");
@@ -506,31 +622,69 @@ public class PlayerPresenter : MonoBehaviour
 
         if (model.continueCount <= 0)
         {
-            //게임오버시 오브젝트를 감춤
-            Debug.Log("<color=red>GAME OVER</color>");
-            gameObject.SetActive(false);
+            if (continueManager != null)
+            {
+                continueManager.StartContinueSequence(OnContinueSuccess, OnGameOver);
+            }
+
+            else
+            {
+                //게임오버시 오브젝트를 감춤                                
+                //Debug.Log("<color=red>GAME OVER</color>");
+
+                //매니저가 없으면 비상 게임오버
+                Debug.Log("<color=red>ContinueManager Missing! Immediate Game Over</color>");                
+                gameObject.SetActive(false);
+            }
         }
         else
         {
             //부활 후 목숨 카운트 차감
             model.DecreaseLife();
-            Debug.Log($"<color=green>부활! 남은 목숨: {model.continueCount}</color>");
-
-            //최대 HP로 부활
-            model.currentHp = model.maxHp;
-            UIManager.Instance.UpdateHP(model.currentHp, model.maxHp);
-
-            //부활 시 무적 상태            
-            StartCoroutine(InvincibilityRoutine());
-
-            //일어나는 애니메이션
-            view.PlayAnimation("WakeUp");
-            yield return new WaitForSeconds(0.6f);            
-
-            isDead = false;
-            isAirborne = false;
-            view.PlayAnimation("Idle");
+            StartCoroutine(ReviveRoutine());
         }
+    }
+
+    //이어하기 성공 콜백
+    private void OnContinueSuccess()
+    {
+        //해당 스테이지 BGM 재생
+        StageManager.Instance.PlayStageBGM();
+
+        //목숨을 2개로 초기화
+        model.continueCount = 2;
+        if (UIManager.Instance != null) UIManager.Instance.UpdateLife(model.continueCount);
+
+        //부활 루틴 시작
+        StartCoroutine(ReviveRoutine());
+    }
+
+    //게임오버 콜백
+    private void OnGameOver()
+    {
+        Debug.Log("<color=red>GAME OVER</color>");        
+        gameObject.SetActive(false);
+    }
+
+    private IEnumerator ReviveRoutine()
+    {        
+        Debug.Log($"<color=green>부활! 남은 목숨: {model.continueCount}</color>");
+
+        //최대 HP로 부활
+        model.currentHp = model.maxHp;
+        UIManager.Instance.UpdateHP(model.currentHp, model.maxHp);
+
+        //부활 시 무적 상태            
+        StartCoroutine(InvincibilityRoutine());
+
+        //일어나는 애니메이션
+        view.PlayAnimation("WakeUp");
+        yield return new WaitForSeconds(0.6f);
+
+        isDead = false;
+        isAirborne = false;
+        if (GetComponent<Collider2D>() != null) GetComponent<Collider2D>().enabled = true; //콜라이더 복구
+        view.PlayAnimation("Idle");
     }
 
     //부활 시 무적

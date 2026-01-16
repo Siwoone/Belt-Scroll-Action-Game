@@ -15,7 +15,7 @@ public class EnemyModel : MonoBehaviour
     [HideInInspector] public string poolKey;
 
     //공격 타입 설정 (기본 / 돌진형)
-    public enum AttackType { Normal, Dash }
+    public enum AttackType { Normal, Dash, Jump }
     public AttackType attackType = AttackType.Normal;
 
     //돌진 공격 관련 스탯

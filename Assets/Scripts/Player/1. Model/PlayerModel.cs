@@ -9,7 +9,7 @@ public class PlayerModel : MonoBehaviour
     public float waveDuration = 0.3f;           //웨이브거리
 
     [Header("플레이어 상태 및 점수")]
-    public int continueCount = 2;               //남은 목숨
+    public int continueCount = 1;               //남은 목숨
     public bool isInvincible = false;           //무적 상태인지 체크
     public int score = 0;                       //플레이어 점수
 

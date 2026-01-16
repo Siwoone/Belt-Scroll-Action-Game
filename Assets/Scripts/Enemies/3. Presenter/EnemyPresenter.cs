@@ -18,6 +18,7 @@ public class EnemyPresenter : MonoBehaviour
     public bool isAirborne = false;         //에어본 중인가?
     private bool isInCamera = false;        //적이 화면 안에 있는가?
     public bool isSpawningState = false;    //스폰 연출 중인가?
+    public bool isJumping = false;          //점프 중인가?
 
     [Header("공격 설정")]
     [SerializeField] private Transform attackPoint; //적의 공격 중심점
@@ -58,6 +59,7 @@ public class EnemyPresenter : MonoBehaviour
         isDead = false;
         isAttacking = false;
         isAirborne = false;
+        isJumping = false;
     }
 
     public void FindPlayer()
@@ -126,6 +128,7 @@ public class EnemyPresenter : MonoBehaviour
     {
         //물리적인 이동과 위치 고정은 FixedUpdate에서 처리
         if (isHit || isDead || isAttacking || isAirborne || isSpawningState || playerTransform == null || model == null) return;
+        if (isJumping) return;
 
         float distance = Vector2.Distance(transform.position, playerTransform.position);
 
@@ -231,7 +234,11 @@ public class EnemyPresenter : MonoBehaviour
         //공격 쿨타임 확인
         if (Time.time - lastAttackTime > 2.0f)
         {
-            if (model.attackType == EnemyModel.AttackType.Dash)
+            if (model.attackType == EnemyModel.AttackType.Jump && UnityEngine.Random.value < 0.3f)
+            {
+                StartCoroutine(JumpAttackRoutine());
+            }
+            else if (model.attackType == EnemyModel.AttackType.Dash)
             {
                 StartCoroutine(DashAttackRoutine());
             }
@@ -325,6 +332,53 @@ public class EnemyPresenter : MonoBehaviour
         isAttacking = false;
     }
 
+    //적 점프 공격 루틴
+    private IEnumerator JumpAttackRoutine()
+    {
+        isAttacking = true;
+        isJumping = true;
+        lastAttackTime = Time.time;
+
+        view.PlayAnimation("Jump"); // 점프 모션 (없으면 Walk 등으로 대체)
+
+        float groundY = transform.position.y;
+        float jumpForce = 10f;
+        float gravity = 20f;
+        float verticalSpeed = jumpForce;
+
+        // 플레이어 쪽으로 날아가기 위한 X 속도 계산
+        float dirX = transform.localScale.x;
+        float jumpMoveSpeed = 3f;
+
+        // 점프 체공
+        while (true)
+        {
+            if (isHit || isDead) { isJumping = false; isAttacking = false; yield break; }
+
+            // 가짜 중력
+            verticalSpeed -= gravity * Time.deltaTime;
+            transform.Translate(new Vector3(dirX * jumpMoveSpeed, verticalSpeed, 0) * Time.deltaTime);
+
+            // 정점 찍고 내려올 때 공격 애니메이션
+            if (verticalSpeed < 0 && verticalSpeed > -5f)
+            {
+                view.PlayAnimation("JumpAttack"); // 점프 공격 모션
+                                                  // 공격 판정 (공중에서 한 번)
+                CheckPlayerHit(model.damage, new Vector2(dirX * 2f, 0f));
+            }
+
+            // 착지 체크
+            if (verticalSpeed < 0 && transform.position.y <= groundY)
+            {
+                Vector3 pos = transform.position;
+                pos.y = groundY;
+                transform.position = pos;
+                break;
+            }
+            yield return null;
+        }
+    }
+
     //히트 됐는지 확인
     private void CheckPlayerHit(int damage, Vector2 knockback)
     {
@@ -413,6 +467,7 @@ public class EnemyPresenter : MonoBehaviour
         //새로운 타격 시 이전의 모든 루틴(공격, 피격)을 중단하고 다시 시작
         StopAllCoroutines();
         isAttacking = false; //공격 중 맞으면 공격 취소
+        isJumping = false;
 
         if (model.currentHp <= 0)
         {
@@ -439,7 +494,7 @@ public class EnemyPresenter : MonoBehaviour
 
             isAirborne = true;
             view.PlayAnimation("Airborne");
-            SoundManager.Instance.PlaySFX("Audio Clips", 30);
+            SoundManager.Instance.PlaySFX("Audio Clips", 31);
 
             //위로 솟구치는 힘 적용
             view.SetVelocity(force);
@@ -490,6 +545,7 @@ public class EnemyPresenter : MonoBehaviour
         isHit = false;
         isAttacking = false;
         isAirborne = false;
+        isJumping = false;
 
         //죽을 때 콜라이더를 꺼서 추가 타격 방지 (선택 사항)
         GetComponent<Collider2D>().enabled = false;

@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   savedScore: 0
-  savedLives: 2
+  savedLives: 0
   savedHp: 200
   isFirstStage: 1
 --- !u!114 &6532714053002952638
@@ -92,7 +92,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 667c8be1d36c12e46ae03c87d90b7c04, type: 3}
   - {fileID: 8300000, guid: 658f2d2dc2876bd43975d557a47e3dcc, type: 3}
   - {fileID: 8300000, guid: 1789bc275751e7242b6c3468a1a89ad4, type: 3}
-  - {fileID: 8300000, guid: b65c1de8d52a1df4ab2de013c189ca1d, type: 3}
+  - {fileID: 8300000, guid: c89cd16736e63af46ab5bd3d802764c9, type: 3}
   - {fileID: 8300000, guid: 7d46eab98c7431d4a9e3c6c4205db6c0, type: 3}
   - {fileID: 8300000, guid: bd9725c9846cb4d44b2606ba5171d972, type: 3}
   - {fileID: 8300000, guid: 08be7f1d1346c324789b635956c37740, type: 3}
@@ -102,7 +102,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 61654fa12bbe13b4099cda3d70647867, type: 3}
   - {fileID: 8300000, guid: d1ceffa6c12e3a54ca3f1f952afc21d9, type: 3}
   - {fileID: 8300000, guid: 3bf4bd8791f0bc84bb0fdb335be5a4e9, type: 3}
+  - {fileID: 8300000, guid: b65c1de8d52a1df4ab2de013c189ca1d, type: 3}
   - {fileID: 8300000, guid: 3146aa4c13fd4a143945fd89a4b419b9, type: 3}
+  - {fileID: 8300000, guid: 179989b2eeac46c4a99d5f3fb38cb4f6, type: 3}
+  - {fileID: 8300000, guid: 1b736de8e18b3384aa30f9b8fdfadf5f, type: 3}
+  - {fileID: 8300000, guid: c8eb2f7a25660114bb51b13753cfbb3a, type: 3}
   masterVolume: 1
   bgmVolume: 0.5
   sfxVolume: 0.2

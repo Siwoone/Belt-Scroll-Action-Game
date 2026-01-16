@@ -29,6 +29,9 @@ public class StageManager : MonoBehaviour
     [SerializeField] private List<EnemyWave> waves;
     [SerializeField] private string nextSceneName;      //스테이지 클리어 후 이동할 Scene 이름
 
+    //마지막 스테이지인지 체크
+    public bool isFinalStage = false;
+
     //Inspector에서 직접 번호를 지정할 수도 있게 변수 추가 (기본값 -1이면 자동 감지)
     [Tooltip("재생할 BGM 번호. -1이면 씬 이름(Stage1=0, Stage2=1...)에 따라 자동 설정됩니다.")]
     public int stageBgmIndex = -1;
@@ -44,6 +47,8 @@ public class StageManager : MonoBehaviour
     private PlayerPresenter playerPresenter;
     private PlayerView playerView;
     private Camera mainCamera;
+
+    private ContinueManager continueManager;
 
     //화면 효과 제어
     private ScreenFader screenFader;
@@ -73,6 +78,7 @@ public class StageManager : MonoBehaviour
         playerModel = FindAnyObjectByType<PlayerModel>();
         playerPresenter = FindAnyObjectByType<PlayerPresenter>();
         screenFader = FindAnyObjectByType<ScreenFader>();
+        continueManager = FindAnyObjectByType<ContinueManager>(FindObjectsInactive.Include);
 
         if (playerPresenter != null)
         {
@@ -359,12 +365,33 @@ public class StageManager : MonoBehaviour
         //모든 Wave를 클리어했다면 다음으로 이동
         if (currentWaveIndex >= waves.Count)
         {
-            Debug.Log("스테이지 클리어!");
-            StartCoroutine(StageClearRoutine());
+            if (isFinalStage)
+            {
+                StartCoroutine(GameClearRoutine());
+            }
+            else
+            {
+                // 아니면 다음 스테이지로 이동
+                StartCoroutine(StageClearRoutine());
+            }
+        }
+    }
+
+    //게임 클리어
+    private IEnumerator GameClearRoutine()
+    {        
+        // 플레이어 승리 포즈 등 연출 대기
+        yield return new WaitForSeconds(2.0f);
+
+        // ContinueManager에게 클리어 화면 요청
+        if (continueManager != null && playerModel != null)
+        {
+            continueManager.GameClear(playerModel.score);
         }
         else
         {
-            //화살표 UI 표시
+            // 매니저가 없으면 바로 타이틀로 (비상용)
+            SceneManager.LoadScene("TitleScene");
         }
     }
 

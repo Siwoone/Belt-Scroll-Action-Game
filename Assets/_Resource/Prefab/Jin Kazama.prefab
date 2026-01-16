@@ -249,10 +249,12 @@ MonoBehaviour:
   view: {fileID: 0}
   inputBuffer: {fileID: 0}
   attackPoint: {fileID: 0}
-  attackSize: {x: 1.5, y: 1.5}
+  attackSize: {x: 1.5, y: 3}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 1024
+  jumpForce: 12
+  gravity: 30
   isWaveStepping: 0
 --- !u!114 &1201650310442545695
 MonoBehaviour:
@@ -282,7 +284,7 @@ MonoBehaviour:
   moveSpeed: 7
   waveSpeed: 9.5
   waveDuration: 0.3
-  continueCount: 2
+  continueCount: 1
   isInvincible: 0
   score: 0
   maxHp: 200
@@ -330,7 +332,7 @@ Transform:
   m_GameObject: {fileID: 8347109726760897944}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.264, y: 0.621, z: 0}
+  m_LocalPosition: {x: 0.254, y: 0.477, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
